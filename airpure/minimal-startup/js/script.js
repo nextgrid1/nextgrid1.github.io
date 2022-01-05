@@ -233,7 +233,7 @@ $('#js-grid-mosaic').cubeportfolio({
     });
 
 /*=====================================
-      Testimonial Carousel
+        Testimonial Carousel
 ======================================*/
 $('.testimonial-box').owlCarousel({
     loop: true,

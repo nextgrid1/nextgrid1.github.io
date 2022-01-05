@@ -704,7 +704,7 @@ header .main-navigation nav .navbar-nav .nav-link{
 }
 
 .banner-slider .banner-slider-row{
-    height: 100vh;
+    height: 95vh;
 }
 
 .banner-slider .heading-area {
@@ -2002,7 +2002,7 @@ header .main-navigation nav .navbar-nav .nav-link{
 
     /* Banner */
     .banner-slider .banner-slider-row {
-        padding-top: 100px;
+        padding-top: 50px;
     }
     .banner-image {
         justify-content: center;
@@ -2179,7 +2179,7 @@ header .main-navigation nav .navbar-nav .nav-link{
 
     /* Banner */
     .banner-slider .banner-slider-row {
-        padding: 120px 0 80px 0;
+        padding: 50px 0 80px 0;
     }
     .banner-slider .slider-img-area #slider-inner-img {
         transform: translate(0px);
