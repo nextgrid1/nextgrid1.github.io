@@ -1092,8 +1092,13 @@ header .main-navigation nav .navbar-nav .nav-link{
     Testimonials Section
 ====================================== */
 
-.testimonial-sec{
-    padding: 200px 0;
+.testimonial-sec {
+    position: relative;
+    overflow: hidden;
+    padding: 200px;
+    width: 115vw;
+    margin-left: -150px;
+    transform: rotate(5deg);
     background-color: #33c9dd;
 }
 
