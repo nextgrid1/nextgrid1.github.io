@@ -866,87 +866,87 @@ a:hover {
 }
 
 .m-l-0 {
-	margin: 0;
+	margin-left: 0;
 }
 
 .m-l-5 {
-	margin: 5px;
+	margin-left: 5px;
 }
 
 .m-l-10 {
-	margin: 10px;
+	margin-left: 10px;
 }
 
 .m-l-15 {
-	margin: 15px;
+	margin-left: 15px;
 }
 
 .m-l-20 {
-	margin: 20px;
+	margin-left: 20px;
 }
 
 .m-l-25 {
-	margin: 25px;
+	margin-left: 25px;
 }
 
 .m-l-30 {
-	margin: 30px;
+	margin-left: 30px;
 }
 
 .m-l-35 {
-	margin: 35px;
+	margin-left: 35px;
 }
 
 .m-l-40 {
-	margin: 40px;
+	margin-left: 40px;
 }
 
 .m-l-45 {
-	margin: 45px;
+	margin-left: 45px;
 }
 
 .m-l-50 {
-	margin: 50px;
+	margin-left: 50px;
 }
 
 .m-l-55 {
-	margin: 55px;
+	margin-left: 55px;
 }
 
 .m-l-60 {
-	margin: 60px;
+	margin-left: 60px;
 }
 
 .m-l-65 {
-	margin: 65px;
+	margin-left: 65px;
 }
 
 .m-l-70 {
-	margin: 70px;
+	margin-left: 70px;
 }
 
 .m-l-75 {
-	margin: 75px;
+	margin-left: 75px;
 }
 
 .m-l-80 {
-	margin: 80px;
+	margin-left: 80px;
 }
 
 .m-l-85 {
-	margin: 85px;
+	margin-left: 85px;
 }
 
 .m-l-90 {
-	margin: 90px;
+	margin-left: 90px;
 }
 
 .m-l-95 {
-	margin: 95px;
+	margin-left: 95px;
 }
 
 .m-l-100 {
-	margin: 100px;
+	margin-left: 100px;
 }
 
 .p-0 {
@@ -1483,7 +1483,7 @@ p {
 .btn-big {
 	font-size: 1.6rem;
 	line-height: 30px;
-	padding: 1.6rem 3rem;
+	padding: 1.6rem 6rem;
 }
 
 .btn-mid {
@@ -3197,7 +3197,6 @@ h1 {
 }
 
 .contact-wrapper.common-contact-wrapper {
-	margin-top: -13rem;
 	margin-bottom: 8rem;
 }
 
@@ -3252,7 +3251,11 @@ h1 {
 .contact-form .btn-wrapper {
 	width: 100%;
 	padding: 0 1.5rem;
-	margin-top: 1rem;
+	margin-bottom: 10rem;
+}
+
+.btn-contato {
+	margin-left: 50px;
 }
 
 .view-map-btn {
