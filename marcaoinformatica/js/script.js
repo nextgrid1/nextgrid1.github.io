@@ -82,7 +82,7 @@ if ($(window).width() > 991) {
 }
 
 /* =====================================
-     Circular Bars
+        Circular Bars
 ====================================== */
 
 $(".circular-wrap").appear(function () {
@@ -90,14 +90,14 @@ $(".circular-wrap").appear(function () {
         size: 210,
         lineCap: "round",
         fill: {
-            gradient: ["#00bbff", "#00bbff"],
+            gradient: ["#e52d27", "#b31217"],
         },
     });
     $("#circletwo").circleProgress({
         size: 210,
         lineCap: "round",
         fill: {
-            gradient: ["#002450", "#002450"],
+            gradient: ["#970000", "#420b0b"],
         },
     });
 });
@@ -110,7 +110,7 @@ $(".circular-wrap.dark").appear(function () {
 });
 
 /* ===================================
-       Testimonial-Carousel
+        Testimonial-Carousel
 ====================================== */
 $('.testimonial-carousel').owlCarousel({
     loop: true,

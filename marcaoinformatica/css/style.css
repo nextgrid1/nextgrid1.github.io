@@ -126,24 +126,25 @@ section{padding: 7.5rem 0;}
 
 /* Transparent white button */
 .btn.btn-trans-white {background: #ffffff; border-color: #ffffff; color: #002450}
-.btn.btn-trans-white:hover {background: #002450 !important; border-color: #002450; color: #ffffff !important}
+.btn.btn-trans-white:hover {background: #EE2F24 !important; border-color: #EE2F24; color: #ffffff !important}
 
 /* Blue button */
-.btn.btn-blue {background: transparent; border-color: #00b6ff; color: #00b6ff}
-.btn.btn-blue:hover {background: #00b6ff !important; border-color: #00b6ff; color: #ffffff !important}
+.btn.btn-blue {background: transparent; border-color: #EE2F24; color: #EE2F24}
+.btn.btn-blue:hover {background: #EE2F24 !important; border-color: #DD1818; color: #ffffff !important}
 
 /* Dark Blue button */
 .btn.btn-blue-dark {background: #002450; border-color: #002450; color: #ffffff}
 .btn.btn-blue-dark:hover {background: #00b6ff !important; border-color: #00b6ff; color: #ffffff !important}
 
 /* Dark Blue White button */
-.btn.btn-blue-dark-white {background: #002450; border-color: #002450; color: #ffffff}
-.btn.btn-blue-dark-white:hover {background: #ffffff !important; border-color: #ffffff; color: #002450 !important}
+.btn.btn-blue-dark-white {background: #56423E; border-color: #56423E; color: #ffffff}
+.btn.btn-blue-dark-white:hover {background: #ffffff !important; border-color: #ffffff; color: #56423E !important}
 
 /* Background color */
 .bg-white {background: #ffffff;}
 .bg-light-white {background: #f6f6f6;}
 .bg-blue {background: #002450;}
+.bg-brow{background: #56423E;}
 .bg-light-blue {background: #00b6ff;}
 .bg-black{background: #202020;}
 
@@ -227,7 +228,7 @@ header a.logo img {
 
 /*change nav color on sticky nav*/
 .header-appear .navbar-simple .navbar-nav .nav-link {
-    color: #002450;
+    color: #333333;
 }
 
 .navbar-nav {
@@ -241,7 +242,7 @@ header a.logo img {
 /*Navbar Simple*/
 .navbar-simple .navbar-nav .nav-link {
     font-size: 16px;
-    color: #002450;
+    color: #333333;
     font-weight: bold;
     text-align: center;
     padding: 0 1.5rem;
@@ -251,7 +252,7 @@ header a.logo img {
 }
 
 .navbar-simple .navbar-nav .nav-link:hover, .navbar-simple .navbar-nav .nav-link.active {
-    color: #00b7ff;
+    color: #EA2B22;
     transition: .5s ease;
 }
 
@@ -644,9 +645,9 @@ header a.logo img {
     display: flex;
     justify-content: center;
     width: 100%;
-    background: #00b7ff;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to left, #0176ff, #00b7ff);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to left, #0176ff, #00b7ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #333333; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #333333, #dd1818); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #333333, #dd1818); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .slider-image {
@@ -705,7 +706,7 @@ header a.logo img {
     transform: translateY(calc(-100% - 0px));
     width: 100%;
     height: 100%;
-    background: #00b7ff;
+    background: #dd1818;
     transition: transform .25s ease-out;
 }
 
@@ -763,7 +764,7 @@ header a.logo img {
     bottom: 2%;
     left: 54%;
     transform: translateX(-50%);
-    background-color: #00bbff;
+    background-color: #dd1818;
 }
 
 .about-heading .text-small{
@@ -938,7 +939,7 @@ header a.logo img {
 }
 
 .price_header{
-    background-color: #002450;
+    background-color: #776a6a;
     padding: 20px 0 20px 0;
     -webkit-transition: 0.5s ease;
     -o-transition: 0.5s ease;
@@ -998,19 +999,15 @@ header a.logo img {
 .price_header-center{
     padding-top: 40px;
     padding-bottom: 40px;
-    background: #00b7ff;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to left, #0176ff, #00b7ff);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to left, #0176ff, #00b7ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #e52d27;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #b31217, #e52d27);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #b31217, #e52d27); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    
 }
 
 .price-item .btn.btn-medium, .price-item-center .btn.btn-medium {
     padding: 12px 42px;
-}
-
-/* Center Price Button */
-.btn.btn-primary:hover {
-    background-position: right center;
-    color: #ffffff!important;
 }
 
 .btn.btn-primary {
@@ -1022,11 +1019,17 @@ header a.logo img {
     -o-transition: 0.5s;
     transition: 0.5s;
     background-size: 200% auto;
-    background-image: -o-linear-gradient(left, #00b7ff 0%, #0176ff 51%, #00b7ff 100%);
-    background-image: -webkit-gradient(linear, left top, right top, from(#00b7ff), color-stop(51%, #0176ff), to(#00b7ff));
-    background-image: linear-gradient(to right, #00b7ff 0%, #0176ff 51%, #00b7ff 100%);
+    background: #e52d27;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #b31217, #e52d27);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #b31217, #e52d27); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
+/* Center Price Button */
+.btn.btn-primary:hover {
+    background: white;
+    color: #000000!important;
+    background-position: right center;
+}
 /* Price Hover Effect */
 .price-item, .price-item-center {
     position: relative;
@@ -1049,11 +1052,13 @@ header a.logo img {
 }
 
 .price-item::before {
-    background: #00b6ff;
+    background: #e52d27;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #b31217, #e52d27);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #b31217, #e52d27);
 }
 
 .price-item-center::before {
-    background: #002450;
+    background: #56423E;
 }
 
 .price-item:hover *, .price-item-center:hover *  {
@@ -1075,15 +1080,15 @@ header a.logo img {
 }
 
 /* ===================================
-   Testimonials Section
+        Testimonials Section
 ====================================== */
 
 .testimonial-section .text-section {
     padding-top: 120px;
     padding-bottom: 120px;
-    background: #00b7ff;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to left, #0176ff, #00b7ff);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to left, #0176ff, #00b7ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #e52d27;
+    background: -webkit-linear-gradient(to right, #b31217, #e52d27);
+    background: linear-gradient(to right, #b31217, #e52d27);
 }
 
 .testimonial-heading h5 {
@@ -1117,7 +1122,7 @@ header a.logo img {
 }
 
 .testimonial-section .carousel-section {
-    background-color: #002450;
+    background-color: #56423E;
     display: flex;
     align-items: center;
 }
@@ -1237,9 +1242,9 @@ header a.logo img {
 ====================================== */
 
 .contact-sec {
-    background: #00b7ff;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to left, #0176ff, #00b7ff);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to left, #0176ff, #00b7ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #e52d27;
+    background: -webkit-linear-gradient(to right, #b31217, #e52d27);
+    background: linear-gradient(to right, #b31217, #e52d27);
 }
 
 .contact-sec .user-img{
@@ -1396,7 +1401,7 @@ header a.logo img {
 }
 
 /* ===================================
-   Loader
+        Loader
 ====================================== */
 
 .loader-bg {
@@ -1404,9 +1409,9 @@ header a.logo img {
     z-index: 99999;
     width: 100%;
     height: 100%;
-    background: #00b7ff;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to left, #0176ff, #00b7ff);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to left, #0176ff, #00b7ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #00b7ff;
+    background: -webkit-linear-gradient(to left, #e52d27, #b31217);
+    background: linear-gradient(to left, #e52d27, #b31217);
 }
 
 .loader {
@@ -1482,24 +1487,24 @@ header a.logo img {
 
 @keyframes load {
     0% {
-        background: #002450;
+        background: #a73737;
         margin-top: 25%;
         height: 10%;
     }
     50% {
-        background: #002450;
+        background: #7a2828;
         height: 100%;
         margin-top: 0;
     }
     100% {
-        background: #002450;
+        background: #5c1818;
         height: 10%;
         margin-top: 25%;
     }
 }
 
 /* ===================================
-   StandAlone Page
+        StandAlone Page
 ====================================== */
 
 .standalone-row:not(:last-child) {

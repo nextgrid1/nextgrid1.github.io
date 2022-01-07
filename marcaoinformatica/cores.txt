@@ -1,0 +1,22 @@
+Cor da logo
+#da0000
+
+Cor do fundo 
+#dd1818
+
+Secundária
+#EE2F24
+
+.bg-brow{background: #56423E;}
+
+gradiente escuro "#870000", "#190A05"
+
+gradient
+
+    background: #e52d27;
+    background: -webkit-linear-gradient(to right, #b31217, #e52d27);
+    background: linear-gradient(to right, #b31217, #e52d27);
+
+    background: #333333;
+    background: -webkit-linear-gradient(to right, #333333, #dd1818);
+    background: linear-gradient(to right, #333333, #dd1818);
