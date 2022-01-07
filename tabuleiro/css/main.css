@@ -205,9 +205,9 @@
 
 .txt-grad-cd,
 .pricing-block:hover .price {
-	background: -webkit-linear-gradient(45deg, #e9a17b, #ff7cb0);
-	background: -o-linear-gradient(45deg, #e9a17b, #ff7cb0);
-	background: linear-gradient(45deg, #ff4c00, #efd501);
+	background: -webkit-linear-gradient(45deg, #0083f3, #00bff3);
+	background: -o-linear-gradient(45deg, #0083f3, #00bff3);
+	background: linear-gradient(45deg, #0083f3, #00bff3);
 	-webkit-background-clip: text;
 	color: transparent;
 }

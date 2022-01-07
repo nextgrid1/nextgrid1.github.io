@@ -44,7 +44,7 @@
 }
 
 ::-webkit-scrollbar-thumb {
-    background: #e87ec1;
+    background: #00ABFF;
     width: 0;
     height: 25%;
 }
@@ -91,8 +91,8 @@ section {padding: 7.5rem 0;}
 .btn.btn-rounded {border-radius: 50px;}
 
 /* Pink button */
-.btn.btn-pink {background: #e87ec1; border-color: #e87ec1; color: #ffffff}
-.btn.btn-pink:hover {background: #6b30e9 !important; border-color: #6b30e9; color: #ffffff !important}
+.btn.btn-pink {background: #0077E5; border-color: #0065D0; color: #ffffff}
+.btn.btn-pink:hover {background: #53A5FF !important; border-color: #0065D0; color: #ffffff !important}
 
 /* Background Color */
 .bg-blue{background-color: #5bbdbb;}
@@ -750,7 +750,7 @@ header .main-navigation nav .navbar-nav .nav-link{
 }
 
 .button {
-    font-size: 18px;
+    font-size: 20px;
     position: relative;
     color: #e87ec1;
 }
@@ -1085,8 +1085,8 @@ header .main-navigation nav .navbar-nav .nav-link{
     font-family: 'Roboto', sans-serif;
 }
 
-.pink-and-purple-btn{font-size: 12px;font-family: 'Roboto', sans-serif;padding: 12px 48px;color:#ffffff;font-weight: 600;background-color:#e87ec1;border:1px solid transparent;border-radius: 0;}
-.pink-and-purple-btn:hover{color: #ffffff !important;background-color: #6b30e9 !important;border: 1px solid transparent;}
+.pink-and-purple-btn{font-size: 12px;font-family: 'Roboto', sans-serif;padding: 12px 48px;color:#ffffff;font-weight: 600;background-color:#0077E5;border:1px solid transparent;border-radius: 0;}
+.pink-and-purple-btn:hover{color: #ffffff !important;background-color: #53A5FF !important;border: 1px solid transparent;}
 
 /* ===================================
     Testimonials Section
@@ -1097,7 +1097,7 @@ header .main-navigation nav .navbar-nav .nav-link{
     overflow: hidden;
     padding: 200px;
     width: 115vw;
-    margin-left: -120px;
+    margin-left: -115px;
     transform: rotate(5deg);
     background-color: #33c9dd;
 }
@@ -1558,7 +1558,7 @@ header .main-navigation nav .navbar-nav .nav-link{
     bottom: 15px;
     right: 15px;
     color: #ffffff;
-    background-color: #6b30e9;
+    background-color: #53A5FF;
     z-index: 4;
     width: 40px;
     text-align: center;
@@ -2150,6 +2150,9 @@ header .main-navigation nav .navbar-nav .nav-link{
     header .main-navigation {
         padding: 15px 0;
     }
+    .text-banner {
+        width: 100%;
+    }
     .inner-header {
         background-color: #6b30e9;
     }
@@ -2292,9 +2295,9 @@ header .main-navigation nav .navbar-nav .nav-link{
     .testimonial-sec {
         position: relative;
         overflow: hidden;
-        padding: 150px;
-        width: 120vw;
-        margin-left: -20px;
+        padding: 100px;
+        width: 120%;
+        margin-left: -31px;
         transform: rotate(5deg);
         background-color: #33c9dd;
     }
