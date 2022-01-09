@@ -58,7 +58,7 @@
 }
 
 ::-webkit-scrollbar-thumb {
-    background: #002450;
+    background: #333333;
     width: 0;
     height: 25%;
     transition: .5s ease;
@@ -265,9 +265,9 @@ header a.logo img {
     position: fixed;
     right: 0;
     top: 0;
-    background: #00b7ff;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to left, #0176ff, #00b7ff);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to left, #0176ff, #00b7ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #e52d27;
+    background: -webkit-linear-gradient(to right, #b31217, #e52d27);
+    background: linear-gradient(to right, #b31217, #e52d27);
     z-index: 1032;
     height: 100%;
     -webkit-transform: translate3d(100%, 0, 0);
@@ -522,7 +522,7 @@ header a.logo img {
 .side-nav .navbar-nav .nav-link:hover:after, .side-nav .navbar-nav .nav-link.active:after {
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
-    border-color: #002450;
+    border-color: #56423E;
     -webkit-transition: width 350ms ease-in-out;
     transition: width 350ms ease-in-out;
     width: 100%;
@@ -566,7 +566,7 @@ header a.logo img {
 }
 
 .social-icons-simple li .social-icon:hover{
-    background-color: #002450;
+    background-color: #56423E;
     color: #ffffff;
 }
 
@@ -1744,7 +1744,7 @@ header a.logo img {
 }
 
 /* ===================================
-   Media Queries
+        Media Queries
 ====================================== */
 
 @media (max-width: 1600px) and (min-width: 1280px) {
