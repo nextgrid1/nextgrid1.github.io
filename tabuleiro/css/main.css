@@ -1837,7 +1837,7 @@ textarea:focus {
 }
 
 .banner::after {
-	background: #fff url(../images/banner/banner-round-img.jpg) center center no-repeat;
+	background: #fff url(../images/banner/1.png) center center no-repeat;
 	background-size: cover;
 	top: -46%;
 	right: -20%;

@@ -1,17 +1,4 @@
 /* ===================================
-    About
-====================================== */
-
-/*
-    Theme Name: MegaOne
-    Theme URI:
-    Author: Themes Industry
-    Author URI:
-    Description: One Page Parallax Template
-    Tags: one page, multipurpose, parallax, creative, html5
- */
-
-/* ===================================
     Table of Content
 ====================================== */
 
@@ -131,6 +118,10 @@ section{padding: 7.5rem 0;}
 /* Blue button */
 .btn.btn-blue {background: transparent; border-color: #EE2F24; color: #EE2F24}
 .btn.btn-blue:hover {background: #EE2F24 !important; border-color: #DD1818; color: #ffffff !important}
+
+/* Blue button */
+.btn.btn-red {background: transparent; border-color: #ffffff; color: #ffffff}
+.btn.btn-red:hover {background: #EE2F24 !important; border-color: #DD1818; color: #ffffff !important}
 
 /* Dark Blue button */
 .btn.btn-blue-dark {background: #002450; border-color: #002450; color: #ffffff}
@@ -661,7 +652,7 @@ header a.logo img {
 }
 
 .slider-area{
-    padding-top: 120px;
+    margin-top: 120px;
     position: absolute;
 }
 
@@ -796,14 +787,14 @@ header a.logo img {
     top: 50%;
     left: 50%;
     -webkit-border-radius: 50px;
-    border: 3px solid #002450;
+    border: 3px solid #dd1818;
     border-radius: 50px;
     line-height: 77px;
     text-align: center;
-    color: #002450;
+    color: #dd1818;
     background: transparent;
     -webkit-box-shadow: 0 0 0 0 rgb(255, 255, 255);
-    box-shadow: 0 0 0 0 rgba(0, 36, 80, .7);
+    box-shadow: 0 0 0 0 rgba(151, 0, 0, 0.7);
     z-index: 1;
     -webkit-transform: translate(-50%,-50%);
     -ms-transform: translate(-50%,-50%);
@@ -817,7 +808,7 @@ header a.logo img {
 }
 
 .video-play-button:hover {
-    background: #002450;
+    background: #a30909;
     -o-animation: ripple 1.3s infinite;
     -webkit-animation: ripple 1.3s infinite;
     animation: ripple 1.3s infinite;
@@ -916,7 +907,8 @@ header a.logo img {
 .learn-more-section {
     padding: 120px 0;
     background-size: cover;
-    background-image: url('../img/parallax-bg.jpg');
+    background-image: url('../img/3.jpg');
+    
 }
 
 .learn-more-section .text-area {
@@ -1248,10 +1240,9 @@ header a.logo img {
 }
 
 .contact-sec .user-img{
+    width: 150px;
     height: 150px;
-    width: 130px;
     margin: auto;
-    border-radius: 50%;
 }
 
 .contact-sec .user-name{
@@ -1755,7 +1746,7 @@ header a.logo img {
 
 @media (max-width: 1400px) and (min-width: 1280px) {
     .slider-area {
-        padding-top: 0;
+        margin-top: 0;
     }
     .area-heading h1 {
         font-size: 48px;
@@ -2049,7 +2040,7 @@ header a.logo img {
         display: block;
         height: auto;
         position: relative;
-        padding-top: 75px;
+        margin-top: 75px;
     }
     .author-skills {
         position: relative;

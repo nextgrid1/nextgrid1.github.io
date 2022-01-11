@@ -1,3 +1,7 @@
+hr {
+	display: none;
+	border-top: 1px dashed #6245fe;
+}
 .btn-price {
     display: flex;
     align-items: center;
@@ -305,6 +309,9 @@
 }
 
 @media screen and (max-width: 991px) {
+	hr {
+		display: block;
+	}
 	.clients .client {
 		max-width: 33.333333%;
 		-webkit-box-flex: 0;
@@ -333,9 +340,18 @@
     .pricing {
 		padding-bottom: 0;
 	}
+	.column-smartfone{
+		flex-direction: column-reverse !important;
+	}
 }
 
 @media screen and (max-width: 767px) {
+	hr {
+		display: block;
+	}
+	.column-smartfone{
+		flex-direction: column-reverse !important;
+	}
 	.clients {
 		padding: 2rem 0;
 	}

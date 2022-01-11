@@ -49,7 +49,7 @@
 
 @media screen and (min-width: 1600px) {
 	.banner::after {
-		background: #fff url(../images/banner/banner-round-img.jpg) calc(100% - 308px) 370px no-repeat;
+		background: #fff url(../images/banner/1.png) calc(100% - 308px) 370px no-repeat;
 		background-size: 93%;
 		top: -46%;
 		right: -20%;
@@ -76,6 +76,14 @@
 	}
 	.case-study-slider .slick-arrow {
 		bottom: -72px;
+	}
+	.banner::after {
+		top: -100px;
+		background-position: calc(100% - 40px) 90px;
+	}
+	.banner::before {
+		top: -70px;
+		width: 70vw;
 	}
 }
 
