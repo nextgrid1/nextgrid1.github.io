@@ -1,5 +1,27 @@
 @import url("https://fonts.googleapis.com/css?family=Fira+Sans:200,300,300i,400,400i,500,500i,600,700,800,900|Hind+Vadodara:300,400,500,600,700");
 
+/* ===================================
+    Scrollbar
+====================================== */
+
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    width: 8px;
+    background:white;
+    border-left: 0 solid white;
+    border-right: 0 solid white;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #ff9500;
+    width: 0;
+    height: 25%;
+    transition: .5s ease;
+    cursor: pointer;
+}
 
 @-webkit-keyframes spin {
 	0% {
