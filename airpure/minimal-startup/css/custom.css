@@ -9,31 +9,31 @@ hr {
 }
 .pricing-block:hover .custom-btn,
 .pricing-block:hover .icon-container::after {
-	background-image: -webkit-linear-gradient(45deg, #e9a17b, #ff7cb0);
-	background-image: -o-linear-gradient(45deg, #e9a17b, #ff7cb0);
-	background-image: linear-gradient(45deg, #e9a17b, #ff7cb0);
+	background-image: -webkit-linear-gradient(45deg, #7fe97b, #ff7cb0);
+	background-image: -o-linear-gradient(45deg, #88e97b, #ff7cb0);
+	background-image: linear-gradient(45deg, #7fe97b, #ff7cb0);
 	background-repeat: repeat-x;
 }
 .grad-style-ef,
 .icon-container.grad-style-ef-light::after,
 .body-bg-style-3.inner-page::before,
 .small-agency-case-study::after {
-	background-image: -webkit-linear-gradient(45deg, #9a9fff, #6245fe);
-	background-image: -o-linear-gradient(45deg, #9a9fff, #6245fe);
-	background-image: linear-gradient(45deg, #9a9fff, #6245fe);
+background-image: -webkit-linear-gradient(45deg, #2980B9, #6DD5FA, #FFFFFF);
+	background-image: -o-linear-gradient(45deg, #2980B9, #6DD5FA, #FFFFFF);
+	background-image: linear-gradient(45deg, #2980B9, #6DD5FA, #FFFFFF);
 	background-repeat: repeat-x;
 }
 .grad-style-ef-light {
-	background-image: -webkit-linear-gradient(45deg, #f1efff, #f3f3ff);
-	background-image: -o-linear-gradient(45deg, #f1efff, #f3f3ff);
-	background-image: linear-gradient(45deg, #f1efff, #f3f3ff);
+	background-image: -webkit-linear-gradient(45deg, #1c92d23d, #f2fcfe);
+	background-image: -o-linear-gradient(45deg, #1c92d23d, #f2fcfe);
+	background-image: linear-gradient(45deg, #1c92d23d, #f2fcfe);
 	background-repeat: repeat-x;
 }
 .txt-grad-cd,
 .pricing-block:hover .price {
-	background: -webkit-linear-gradient(45deg, #e9a17b, #ff7cb0);
-	background: -o-linear-gradient(45deg, #e9a17b, #ff7cb0);
-	background: linear-gradient(45deg, #ff4c00, #efd501);
+background-image: -webkit-linear-gradient(45deg, #2980B9, #6DD5FA, #FFFFFF);
+	background-image: -o-linear-gradient(45deg, #2980B9, #6DD5FA, #FFFFFF);
+	background-image: linear-gradient(45deg, #2980B9, #6DD5FA, #FFFFFF);
 	-webkit-background-clip: text;
 	color: transparent;
 }
@@ -44,7 +44,7 @@ hr {
 }
 .txt-grad-cd,
 .pricing-block:hover .price {
-    color: #0083f3;
+    color: #1d88e6;
     background: transparent;
     -webkit-transition: all .3s;
     -o-transition: all .3s;
@@ -54,19 +54,11 @@ hr {
     color: #00bff3;
     background: transparent;
 }
-.grad-style-ab,
-.icon-container.grad-style-ab-light::after,
-.inner-page::before,
-.case-study .video-play-btn {
-	background-image: -webkit-linear-gradient(45deg, #f18cff, #af46fc);
-	background-image: -o-linear-gradient(45deg, #f18cff, #af46fc);
-	background-image: linear-gradient(45deg, #f18cff, #af46fc);
-	background-repeat: repeat-x;
-}
+
 .grad-style-cd-light {
-	background-image: -webkit-linear-gradient(45deg, #fff3f6, #fef5f5);
-	background-image: -o-linear-gradient(45deg, #fff3f6, #fef5f5);
-	background-image: linear-gradient(45deg, #fff3f6, #fef5f5);
+	background-image: -webkit-linear-gradient(45deg, #1c92d23d, #f2fcfe);
+	background-image: -o-linear-gradient(45deg, #1c92d23d, #f2fcfe);
+	background-image: linear-gradient(45deg, #1c92d23d, #f2fcfe);
 	background-repeat: repeat-x;
 }
 .grad-style-cd,
@@ -80,9 +72,9 @@ hr {
 .small-agency-case-study::after,
 .pricing-block:hover .custom-btn,
 .pricing-block:hover .icon-container::after {
-	background-image: -webkit-linear-gradient(45deg, #e9a17b, #ff7cb0);
-	background-image: -o-linear-gradient(45deg, #e9a17b, #ff7cb0);
-	background-image: linear-gradient(45deg, #e9a17b, #ff7cb0);
+	background-image: -webkit-linear-gradient(45deg, #297fb9be, #6dd4fabb, #FFFFFF);
+	background-image: -o-linear-gradient(45deg, #297fb9be, #6dd4fab0, #FFFFFF);
+	background-image: linear-gradient(45deg, #297fb9be, #6dd4fab2, #ffffff);
 	background-repeat: repeat-x;
 }
 
@@ -90,9 +82,9 @@ hr {
 .icon-container.grad-style-ef-light::after,
 .body-bg-style-3.inner-page::before,
 .small-agency-case-study::after {
-	background-image: -webkit-linear-gradient(45deg, #9a9fff, #6245fe);
-	background-image: -o-linear-gradient(45deg, #9a9fff, #6245fe);
-	background-image: linear-gradient(45deg, #9a9fff, #6245fe);
+	background-image: -webkit-linear-gradient(45deg, #2980B9, #6DD5FA, #FFFFFF);
+	background-image: -o-linear-gradient(45deg, #2980B9, #6DD5FA, #FFFFFF);
+	background-image: linear-gradient(45deg, #2980B9, #6DD5FA, #FFFFFF);
 	background-repeat: repeat-x;
 }
 .btn-big {
@@ -135,7 +127,7 @@ hr {
 	padding-right: 3rem;
 }
 .icon-container {
-	width: 135px;
+	width: 175px;
 	height: 110px;
 	border-radius: 110px;
 	text-align: center;
@@ -182,7 +174,8 @@ hr {
 	transition: all .5s;
 }
 .content-block:hover .icon-container i {
-	color: #fff;
+	color: #ffffff;
+	text-shadow: 3px 3px 5px rgb(27, 130, 199);
 }
 .content-block:hover .icon-container::after {
 	opacity: 1;
@@ -234,6 +227,7 @@ hr {
 
 .pricing-wrapper {
 	padding-top: 102px;
+	justify-content: space-around;
 }
 
 .pricing-wrapper [class^="col-"] {
@@ -305,6 +299,19 @@ hr {
 @media screen and (max-width: 1199px) {
     .pricing-block .price {
 		font-size: 4rem;
+	}
+	.alinhar {
+		display: flex;
+		-ms-flex-wrap: nowrap;
+		flex-wrap: nowrap;
+		margin-right: -15px;
+		margin-left: -15px;
+	}
+}
+
+@media (max-width: 1300px) and (min-width: 992px) {
+	.navbar-brand {
+		margin-left: 45px;
 	}
 }
 
@@ -382,5 +389,42 @@ hr {
 	}
     .inner-page-pricing .pricing-wrapper {
 		padding-top: 9.3rem;
+	}
+}
+@media screen and (max-width: 528px) {
+	.alinhar {
+		display: flex;
+		flex-wrap: nowrap;
+		justify-content: flex-end;
+		margin-right: -15px;
+		margin-left: -15px;
+	}
+	.alinhar1 {
+		flex: 0 0 62.666667%;
+		max-width: 62.666667%;
+	}
+}
+@media screen and (max-width: 423px) {
+	.alinhar1 {
+		flex: 0 0 59.666667%;
+		max-width: 59.666667%;
+	}
+}
+@media screen and (max-width: 404px) {
+	.alinhar1 {
+		flex: 0 0 56.666667%;
+		max-width: 56.666667%;
+	}
+}
+@media screen and (max-width: 365px) {
+	.alinhar1 {
+		flex: 0 0 53.666667%;
+		max-width: 53.666667%;
+	}
+}
+@media screen and (max-width: 338px) {
+	.alinhar1 {
+		flex: 0 0 48.666667%;
+		max-width: 48.666667%;
 	}
 }

@@ -189,7 +189,7 @@ header{
 }
 
 header .navbar-brand img{
-    max-width: 70px;
+    max-width: 120px;
     margin-right: 20px;
 }
 
@@ -241,12 +241,12 @@ header .main-navigation nav .navbar-nav .nav-link{
 
 .navbar-social a:hover {
     background: #ffffff;
-    color: #6b30e9;
+    color: #1a7ff1;
     transition: .5s ease;
 }
 
 /* ===================================
-     Header Appear
+    Header Appear
 ====================================== */
 
 .header-appear{
@@ -255,7 +255,7 @@ header .main-navigation nav .navbar-nav .nav-link{
     right: 0;
     top:0;
     z-index: 1111;
-    background-color: #6b30e9;
+    background-color: #0083f3;
     -webkit-animation-name: animationFade;
     animation-name: animationFade;
     -webkit-animation-duration: 1s;
@@ -1965,7 +1965,7 @@ header .main-navigation nav .navbar-nav .nav-link{
 
 @media (max-width: 1200px) and (min-width: 992px) {
     .navbar-social {
-        display: none!important;
+        display: flex!important;
     }
     .banner-slider .slider-img-area #slider-inner-img {
         transform: translate(70px,-40px);
@@ -1983,7 +1983,7 @@ header .main-navigation nav .navbar-nav .nav-link{
         padding: 4.5rem 0;
     }
     .inner-header {
-        background-color: #6b30e9;
+        background-color: #0083f3;
     }
     #banner-header-svg {
         display: none;
@@ -2007,7 +2007,7 @@ header .main-navigation nav .navbar-nav .nav-link{
 
     /* Banner */
     .banner-slider .banner-slider-row {
-        padding-top: 50px;
+        padding-top: 110px;
     }
     .banner-image {
         justify-content: center;
@@ -2154,10 +2154,11 @@ header .main-navigation nav .navbar-nav .nav-link{
         width: 100%;
     }
     .inner-header {
-        background-color: #6b30e9;
+        background-color: #0083f3;
     }
     .banner-slider .heading-area {
         padding-top: 0;
+        
     }
 
     /* Nav-bar */
@@ -2192,7 +2193,7 @@ header .main-navigation nav .navbar-nav .nav-link{
 
     /* Banner */
     .banner-slider .banner-slider-row {
-        padding: 50px 0 80px 0;
+        padding: 110px 0 80px 0;
     }
     .banner-slider .slider-img-area #slider-inner-img {
         transform: translate(0px);
