@@ -652,7 +652,7 @@ header a.logo img {
 }
 
 .slider-area{
-    margin-top: 120px;
+    margin-top: 6vw;
     position: absolute;
 }
 
@@ -1738,15 +1738,21 @@ header a.logo img {
         Media Queries
 ====================================== */
 
+@media (min-width: 2080px) {
+    #particles-js {
+        height: 70vh;
+    }
+}
+
 @media (max-width: 1600px) and (min-width: 1280px) {
     #particles-js {
-        height: 100vh;
+        height: 105vh;
     }
 }
 
 @media (max-width: 1400px) and (min-width: 1280px) {
     .slider-area {
-        margin-top: 0;
+        padding-top: 0;
     }
     .area-heading h1 {
         font-size: 48px;
@@ -1756,6 +1762,17 @@ header a.logo img {
     }
     .slider-image img {
         width: 70%;
+    }
+    #particles-js {
+        height: 105vh;
+    }
+}
+@media (max-width: 1280px) and (min-width: 1201px) {
+    .slider-area {
+        margin-top: 8%;
+    }
+    #particles-js {
+        height: 105vh;
     }
 }
 
@@ -1791,7 +1808,9 @@ header a.logo img {
     #particles-js {
         display: block;
     }
-
+    .particles-js-canvas-el{
+        display: none;
+    }
     /* About */
     .about-heading .heading {
         font-size: 34px;
@@ -1810,6 +1829,9 @@ header a.logo img {
 }
 
 @media screen and (max-width: 991px) and (min-width: 768px){
+    .particles-js-canvas-el{
+        display: none;
+    }
     body{
         text-align: center;
     }
@@ -1977,6 +1999,9 @@ header a.logo img {
 }
 
 @media screen and (max-width: 767px) {
+    .particles-js-canvas-el{
+        display: none;
+    }
     body {
         text-align: center;
     }
@@ -2040,7 +2065,7 @@ header a.logo img {
         display: block;
         height: auto;
         position: relative;
-        margin-top: 75px;
+        padding-top: 75px;
     }
     .author-skills {
         position: relative;
