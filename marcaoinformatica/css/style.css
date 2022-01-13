@@ -120,8 +120,8 @@ section{padding: 7.5rem 0;}
 .btn.btn-blue:hover {background: #EE2F24 !important; border-color: #DD1818; color: #ffffff !important}
 
 /* Blue button */
-.btn.btn-red {background: transparent; border-color: #ffffff; color: #ffffff}
-.btn.btn-red:hover {background: #EE2F24 !important; border-color: #DD1818; color: #ffffff !important}
+.btn.btn-red {background: #EE2F24; border-color: #DD1818; color: #ffffff}
+.btn.btn-red:hover {background: transparent !important; border-color: #FFFFFF; color: #ffffff !important}
 
 /* Dark Blue button */
 .btn.btn-blue-dark {background: #002450; border-color: #002450; color: #ffffff}
@@ -144,6 +144,7 @@ section{padding: 7.5rem 0;}
 .text-light-blue {color: #00b6ff;}
 .text-black{color: #040608;}
 .text-white{color: #ffffff;}
+.text-red{color: #ffffff !important;text-shadow: 2px 2px 10px rgb(247, 241, 241);}
 
 /*Social Icon Hover Text Hover */
 .facebook-text-hvr:hover{color:#4267B2 !important;}
@@ -905,10 +906,23 @@ header a.logo img {
 ====================================== */
 
 .learn-more-section {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     padding: 120px 0;
-    background-size: cover;
     background-image: url('../img/3.jpg');
-    
+    background-size: cover;
+}
+
+.learn-more-section::before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background-color: #ffffff1e;
 }
 
 .learn-more-section .text-area {
