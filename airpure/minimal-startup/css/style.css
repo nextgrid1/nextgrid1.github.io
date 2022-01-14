@@ -220,6 +220,12 @@ header .main-navigation nav .navbar-nav .nav-link{
     transition: .5s ease;
     font-family: Montserrat, sans-serif;
 }
+.navbar-social {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-wrap: nowrap;
+}
 
 .navbar-social a {
     justify-content: center;

@@ -2,6 +2,11 @@ hr {
 	display: none;
 	border-top: 1px dashed #6245fe;
 }
+.alinhar {
+	display: flex;
+	-ms-flex-wrap: nowrap;
+	flex-wrap: nowrap;
+}
 .section-icon{
 	display: flex;
 	align-items: center;
@@ -20,6 +25,13 @@ hr {
     align-items: center;
     justify-content: center;
 }
+.btn-contato {
+    display: flex;
+	flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
 .pricing-block:hover .custom-btn,
 .pricing-block:hover .icon-container::after {
 	background-image: -webkit-linear-gradient(45deg, #7fe97b, #ff7cb0);
@@ -409,9 +421,7 @@ background-image: -webkit-linear-gradient(45deg, #2980B9, #6DD5FA, #FFFFFF);
 	.alinhar {
 		display: flex;
 		flex-wrap: nowrap;
-		justify-content: flex-end;
-		margin-right: -15px;
-		margin-left: -15px;
+		justify-content: space-between;
 	}
 	.alinhar1 {
 		flex: 0 0 62.666667%;
