@@ -1754,13 +1754,13 @@ header a.logo img {
 
 @media (min-width: 2080px) {
     #particles-js {
-        height: 70vh;
+        height: 130vh;
     }
 }
 
 @media (max-width: 1600px) and (min-width: 1280px) {
     #particles-js {
-        height: 105vh;
+        height: 125vh;
     }
 }
 
