@@ -2,8 +2,21 @@ hr {
 	display: none;
 	border-top: 1px dashed #6245fe;
 }
+.section-icon{
+	display: flex;
+	align-items: center;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+	font-size: 4rem;
+	text-align: center;
+}
+.section-icon h1 {
+	margin-left: 10px;
+	margin-right: 10px;
+}
 .btn-price {
     display: flex;
+	flex-direction: column;
     align-items: center;
     justify-content: center;
 }
@@ -254,13 +267,14 @@ background-image: -webkit-linear-gradient(45deg, #2980B9, #6DD5FA, #FFFFFF);
 
 .pricing-block .price {
 	font-family: "Fira Sans", sans-serif;
-	font-size: 6rem;
+	font-size: 3rem;
 	line-height: 1.6;
 	font-weight: 900;
 	padding-top: 2px;
 	padding-bottom: 3px;
     display: flex;
     place-content: center;
+	flex-wrap: nowrap;
 }
 
 .pricing-block div,
