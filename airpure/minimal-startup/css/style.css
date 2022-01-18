@@ -189,7 +189,7 @@ header{
 }
 
 header .navbar-brand img{
-    max-width: 120px;
+    max-width: 140px;
     margin-right: 20px;
 }
 
@@ -710,7 +710,7 @@ header .main-navigation nav .navbar-nav .nav-link{
 }
 
 .banner-slider .banner-slider-row{
-    height: 95vh;
+    height: 105vh;
 }
 
 .banner-slider .heading-area {
@@ -748,7 +748,7 @@ header .main-navigation nav .navbar-nav .nav-link{
 }
 
 .heading-area .text {
-    font-size: 18px;
+    font-size: 19px;
     font-weight: normal;
     line-height: 1.6;
     margin-bottom: 20px;
@@ -811,10 +811,10 @@ header .main-navigation nav .navbar-nav .nav-link{
 }
 
 .feature-item {
-    display: table;
+    display: flex;
     padding: 30px 10px;
     max-width: 450px;
-    text-align: left;
+    justify-content: center;
 }
 
 .feature-margin {
@@ -2173,7 +2173,7 @@ header .main-navigation nav .navbar-nav .nav-link{
         margin-right: 0;
     }
     header .navbar-brand img {
-        max-width: 60px;
+        max-width: 80px;
         margin-left: 8px;
     }
     .sidemenu_btn {
@@ -2914,7 +2914,7 @@ header .main-navigation nav .navbar-nav .nav-link{
 }
 
 .p-t-0 {
-	padding-top: 0;
+	padding-top: 0 !important;
 }
 
 .p-t-5 {

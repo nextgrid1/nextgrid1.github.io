@@ -1,6 +1,9 @@
 hr {
 	display: none;
-	border-top: 1px dashed #6245fe;
+	border-top: 1px dashed #0083f3;
+}
+.pad {
+	padding-bottom: 15rem;
 }
 .alinhar {
 	display: flex;
@@ -30,14 +33,6 @@ hr {
 	flex-direction: row;
     align-items: center;
     justify-content: center;
-}
-
-.pricing-block:hover .custom-btn,
-.pricing-block:hover .icon-container::after {
-	background-image: -webkit-linear-gradient(45deg, #7fe97b, #ff7cb0);
-	background-image: -o-linear-gradient(45deg, #88e97b, #ff7cb0);
-	background-image: linear-gradient(45deg, #7fe97b, #ff7cb0);
-	background-repeat: repeat-x;
 }
 .grad-style-ef,
 .icon-container.grad-style-ef-light::after,
@@ -322,6 +317,12 @@ background-image: -webkit-linear-gradient(45deg, #2980B9, #6DD5FA, #FFFFFF);
 	padding-bottom: 3.5rem;
 }
 
+@media screen and (max-width: 1600px) {
+	.alinhar{
+		margin-left: 75px;
+	}
+}
+
 @media screen and (max-width: 1199px) {
     .pricing-block .price {
 		font-size: 4rem;
@@ -339,11 +340,30 @@ background-image: -webkit-linear-gradient(45deg, #2980B9, #6DD5FA, #FFFFFF);
 	.navbar-brand {
 		margin-left: 45px;
 	}
+	.alinhar {
+		display: flex;
+		-ms-flex-wrap: nowrap;
+		flex-wrap: nowrap;
+		margin-right: -15px;
+		margin-left: 15px;
+	}
 }
 
 @media screen and (max-width: 991px) {
 	hr {
-		display: block;
+		display: block!important;
+		z-index: 999!important;
+		width: 100%!important;
+	}
+	.pad {
+		padding-bottom: 0 !important;
+	}
+	hr{
+		margin-top: 5rem;
+		margin-bottom: 5rem;
+	}
+	.about_img{
+		display: none;
 	}
 	.clients .client {
 		max-width: 33.333333%;
@@ -380,7 +400,9 @@ background-image: -webkit-linear-gradient(45deg, #2980B9, #6DD5FA, #FFFFFF);
 
 @media screen and (max-width: 767px) {
 	hr {
-		display: block;
+		display: block!important;
+		z-index: 999!important;
+		width: 100%!important;
 	}
 	.column-smartfone{
 		flex-direction: column-reverse !important;
