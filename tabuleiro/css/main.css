@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Fira+Sans:200,300,300i,400,400i,500,500i,600,700,800,900|Hind+Vadodara:300,400,500,600,700");
+@import url('https://fonts.googleapis.com/css2?family=Dongle&display=swap');
 
 /* ===================================
     Scrollbar
@@ -2474,6 +2475,10 @@ h1 {
 .case-study p {
 	color: #fff;
 	text-shadow: 7px 5px 30px #00000062;
+	font-family: 'Dongle', sans-serif;
+	font-size: 8rem;
+	line-height: 7rem;
+	font-weight: 700;
 }
 
 .case-study .img-container img {

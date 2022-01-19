@@ -259,3 +259,44 @@ $('.testimonial-box').owlCarousel({
 });
 
 });
+
+$(window).on("load", function () {
+
+/* ===================================
+    WOW Animation
+====================================== */
+
+if ($(window).width() > 991) {
+    var wow = new WOW({
+        boxClass: 'wow',
+        animateClass: 'animated',
+        offset: 0,
+        mobile: false,
+        live: true
+    });
+    new WOW().init();
+}
+
+/* ===================================
+        Testimonial-Carousel
+====================================== */
+$('.testimonial-carousel').owlCarousel({
+    loop: true,
+    margin: 30,
+    autoplay: true,
+    nav: false,
+    dots: false,
+    responsive: {
+        0: {
+            items: 1
+        },
+        600: {
+            items: 1
+        },
+        1000: {
+            items: 1
+        }
+    }
+});
+
+});

@@ -2,6 +2,13 @@ hr {
 	display: none;
 	border-top: 1px dashed #0083f3;
 }
+.texto{
+    display: flex;
+    font-size: 5rem;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+}
 .pad {
 	padding-bottom: 15rem;
 }
@@ -317,6 +324,71 @@ background-image: -webkit-linear-gradient(45deg, #2980B9, #6DD5FA, #FFFFFF);
 	padding-bottom: 3.5rem;
 }
 
+/* ===================================
+        Testimonials Section
+====================================== */
+
+.testimonial-section .text-section {
+    padding-top: 120px;
+    padding-bottom: 120px;
+    background: #0083f3;
+    background: -webkit-linear-gradient(to right bottom, #0083f3, #0094f7, #00a3f8, #00b2f6, #00bff3);
+    background: linear-gradient(to right bottom, #0083f3, #0094f7, #00a3f8, #00b2f6, #00bff3);
+}
+
+.testimonial-heading h5 {
+    font-size: 48px;
+    font-weight: 600;
+}
+
+.testimonial-heading h2 {
+    font-size: 60px;
+    font-weight: 600;
+}
+
+.carousel-section .testimonials p {
+    text-align: center;
+    color: #ffffff;
+    width: 60%;
+    font-size: 18px;
+    line-height: 1.8;
+    margin: 40px auto;
+}
+
+.carousel-section .testimonials h5 {
+    font-size: 24px;
+    color: #ffffff;
+    margin-top: 25px;
+}
+
+.testimonial-section .text-section .text-area {
+    padding: 120px 0;
+    text-align: center;
+}
+
+.testimonial-section .carousel-section {
+    background-color: #001E42;
+    display: flex;
+    align-items: center;
+}
+
+.carousel-section .testimonial-image {
+    width: 100px;
+    height: 100px;
+    display: block;
+    margin: auto;
+}
+
+.carousel-section .owl-carousel .owl-item img {
+    border-radius: 50%;
+}
+
+.carousel-section .testimonials .quote i {
+    color: #fff;
+    font-style: italic;
+    font-size: 20px;
+}
+
 @media screen and (max-width: 1600px) {
 	.alinhar{
 		margin-left: 75px;
@@ -346,6 +418,16 @@ background-image: -webkit-linear-gradient(45deg, #2980B9, #6DD5FA, #FFFFFF);
 		flex-wrap: nowrap;
 		margin-right: -15px;
 		margin-left: 15px;
+	}
+	/* Testimonial */
+	.testimonial-heading h5 {
+		font-size: 38px;
+	}
+	.testimonial-heading h2 {
+		font-size: 48px;
+	}
+	.carousel-section .testimonials p {
+		width: 80%;
 	}
 }
 
@@ -396,6 +478,19 @@ background-image: -webkit-linear-gradient(45deg, #2980B9, #6DD5FA, #FFFFFF);
 	.column-smartfone{
 		flex-direction: column-reverse !important;
 	}
+	/* Testimonials */
+	.testimonial-heading h5 {
+		font-size: 38px;
+	}
+	.testimonial-heading h2 {
+		font-size: 48px;
+	}
+	.testimonials {
+		padding: 4rem 0;
+	}
+	.testimonial-section .text-section .text-area {
+		padding: 100px 0;
+	}
 }
 
 @media screen and (max-width: 767px) {
@@ -437,6 +532,26 @@ background-image: -webkit-linear-gradient(45deg, #2980B9, #6DD5FA, #FFFFFF);
 	}
     .inner-page-pricing .pricing-wrapper {
 		padding-top: 9.3rem;
+	}
+	/* Testimonials */
+	.testimonial-section .text-section .text-area {
+		padding: 0;
+	}
+	.testimonial-heading h5 {
+		font-size: 24px;
+	}
+	.testimonial-heading h2 {
+		font-size: 32px;
+	}
+	.carousel-section .testimonials p {
+		font-size: 16px;
+		width: 95%;
+	}
+	.carousel-section .testimonials h5 {
+		font-size: 20px;
+	}
+	.testimonials {
+		padding: 4rem 0;
 	}
 }
 @media screen and (max-width: 528px) {

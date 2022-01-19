@@ -24,6 +24,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@700&display=swap');
 
 .main-font{font-family: 'Montserrat', sans-serif;}
 .alt-font{font-family: 'Roboto', sans-serif;}
@@ -1105,7 +1106,7 @@ header .main-navigation nav .navbar-nav .nav-link{
     width: 115vw;
     margin-left: -115px;
     transform: rotate(5deg);
-    background-color: #33c9dd;
+    background: radial-gradient(circle, #00bff3, #00b2f6, #00a3f8, #0094f7, #0083f3);
 }
 
 #testimonial-header-svg{
@@ -1347,7 +1348,7 @@ header .main-navigation nav .navbar-nav .nav-link{
 }
 
 /* ===================================
-   Footer
+    Footer
 ====================================== */
 
 .footer-style-1{
@@ -2303,7 +2304,7 @@ header .main-navigation nav .navbar-nav .nav-link{
     .testimonial-sec {
         position: relative;
         overflow: hidden;
-        padding: 100px;
+        padding: 50px;
         width: 120%;
         margin-left: -31px;
         transform: rotate(5deg);
