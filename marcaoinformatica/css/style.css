@@ -1251,6 +1251,7 @@ header a.logo img {
     background: #e52d27;
     background: -webkit-linear-gradient(to right, #b31217, #e52d27);
     background: linear-gradient(to right, #b31217, #e52d27);
+    display: flex;
 }
 
 .contact-sec .user-img{
@@ -1284,12 +1285,13 @@ header a.logo img {
     background: transparent;
 }
 
-.contact-sec .contact-form .form-control{
-    border: none;
-    border-radius: 0;
-    padding-left: 0;
-    letter-spacing: 1px;
-    border-bottom: 1px solid rgba(255,255,255,0.3);
+.contact-form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    flex-direction: row;
 }
 
 ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
