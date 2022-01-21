@@ -2,8 +2,17 @@ hr {
 	display: none;
 	border-top: 1px dashed #0083f3;
 }
-.blog-content-align {
-
+.blog-content{
+	display: flex;
+}
+.blog-content-align{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center!important;
+}
+.just-center {
+	display: flex;
+	justify-content: center!important;
 }
 .texto {
     display: flex;
@@ -13,7 +22,7 @@ hr {
     align-content: center;
 }
 .pad {
-	padding-bottom: 15rem;
+	padding-bottom: 5rem;
 }
 .alinhar {
 	display: flex;
@@ -435,6 +444,11 @@ background-image: -webkit-linear-gradient(45deg, #2980B9, #6DD5FA, #FFFFFF);
 }
 
 @media screen and (max-width: 991px) {
+	.content-align1{
+		display: flex;
+		flex-wrap: wrap!important;
+		justify-content: center!important;
+	}
 	hr {
 		display: block!important;
 		z-index: 999!important;
@@ -442,6 +456,9 @@ background-image: -webkit-linear-gradient(45deg, #2980B9, #6DD5FA, #FFFFFF);
 	}
 	.pad {
 		padding-bottom: 0 !important;
+	}
+	.pad2{
+		padding-bottom: 10rem !important;
 	}
 	hr{
 		margin-top: 5rem;

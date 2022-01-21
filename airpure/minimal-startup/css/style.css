@@ -1422,7 +1422,9 @@ header .main-navigation nav .navbar-nav .nav-link{
     margin-bottom: 10px;
 }
 .standalone-area {
-    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .standalone-area .sub-heading{
