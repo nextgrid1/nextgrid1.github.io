@@ -2,7 +2,10 @@ hr {
 	display: none;
 	border-top: 1px dashed #0083f3;
 }
-.texto{
+.blog-content-align {
+
+}
+.texto {
     display: flex;
     font-size: 5rem;
     justify-content: center;
