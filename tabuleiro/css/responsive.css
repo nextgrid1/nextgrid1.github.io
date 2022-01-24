@@ -49,8 +49,8 @@
 
 @media screen and (min-width: 1600px) {
 	.banner::after {
-		background: #fff url(../images/banner/1.png) calc(100% - 308px) 370px no-repeat;
-		background-size: 93%;
+		background: #fff url(../images/banner/1.png) calc(100% - 150px) 370px no-repeat;
+		background-size: 100%;
 		top: -46%;
 		right: -20%;
 		-webkit-transform: rotate(0deg);
@@ -79,7 +79,7 @@
 	}
 	.banner::after {
 		top: -100px;
-		background-position: calc(100% - 40px) 90px;
+		background-position: calc(100% - 25px) 90px;
 	}
 	.banner::before {
 		top: -70px;
