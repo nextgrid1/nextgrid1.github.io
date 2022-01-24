@@ -54,7 +54,7 @@
     General
 ====================================== */
 
-body {font-family: 'Roboto', sans-serif; font-size: 16px;color: #202020;font-weight:300;line-height:25px;width: 100%; overflow-x: hidden}
+body {font-family: 'Roboto', sans-serif; font-size: 18px;color: #202020;font-weight:300;line-height:25px;width: 100%; overflow-x: hidden}
 .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {line-height: 1.2; font-weight: 500; font-family: 'Roboto', sans-serif;margin-bottom: 0}
 section,.section-padding {position: relative;overflow: hidden;}
 a {color:inherit;text-decoration: none;}
@@ -735,13 +735,13 @@ header .main-navigation nav .navbar-nav .nav-link{
 }
 
 .heading-area .sub-heading {
-    font-size: 18px;
+    font-size: 19px;
     font-weight: normal;
     font-family: Roboto, sans-serif;
 }
 
 .heading-area .heading {
-    font-size: 36px;
+    font-size: 42px;
     font-weight: bold;
     line-height: 1.2;
     margin: 20px 0;
@@ -749,7 +749,7 @@ header .main-navigation nav .navbar-nav .nav-link{
 }
 
 .heading-area .text {
-    font-size: 19px;
+    font-size: 23px;
     font-weight: normal;
     line-height: 1.6;
     margin-bottom: 20px;
@@ -832,7 +832,7 @@ header .main-navigation nav .navbar-nav .nav-link{
 .laptop-features-icon {
     display: table-cell;
     vertical-align: top;
-    width: 41px;
+    width: 80px;
     transition: all 1.2s;
 }
 
@@ -899,15 +899,15 @@ header .main-navigation nav .navbar-nav .nav-link{
 
 
 .stats-number-inner {
-    font-size: 30px;
+    font-size: 34px;
     cursor: pointer;
-    font-weight: normal;
+    font-weight: 500;
     margin: 15px 0;
     font-family: Montserrat, sans-serif;
 }
 
 .stats-block-inner .paragraph {
-    font-size: 16px;
+    font-size: 22px;
     font-weight: normal;
     font-family: Roboto, sans-serif;
 }
@@ -1196,12 +1196,21 @@ header .main-navigation nav .navbar-nav .nav-link{
 }
 
 /* ===================================
-      Contact Section
+        Contact Section
 ====================================== */
+
+.contato{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: flex-start;
+    align-items: center;
+}
 
 .contact-sec .contact-heading{
     font-family: Montserrat, sans-serif;
-    font-weight: 500;
+    font-weight: 800;
     font-size: 30px;
 }
 
@@ -1385,7 +1394,7 @@ header .main-navigation nav .navbar-nav .nav-link{
 }
 
 .footer-social li a:hover{
-    background: #6b30e9;
+    background: #0c82f1;
     color: #ffffff;
 }
 
@@ -1419,6 +1428,7 @@ header .main-navigation nav .navbar-nav .nav-link{
 }
 
 .standalone-detail .sub-heading{
+
     margin-bottom: 10px;
 }
 .standalone-area {
@@ -1450,6 +1460,7 @@ header .main-navigation nav .navbar-nav .nav-link{
 }
 
 .standalone-detail{
+    margin-top: 5rem;
     padding-bottom: 100px;
 }
 
@@ -1464,6 +1475,7 @@ header .main-navigation nav .navbar-nav .nav-link{
     font-family: 'Roboto', sans-serif;
     font-weight: normal;
     color: #202020;
+    font-size: 20px;
 }
 
 .page-title{
@@ -2043,7 +2055,7 @@ header .main-navigation nav .navbar-nav .nav-link{
     }
     .laptop-features-icon {
         display: block;
-        width: 100%;
+        width: 50%;
         margin-bottom: 10px;
         vertical-align: middle;
     }
@@ -2214,13 +2226,14 @@ header .main-navigation nav .navbar-nav .nav-link{
         padding-top: 40px;
     }
     .heading-area .sub-heading {
-        font-size: 16px;
+        font-size: 17px;
     }
     .heading-area .heading {
-        font-size: 26px;
+        font-size: 30px;
+        font-weight: 900;
     }
     .heading-area .text {
-        font-size: 16px;
+        font-size: 18px;
     }
     .button {
         font-size: 16px;
@@ -2230,12 +2243,11 @@ header .main-navigation nav .navbar-nav .nav-link{
     /* About */
     .feature-item {
         max-width: 100%;
-        display: block;
         text-align: center;
     }
     .laptop-features-icon {
         display: block;
-        width: 100%;
+        width: 40%;
         margin-bottom: 10px;
         vertical-align: middle;
     }
@@ -2366,6 +2378,7 @@ header .main-navigation nav .navbar-nav .nav-link{
         font-size: 2.5rem;
     }
     .standalone-detail {
+        padding-top: 6rem;
         padding-bottom: 70px;
     }
     .standalone-area .gradient-text1{

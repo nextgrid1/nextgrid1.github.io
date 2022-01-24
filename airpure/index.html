@@ -37,7 +37,7 @@
 
 <body data-spy="scroll" data-target=".navbar" data-offset="90">
 
-<!-- Start Preloader
+<!-- Start Preloader -->
 <div class="loader">
     <div class="loader-inner">
         <div class="loader-blocks">
@@ -60,7 +60,7 @@
         </div>
     </div>
 </div>
-End Preloader -->
+<!-- End Preloader -->
 
 <!-- Header -->
 <header id="home" class="cursor-light">
@@ -162,7 +162,7 @@ End Preloader -->
         </div>
     </div>
 </section>
-<section class="p-t-0 company-stats-section py-0 py-md-5 ">
+<section class="p-t-0 m-b-100 company-stats-section py-0 py-md-5 ">
     <div class="container">
         <div class="row">
             <div class="col-12 col-md-12 pad">
@@ -171,28 +171,30 @@ End Preloader -->
                     <div class="col-12 col-md-3 text-center">
                         <div class="feature-item">
                             <div class="laptop-features-icon text-pink">
-                                <span class="icon"><i class="las la-shipping-fast"></i></span>
+                                <span class="icon">
+                                    <img src="minimal-startup/images/i3.png" alt="">
+                                </span>
                             </div>
                         </div>
-                        <p class="paragraph" style="font-weight: bold;">Frete Grátis para toda Rondônia</p>
+                        <p class="paragraph" style="font-weight: bold;font-size: 22px;">Frete Grátis para toda Rondônia</p>
                     </div>
                     <!-- Retirada -->
                     <div class="col-12 col-md-3 text-center">
                         <div class="feature-item">
                             <div class="laptop-features-icon text-blue">
-                                <span class="icon"><i class="las la-dolly"></i></span>
+                                <span class="icon"><img src="minimal-startup/images/i1.png" alt=""></span>
                             </div>
                         </div>
-                        <p class="paragraph" style="font-weight: bold;">Retire no local</p>
+                        <p class="paragraph" style="font-weight: bold;font-size: 22px;">Retire no local</p>
                     </div>
                     <!-- Economia -->
                     <div class="col-12 col-md-3 text-center">
                         <div class="feature-item">
                             <div class="laptop-features-icon text-purple">
-                                <span class="icon"><i class="las la-donate"></i></span>
+                                <span class="icon"><img src="minimal-startup/images/i2.png" alt=""></span>
                             </div>
                         </div>
-                        <p class="paragraph" style="font-weight: bold;">Mais economia</p>
+                        <p class="paragraph" style="font-weight: bold;font-size: 22px;">Mais economia</p>
                     </div>
                 </div>
             </div>
@@ -279,19 +281,27 @@ End Preloader -->
         <!-- 1 Counter -->
         <div class="col-12 col-md-3">
             <div class="stats-block-inner text-center">
-                <i class="lni lni-bar-chart text-blue"></i>
-                <div class="stats-number-inner">
-                    <span>10</span>+
+                <div class="feature-item">
+                    <div class="laptop-features-icon text-purple">
+                        <span class="icon"><img src="minimal-startup/images/i4.png" alt=""></span>
+                    </div>
                 </div>
-                <p class="paragraph">Anos no mercado em N2</p>
+                <div class="stats-number-inner">
+                    +<span>10</span>
+                </div>
+                <p class="paragraph">Anos no mercado em N²</p>
             </div>
         </div>
         <!-- 2 Counter -->
         <div class="col-12 col-md-3">
             <div class="stats-block-inner text-center">
-                <i class="las la-certificate text-purple"></i>
+                <div class="feature-item">
+                    <div class="laptop-features-icon text-purple">
+                        <span class="icon"><img src="minimal-startup/images/i5.png" alt=""></span>
+                    </div>
+                </div>
                 <div class="stats-number-inner">
-                    <span>30</span>+
+                    +<span>30</span>
                 </div>
                 <p class="paragraph">Fazendas ativas mensais</p>
             </div>
@@ -299,9 +309,13 @@ End Preloader -->
         <!-- 3 Counter -->
         <div class="col-12 col-md-3">
             <div class="stats-block-inner text-center">
-                <i class="las la-boxes text-pink"></i>
+                <div class="feature-item">
+                    <div class="laptop-features-icon text-purple">
+                        <span class="icon"><img src="minimal-startup/images/i6.png" alt=""></span>
+                    </div>
+                </div>
                 <div class="stats-number-inner">
-                    <span>15000</span>+
+                    +<span>15000</span>
                 </div>
                 <p class="paragraph">Litros de estoque por mês</p>
             </div>
@@ -422,9 +436,9 @@ End Preloader -->
 <!-- End of .Clientes -->
 
 <!-- Preços  -->
-<section class="pricing section-padding">
+<section class="pricing section-padding standalone-detail">
     <div class="container">
-        <h2 class="text-center">Preços</h2>
+        <h1 class="heading text-center">Preços</h1>
         <p class="section-subheading text-center">
             Confira abaixo o nosso plano para você!
         </p>
@@ -575,7 +589,7 @@ End Preloader -->
                 </div>
             </div>
             <!-- Contact Form -->
-            <div class="col-12 col-lg-6 px-lg-0 pt-5 pt-lg-0 wow slideInRight" data-wow-duration="1s" data-wow-delay=".1s">
+            <div class="contato col-12 col-lg-6 px-lg-0 pt-5 pt-lg-0 wow slideInRight" data-wow-duration="1s" data-wow-delay=".1s">
                 <h4 class="contact-heading text-center">CONTATO</h4>
                 <p class="contact-para text-center">Envie-nos uma mensagem pelo WhatsApp.</p>
                 <div class="pt-5 container">
@@ -590,30 +604,44 @@ End Preloader -->
 <footer class="footer-style-1 bg-light">
     <div class="container">
         <div class="row align-items-center">
-            <!--Social-->
             <div class="col-lg-6">
                 <div class="footer-social text-center text-lg-left ">
                     <ul class="list-unstyled">
                         <li><a class="wow fadeInUp" href="javascript:void(0);"><i aria-hidden="true" class="fab fa-facebook-f"></i></a></li>
-                        <li><a class="wow fadeInDown" href="javascript:void(0);"><i aria-hidden="true" class="fab fa-twitter"></i></a></li>
-                        <li><a class="wow fadeInUp" href="javascript:void(0);"><i aria-hidden="true" class="fab fa-google-plus-g"></i></a></li>
-                        <li><a class="wow fadeInDown" href="javascript:void(0);"><i aria-hidden="true" class="fab fa-linkedin-in"></i></a></li>
                         <li><a class="wow fadeInUp" href="javascript:void(0);"><i aria-hidden="true" class="fab fa-instagram"></i></a></li>
-                        <li><a class="wow fadeInDown" href="javascript:void(0);"><i aria-hidden="true" class="fab fa-pinterest-p"></i></a></li>
                     </ul>
                 </div>
             </div>
             <!--Text-->
-            <div class="col-lg-6 text-center text-lg-left">
-                <p class="company-about fadeIn">© 2022 AirPure. Feito por <a href="https://nextgrid.com.br">NextGrid</a>
+            <div class="col-lg-6 text-center text-lg-right">
+                <p class="company-about fadeIn">© 2022 AirPure. Feito por <a href="https://nextgrid.com.br">NextGrid.</a>
                 </p>
             </div>
         </div>
     </div>
 </footer>
-<!-- End Footer -->
 
 <!-- Start Scroll Top -->
 <div class="go-top"><i class="fas fa-angle-up"></i><i class="fas fa-angle-up"></i></div>
 <!-- End Scroll Top -->
+
+<!-- Anti-bug-->
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br<<br><br>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br<<br><br>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
 

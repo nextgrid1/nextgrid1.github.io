@@ -458,7 +458,7 @@ background-image: -webkit-linear-gradient(45deg, #2980B9, #6DD5FA, #FFFFFF);
 		padding-bottom: 0 !important;
 	}
 	.pad2{
-		padding-bottom: 10rem !important;
+		padding-bottom: 6rem !important;
 	}
 	hr{
 		margin-top: 5rem;
@@ -535,9 +535,6 @@ background-image: -webkit-linear-gradient(45deg, #2980B9, #6DD5FA, #FFFFFF);
 		padding-top: 1px;
 		padding-bottom: 0;
 	}
-    .pricing-wrapper {
-		padding-top: 7.7rem;
-	}
 	.pricing-block .price {
 		font-size: 3rem;
 	}
@@ -558,10 +555,10 @@ background-image: -webkit-linear-gradient(45deg, #2980B9, #6DD5FA, #FFFFFF);
 		padding: 0;
 	}
 	.testimonial-heading h5 {
-		font-size: 24px;
+		font-size: 34px;
 	}
 	.testimonial-heading h2 {
-		font-size: 32px;
+		font-size: 52px;
 	}
 	.carousel-section .testimonials p {
 		font-size: 16px;

@@ -11,7 +11,7 @@ $(window).on("load", function () {
 
     setTimeout(function () {
         $(".loader").fadeOut("slow");
-    }, 1000);
+    }, 700);
 });
 
 jQuery(function ($) {
