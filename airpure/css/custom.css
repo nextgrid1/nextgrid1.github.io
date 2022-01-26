@@ -446,7 +446,6 @@ background-image: -webkit-linear-gradient(45deg, #2980B9, #6DD5FA, #FFFFFF);
 @media screen and (max-width: 991px) {
 	.content-align1{
 		display: flex;
-		flex-wrap: wrap!important;
 		justify-content: center!important;
 	}
 	hr {

@@ -29,6 +29,8 @@
 .main-font{font-family: 'Montserrat', sans-serif;}
 .alt-font{font-family: 'Roboto', sans-serif;}
 
+.main{padding-top: 0!important;}
+
 /* ===================================
     Scrollbar
 ====================================== */
@@ -832,7 +834,7 @@ header .main-navigation nav .navbar-nav .nav-link{
 .laptop-features-icon {
     display: table-cell;
     vertical-align: top;
-    width: 80px;
+    width: 120px;
     transition: all 1.2s;
 }
 
@@ -1428,7 +1430,6 @@ header .main-navigation nav .navbar-nav .nav-link{
 }
 
 .standalone-detail .sub-heading{
-
     margin-bottom: 10px;
 }
 .standalone-area {
@@ -1667,7 +1668,7 @@ header .main-navigation nav .navbar-nav .nav-link{
 }
 
 /* ===================================
-   Loader
+        Loader
 ====================================== */
 
 .loader {
@@ -1680,7 +1681,7 @@ header .main-navigation nav .navbar-nav .nav-link{
     width: 100%;
     z-index: 1111;
     overflow-x:hidden;
-    background: #6b30e9;
+    background: #0083f3;
 }
 
 .loader-inner {
@@ -2378,7 +2379,7 @@ header .main-navigation nav .navbar-nav .nav-link{
         font-size: 2.5rem;
     }
     .standalone-detail {
-        padding-top: 6rem;
+        padding-top: 1rem;
         padding-bottom: 70px;
     }
     .standalone-area .gradient-text1{
