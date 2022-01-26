@@ -258,7 +258,10 @@ background-image: -webkit-linear-gradient(45deg, #2980B9, #6DD5FA, #FFFFFF);
 
 /* -- Pricing starts
 -------------------------------- -- */
-
+.foto-price {
+	display: flex;
+	align-items: center;
+}
 .pricing {
 	background: url(../images/pricing-bg-shape.png) center calc(100% + 420px) no-repeat;
 	background-size: 100% auto;
