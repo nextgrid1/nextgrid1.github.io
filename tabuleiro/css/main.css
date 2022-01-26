@@ -192,6 +192,10 @@
 	background-repeat: repeat-x;
 }
 
+.grad-style-1 {
+	background-image: radial-gradient(circle, #ffe604, #ffee00);
+}
+
 .grad-style-ef,
 .icon-container.grad-style-ef-light::after,
 .body-bg-style-3.inner-page::before,
@@ -1567,7 +1571,7 @@ p {
 }
 
 .video-play-btn:hover {
-	color: #6245fe;
+	color: #ec821e;
 	-webkit-box-shadow: 0 2px 50px rgba(0, 0, 0, 0.1);
 	box-shadow: 0 2px 50px rgba(0, 0, 0, 0.1);
 }
@@ -1578,7 +1582,7 @@ p {
 
 .text-only-btn {
 	display: inline-block;
-	color: #6245fe;
+	color: #ec821e;
 	font-weight: 500;
 	text-decoration: none;
 	-webkit-transition: all .5s;
