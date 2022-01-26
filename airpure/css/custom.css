@@ -262,10 +262,11 @@ background-image: -webkit-linear-gradient(45deg, #2980B9, #6DD5FA, #FFFFFF);
 .pricing {
 	background: url(../images/pricing-bg-shape.png) center calc(100% + 420px) no-repeat;
 	background-size: 100% auto;
+	margin-top: 10rem;
 }
 
 .pricing-wrapper {
-	margin-top: 3rem;
+	margin-top: 5rem;
 	justify-content: space-around;
 }
 
@@ -274,7 +275,7 @@ background-image: -webkit-linear-gradient(45deg, #2980B9, #6DD5FA, #FFFFFF);
 }
 
 .pricing-block {
-	padding: 9.5rem 4rem 4rem;
+	padding: 9.5rem 0 0;
 	position: relative;
 }
 
@@ -541,7 +542,7 @@ background-image: -webkit-linear-gradient(45deg, #2980B9, #6DD5FA, #FFFFFF);
 		margin-bottom: 0;
 	}	
     .pricing-block {
-		margin-bottom: 7.3rem;
+		margin-bottom: 6rem;
 	}
 	.pricing-wrapper [class^="col-"]:last-child {
 		margin-bottom: 0;

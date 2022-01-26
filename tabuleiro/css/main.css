@@ -263,7 +263,8 @@
 /* -- Common css -- */
 .mandala {
 	display: flex;
-	
+	flex-direction: column;
+	justify-content: center;
 }
 
 body {
@@ -2987,7 +2988,7 @@ h1 {
 	margin: 25px 0;
 	-ms-flex-item-align: center;
 	align-self: center;
-	/* Firefox 28+, Opera 12.10, IE Not supported. */
+
 }
 
 /* -- Latest News css
