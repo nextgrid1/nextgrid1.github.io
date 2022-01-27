@@ -32,12 +32,14 @@
     - Loader
     - Media Queries   */
 
+
 /* ===================================
     Google font
 ====================================== */
 
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;300;400;500;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@700&display=swap');
 
 .main-font{font-family: 'Raleway', sans-serif;}
 .alt-font{font-family: 'Open Sans', sans-serif;}
@@ -64,7 +66,36 @@
 }
 
 /* ===================================
-   Scroll Top
+    Testimonials Section
+====================================== */
+    .texto {
+        display: flex;
+        font-size: 5rem;
+        justify-content: center;
+        flex-wrap: wrap;
+        align-content: center;
+    }
+
+    .pad {
+        padding-bottom: 5rem;
+    }
+
+    .testimonial-sec {
+        position: relative;
+        overflow: hidden;
+        padding: 200px;
+        width: 115vw;
+        margin-left: -115px;
+        transform: rotate(5deg);
+        background: #81A109;
+    }
+
+    .pink-and-purple-btn{font-size: 12px;font-family: 'Roboto', sans-serif;padding: 12px 48px;color:#ffffff;font-weight: 600;background-color:#66593A;border:1px solid transparent;border-radius: 0;}
+    .pink-and-purple-btn:hover{color: #ffffff !important;background-color: #907D4C !important;border: 1px solid transparent;}
+
+
+/* ===================================
+    Scroll Top
 ====================================== */
 .go-top {
     position: fixed;
@@ -272,7 +303,7 @@ section{padding: 7.5rem 0;}
 .font-weight-700{font-weight: 700;}
 
 /* button */
-.btn {-webkit-appearance: initial; overflow: hidden;position: -webkit-sticky;position: sticky; z-index: 2; display:inline-block; font-size: 15px; border:2px solid transparent; letter-spacing: .5px; line-height: inherit; border-radius: 0; text-transform:capitalize; width: auto;font-family: 'Raleway', sans-serif; font-weight: normal; -webkit-transition: all .5s ease;-o-transition: all .5s ease !important;transition: all .5s ease !important;}
+.btn {-webkit-appearance: initial; overflow: hidden;position: -webkit-sticky;position: sticky; z-index: 2; display:inline-block; font-size: 15px; border:2px solid transparent; letter-spacing: .5px; line-height: inherit; border-radius: 0; width: auto;font-family: 'Raleway', sans-serif; font-weight: normal; -webkit-transition: all .5s ease;-o-transition: all .5s ease !important;transition: all .5s ease !important;}
 /* Blue button */
 .btn.btn-blue {background: #33c9dd; border-color: #33c9dd; color: #ffffff}
 .btn.btn-blue:hover {background: #81a109 !important; border-color: #81a109; color: #ffffff !important}
@@ -443,19 +474,19 @@ section{padding: 7.5rem 0;}
 .navbar-brand  {
     margin: 16px 0;
     padding: 0;
-    width: 140px;
+    width: 170px;
     position: relative;
-    max-width: 90px;
+    max-width: 170px;
 }
 
 .fixedmenu .navbar-brand {
-    max-width: 70px;
+    max-width: 120px;
 }
 
 .center-brand .navbar-brand {
     position: absolute;
     left: 0;
-    right: 0;
+    right: 90px;
     margin: 0 auto;
     text-align: center;
     top: 70%;
@@ -1079,7 +1110,7 @@ section{padding: 7.5rem 0;}
 }
 
 .slider-heading {
-    font-size: 72px;
+    font-size: 32px !important;
 }
 
 .slider-paragraph {
@@ -1882,8 +1913,20 @@ figure.snip0015:hover figcaption::before {
 }
 
 /* ===================================
-     Stand Alone
+        Stand Alone
 ====================================== */
+.stand-area{
+    display: flex;
+    justify-content: space-evenly ;
+}
+
+.standalone-area{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
 
 .standalone-row:not(:last-child) {
     margin-bottom: 3rem;
