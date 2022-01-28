@@ -64,6 +64,15 @@
     transition: .5s ease;
     cursor: pointer;
 }
+.icone {
+    font-size: 42px;
+}
+.icone:hover {
+    -webkit-transition: .4s;
+    -o-transition: .4s;
+    transition: .4s;
+    color: rgb(51, 201, 221);
+}
 
 /* ===================================
     Testimonials Section
@@ -76,23 +85,39 @@
         align-content: center;
     }
 
+    .m-t-60{ 
+        margin-top: 60px;
+    }
+
     .pad {
         padding-bottom: 5rem;
     }
 
+    .text-banner{ 
+        display: flex;
+        flex-direction: column;
+        padding-top: 1rem;
+        padding-bottom: 2rem;
+    }
     .testimonial-sec {
-        position: relative;
-        overflow: hidden;
-        padding: 200px;
-        width: 115vw;
-        margin-left: -115px;
-        transform: rotate(5deg);
-        background: url(./../images/banner.jpg);
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        color: #FFFFFF;
     }
     .testimonial-sec::after {
-        content: " ";
-        transform: rotate(-5deg);
-
+        content: "";
+        position: absolute;
+        top: 0;
+        right: 0;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        z-index: -1;
+        background-image: url(./../images/banner2.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 0% 90%;
     }
 
     .pink-and-purple-btn{font-size: 12px;font-family: 'Roboto', sans-serif;padding: 12px 48px;color:#ffffff;font-weight: 600;background-color:#66593A;border:1px solid transparent;border-radius: 0;}
@@ -249,7 +274,7 @@ section{padding: 7.5rem 0;}
 .social-icon:hover{color:#FFFFFF !important; background: #33c9dd !important; -webkit-transition: .3s ease-in-out;-o-transition: .3s ease-in-out;transition: .3s ease-in-out;}
 
 /* ===================================
-       Header
+        Header
 ====================================== */
 .navbar {
     padding-bottom: 0;
@@ -394,7 +419,7 @@ section{padding: 7.5rem 0;}
 .center-brand .navbar-brand {
     position: absolute;
     left: 0;
-    right: 90px;
+    right: 0;
     margin: 0 auto;
     text-align: center;
     top: 70%;
@@ -461,8 +486,7 @@ section{padding: 7.5rem 0;}
 }
 
 .navbar-collapse {
-    height: 60px;
-    background: #81a109;
+
 }
 
 .sidebar-nav .navbar-nav .nav-link {
@@ -600,14 +624,14 @@ section{padding: 7.5rem 0;}
 }
 
 /* ===================================
-       Side Menu
+        Side Menu
 ====================================== */
 .side-menu {
     width: 40%;
     position: fixed;
     right: -1px;
     top: 0;
-    background: #33c9dd;
+    background:  #907D4C;
     z-index: 1032;
     height: 100%;
     -webkit-transform: translate3d(100%, 0, 0);
@@ -722,27 +746,14 @@ section{padding: 7.5rem 0;}
     -webkit-transition: all .3s linear;
     -o-transition: all .3s linear;
     transition: all .3s linear;
-    width: 36px;
-    padding: 6px;
     margin-right: 1rem;
-    position: absolute;
     right: 15px;
+    display: none;
 }
-
-.sidemenu_btn.left {
-    left: 15px;
-    right: auto;
-}
-
-.sidemenu_btn > span {
-    height: 2px;
-    width: 100%;
-    background: #ffffff;
-    display: block;
-}
-
-.sidemenu_btn > span:nth-child(2) {
-    margin: 4px 0;
+.sidemenu_btn i {
+    color: #FFFFFF;
+    font-size: 35px;
+    margin-left: 10px;
 }
 
 .side-menu .inner-wrapper {
@@ -925,7 +936,6 @@ section{padding: 7.5rem 0;}
     }
 }
 @media (max-width: 1200px) {
-
     .side-menu .inner-wrapper {
         padding: 2rem 3.5rem;
     }
@@ -952,9 +962,7 @@ section{padding: 7.5rem 0;}
     }
 }
 @media (min-width: 810px) and (max-width: 1024px) {
-    .sidemenu_btn {
-        position: relative;
-    }
+
 }
 @media (max-width: 992px) {
     .boxed-nav {
@@ -1006,6 +1014,12 @@ section{padding: 7.5rem 0;}
     .side-menu .btn-close {
         top: 24px;
         right: 20px;
+    }
+    .texto {
+        font-size: 2rem;
+    }
+    .testimonial-sec::after {
+        background-position: 60% 25%;
     }
 }
 
@@ -1092,9 +1106,10 @@ section{padding: 7.5rem 0;}
 
 .info{
     color: #797979;
-    font-size: 14px;
+    font-size: 16px;
     font-family:'Open Sans', sans-serif;
     line-height: 1.7;
+    font-weight: 400;
 }
 
 .margin_button{
@@ -2092,12 +2107,12 @@ figure.snip0015:hover figcaption::before {
         padding-left: 0;
     }
     .sidemenu_btn {
+        display: block;
+        position:fixed;
         margin-top: 4px;
-        right: 0;
-        position: absolute;
     }
     .side-menu {
-        width: 300px;
+        width: 250px;
     }
     .side-nav .navbar-nav .nav-item {
         margin: 5px 0;
