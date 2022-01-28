@@ -87,109 +87,17 @@
         width: 115vw;
         margin-left: -115px;
         transform: rotate(5deg);
-        background: #81A109;
+        background: url(./../images/banner.jpg);
+    }
+    .testimonial-sec::after {
+        content: " ";
+        transform: rotate(-5deg);
+
     }
 
     .pink-and-purple-btn{font-size: 12px;font-family: 'Roboto', sans-serif;padding: 12px 48px;color:#ffffff;font-weight: 600;background-color:#66593A;border:1px solid transparent;border-radius: 0;}
     .pink-and-purple-btn:hover{color: #ffffff !important;background-color: #907D4C !important;border: 1px solid transparent;}
 
-
-/* ===================================
-    Scroll Top
-====================================== */
-.go-top {
-    position: fixed;
-    cursor: pointer;
-    bottom: 15px;
-    right: 15px;
-    color: #ffffff;
-    background-size: 200% auto;
-    background: #33c9dd;
-    border-radius: 50%;
-    z-index: 4;
-    width: 40px;
-    text-align: center;
-    height: 42px;
-    line-height: 42px;
-    opacity: 0;
-    visibility: hidden;
-    -webkit-transition: .9s;
-    -o-transition: .9s;
-    transition: .9s;
-    -webkit-transform: translateY(150px);
-    -ms-transform: translateY(150px);
-    transform: translateY(150px);
-}
-
-.go-top.active {
-    -webkit-animation: slideInRight 1s;
-    animation: slideInRight 1s;
-    -webkit-transform: translateY(0);
-    -ms-transform: translateY(0);
-    transform: translateY(0);
-    opacity: 1;
-    visibility: visible;
-}
-
-.go-top i {
-    position: absolute;
-    top: 50%;
-    -webkit-transform: translateY(-50%);
-    -ms-transform: translateY(-50%);
-    transform: translateY(-50%);
-    left: 0;
-    right: 0;
-    margin: 0 auto;
-    -webkit-transition: 0.5s;
-    -o-transition: 0.5s;
-    transition: 0.5s;
-}
-
-.go-top i:last-child {
-    opacity: 0;
-    visibility: hidden;
-    top: 60%;
-}
-
-.go-top::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: -1;
-    background-size: 200% auto;
-    background: #33c9dd;
-    opacity: 0;
-    visibility: hidden;
-    -webkit-transition: 0.5s;
-    -o-transition: 0.5s;
-    transition: 0.5s;
-    border-radius: 50%;
-}
-
-.go-top:hover, .go-top:focus {
-    color: #ffffff;
-    background-position: right center;
-}
-
-.go-top:hover::before, .go-top:focus::before {
-    opacity: 1;
-    visibility: visible;
-}
-
-.go-top:hover i:first-child, .go-top:focus i:first-child {
-    opacity: 0;
-    top: 0;
-    visibility: hidden;
-}
-
-.go-top:hover i:last-child, .go-top:focus i:last-child {
-    opacity: 1;
-    visibility: visible;
-    top: 50%;
-}
 
 /* ===================================
     Image Hover
@@ -1387,7 +1295,7 @@ figure.snip0015 {
     position: relative;
     overflow: hidden;
     width: 100%;
-    background-image: -webkit-linear-gradient( 190deg, #33c9dd 25%, #33c9dd 50%);
+    background-image: -webkit-linear-gradient( 190deg, #66593A 25%, #66593A 50%);
     text-align: center;
 }
 
