@@ -83,6 +83,7 @@
         justify-content: center;
         flex-wrap: wrap;
         align-content: center;
+        text-shadow: 0px 0px 30px rgba(150, 150, 150, 1);
     }
 
     .m-t-60{ 
@@ -280,6 +281,7 @@ section{padding: 7.5rem 0;}
     padding-bottom: 0;
     padding-top: 0;
     z-index: 9;
+    flex-wrap: nowrap;
 }
 
 .center-brand {
@@ -1021,6 +1023,12 @@ section{padding: 7.5rem 0;}
     .testimonial-sec::after {
         background-position: 60% 25%;
     }
+    .slider-heading {
+        font-size: 22px;
+    }
+}
+@media (min-width: 768px) {
+
 }
 
 /* ===================================
@@ -1032,11 +1040,10 @@ section{padding: 7.5rem 0;}
 }
 
 .slider-heading {
-    font-size: 32px !important;
+    font-size: 34px;
 }
 
 .slider-paragraph {
-    font-size: 24px;
     font-weight: 300;
     font-family: "Open Sans" ,sans-serif !important;
 }
@@ -1988,6 +1995,11 @@ figure.snip0015:hover figcaption::before {
 }
 
 @media screen and (max-width:991px){
+    .sidemenu_btn {
+        display: flex;
+        flex-direction: row;
+        margin-top: 4px;
+    }
     .snip1577 figcaption {
         left: 75px;
         bottom: 95px;
@@ -2107,8 +2119,8 @@ figure.snip0015:hover figcaption::before {
         padding-left: 0;
     }
     .sidemenu_btn {
-        display: block;
-        position:fixed;
+        display: flex;
+        flex-direction: row;
         margin-top: 4px;
     }
     .side-menu {
@@ -2128,7 +2140,7 @@ figure.snip0015:hover figcaption::before {
         background-color: #81a109;
     }
     .slider-heading {
-        font-size: 54px;
+        font-size: 22px !important;
     }
     .slider-paragraph {
         font-size: 18px;

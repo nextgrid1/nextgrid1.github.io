@@ -588,7 +588,7 @@ jQuery(function ($) {
     });
 
     /* =====================================
-                 Pricing duration toggle
+                Pricing duration toggle
        ===================================== */
 
     $('.Pricing-toggle-button').on('click', function () {

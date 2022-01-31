@@ -2059,6 +2059,7 @@ a.dropdown-toggle::after {
     .process-wrapp li::after {
         width: 70% !important;
         left: 195px;
+        white-space: nowrap;
     }
     .process-wrapp li:nth-child(even)::after,
     .process-wrapp li:last-child::after {
@@ -2638,11 +2639,16 @@ iframe {
 
 
 /* Work Process */
+.content-align1{
+    justify-content: center;
+}
 
 .process-wrapp {
+    text-align: center;
     overflow: hidden;
     display: table;
     table-layout: fixed;
+    width: 900px;
     margin: 0 15px;
 }
 
@@ -3068,6 +3074,15 @@ iframe {
 @media screen and (max-width: 992px) {
     .process-wrapp {
         text-align: center;
+        overflow: hidden;
+        display: flex;
+        table-layout: fixed;
+        width: 900px;
+        margin: 0 15px;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: flex-start;
     }
     .process-wrapp li {
         display: inline-block;
@@ -3082,6 +3097,15 @@ iframe {
         max-width: 300px;
         display: inline-block;
     }
+    .process-wrapp li::before,
+    .process-wrapp li::after {
+    height: 1px;
+    top: 105px;
+    background: rgba(255, 255, 255, .5);
+    width: 30%;
+    z-index: -1;
+    margin: 0;
+}
 }
 
 @media screen and (max-width: 768px) {
