@@ -1114,53 +1114,43 @@ html .overlay-color-light:not(.no-skin):before {
 }
 
 html .btn-primary {
-	background-color: #0052CC;
-	border-color: #0052CC #0052CC #003d99;
+	background: linear-gradient(to left, #E100FF, #7F00FF);
 	color: #FFF;
-	--color: #0052CC;
-	--hover: #0061f2;
-	--disabled: #0052CC;
-	--active: #0043a6;
 }
 
 html .btn-primary:hover,
 html .btn-primary.hover {
-	background-color: #0061f2;
-	border-color: #0066ff #0066ff #0052CC;
+	background: linear-gradient(to right #c600e0, #6e00db);
 	color: #FFF;
 }
 
 html .btn-primary:focus,
 html .btn-primary.focus {
-	background-color: #0043a6;
-	border-color: #003d99 #003d99 #002966;
+	background: linear-gradient(to left, #c600e0, #6e00db);
 	color: #FFF;
 	box-shadow: 0 0 0 3px rgba(0, 82, 204, 0.5);
 }
 
 html .btn-primary.disabled,
 html .btn-primary:disabled {
-	background-color: #0052CC;
-	border-color: #0052CC #0052CC #003d99;
+	background-color: #c600e0;
 }
 
 html .btn-primary:active,
 html .btn-primary.active {
-	background-color: #0043a6 !important;
+	background-color: #c600e0;
 	background-image: none !important;
-	border-color: #003d99 #003d99 #002966 !important;
+
 }
 
 html .btn-primary-scale-2 {
 	background-color: #003d99;
-	border-color: #003d99 #003d99 #002966;
 	color: #FFF;
 }
 
 html .btn-primary-scale-2:hover,
 html .btn-primary-scale-2.hover {
 	background-color: #004dbf;
-	border-color: #0052cc #0052cc #003d99;
 	color: #FFF;
 }
 

@@ -1,2 +1,10 @@
 Roxo
 #6d0679
+
+background: #6a3093;
+background: -webkit-linear-gradient(to right, #a044ff, #6a3093);
+background: linear-gradient(to right, #a044ff, #6a3093);
+
+background: #7F00FF;
+background: -webkit-linear-gradient(to right, #E100FF, #7F00FF);
+background: linear-gradient(to right, #E100FF, #7F00FF);
