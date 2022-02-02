@@ -51,6 +51,16 @@
 19 Media Queries
 
 /*Global Styling*/
+.nav-custom{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+}
+.icon-white{
+    display: none;
+}
+
 
 @import url('https://fonts.googleapis.com/css?family=Montserrat:200,300,400,500,600,700,800|Open+Sans:300,400,600,700');
 body {
@@ -1267,6 +1277,17 @@ ul.links li a::before,
     -o-animation-fill-mode: both;
     animation-fill-mode: both;
 }
+.fixedmenu .container .navbar-collapse .icon-white{
+    display: flex;
+}
+
+.fixedmenu .container .navbar-collapse .icon-white .d-table:hover .facebook{
+    color: #ffffff;
+}
+
+.fixedmenu .container .navbar-collapse .icon-white .d-table:hover .insta{
+    color: #ffffff;
+}
 
 .fixedmenu.no-animation {
     animation: none;
@@ -2083,6 +2104,9 @@ a.dropdown-toggle::after {
 }
 
 @media (max-width: 576px) {
+    .icon-mobile {
+        display: flex !important;
+    }
     .side-menu .inner-wrapper {
         padding: 2rem 5rem;
     }
@@ -5656,6 +5680,10 @@ ul.latest_news li a:focus+span.defaultcolor {
 @media (max-width: 767px) {
     .revicon {
         display: none;
+        visibility: hidden;
+        opacity: 0;
+    }
+    .revicon2 {
         visibility: hidden;
         opacity: 0;
     }
