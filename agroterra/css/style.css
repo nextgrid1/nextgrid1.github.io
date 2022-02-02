@@ -239,14 +239,14 @@ section{padding: 7.5rem 0;}
 /* button */
 .btn {-webkit-appearance: initial; overflow: hidden;position: -webkit-sticky;position: sticky; z-index: 2; display:inline-block; font-size: 15px; border:2px solid transparent; letter-spacing: .5px; line-height: inherit; border-radius: 0; width: auto;font-family: 'Raleway', sans-serif; font-weight: normal; -webkit-transition: all .5s ease;-o-transition: all .5s ease !important;transition: all .5s ease !important;}
 /* Blue button */
-.btn.btn-blue {background: #33c9dd; border-color: #33c9dd; color: #ffffff}
+.btn.btn-blue {background: #917F56; border-color: #33c9dd; color: #ffffff}
 .btn.btn-blue:hover {background: #81a109 !important; border-color: #81a109; color: #ffffff !important}
 /* Green button */
 .btn.btn-green {background: #81a109; border-color: #81a109; color: #ffffff}
 .btn.btn-green:hover {background: #33c9dd !important; border-color: #33c9dd; color: #ffffff !important}
 /* Transparent button */
-.btn.btn-trans {background: transparent; border-color: #ffffff; color: #ffffff}
-.btn.btn-trans:hover {background: #33c9dd !important; border-color: #33c9dd; color: #ffffff !important}
+.btn.btn-trans {background: #81a109; border-color: #ffffff; color: #ffffff}
+.btn.btn-trans:hover {background: #917F56 !important; border-color: #81a109; color: #ffffff !important}
 
 /* button size */
 .btn.btn-small {font-size:12px; padding: 4px 1.8em;}
@@ -1045,6 +1045,7 @@ section{padding: 7.5rem 0;}
 
 .slider-paragraph {
     font-weight: 300;
+    font-size: 30px !important;
     font-family: "Open Sans" ,sans-serif !important;
 }
 
