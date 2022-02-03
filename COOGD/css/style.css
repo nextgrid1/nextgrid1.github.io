@@ -48,10 +48,15 @@
 16 coming soon
 17 Pricing Table
 18 Footer
-19 Media Queries
+19 Media Queries+
+
+
 
 /*Global Styling*/
 .nav-custom{
+    position: relative;
+    width: 100%;
+    z-index: 111;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -59,6 +64,41 @@
 }
 .icon-white{
     display: none;
+}
+
+.carrossel{
+    display: flex;
+    justify-content: center;
+    margin-top: -100px;
+}
+.box-carrossel {
+    font-family: 'Montserrat';
+    width: 28vw;
+    background-color: #ffb902;
+    color: #fff;
+    padding: 4.5rem 2rem;
+    text-align: center;
+    margin-top: -25px;
+}
+.box-carrossel i {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+.box2-carrossel i {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+.box2-carrossel {
+    font-family: 'Montserrat';
+    width: 25vw;
+    padding: 3rem 2rem;
+    background: #026cb8;
+    color: #fff;
+    text-align: center;
+    -webkit-transition: all .5s ease .1s;
+    -o-transition: all .5s ease .1s;
+    transition: all .5s ease .1s;
+    z-index: 2;
 }
 
 
@@ -2796,6 +2836,8 @@ iframe {
 
 
 /*App Features*/
+#app-feature{
+}
 
 #app-feature .feature-item:hover,
 .feature-item.image {
@@ -5781,6 +5823,41 @@ ul.latest_news li a:focus+span.defaultcolor {
 }
 
 @media (max-width: 576px) {
+    .carrossel{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin-top: 20px;
+        margin-bottom: 5rem;
+    }
+    .box-carrossel {
+        font-family: 'Montserrat';
+        width: 100%;
+        background-color: #ffb902;
+        color: #fff;
+        padding: 5rem 2rem 4rem 2rem;
+        text-align: center;
+    }
+    .box-carrossel i {
+        font-size: 3rem;
+        margin-bottom: 1rem;
+    }
+    .box2-carrossel i {
+        font-size: 3rem;
+        margin-bottom: 1rem;
+    }
+    .box2-carrossel {
+        font-family: 'Montserrat';
+        width: 100%;
+        padding: 3rem 2rem;
+        background: #026cb8;
+        color: #fff;
+        text-align: center;
+        -webkit-transition: all .5s ease .1s;
+        -o-transition: all .5s ease .1s;
+        transition: all .5s ease .1s;
+        z-index: 2;
+    }
     html {
         font-size: 13px;
     }
