@@ -100,6 +100,9 @@
     transition: all .5s ease .1s;
     z-index: 2;
 }
+.inverter{
+    flex-direction: row-reverse;
+}
 
 
 @import url('https://fonts.googleapis.com/css?family=Montserrat:200,300,400,500,600,700,800|Open+Sans:300,400,600,700');
@@ -470,6 +473,10 @@ p {
 
 .font-19 {
     font-size: 19px;
+}
+
+.font-60 {
+    font-size: 52px;
 }
 
 .bglight {
@@ -5823,6 +5830,7 @@ ul.latest_news li a:focus+span.defaultcolor {
 }
 
 @media (max-width: 576px) {
+
     .carrossel{
         display: flex;
         justify-content: center;
