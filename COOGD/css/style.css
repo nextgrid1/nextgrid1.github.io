@@ -106,7 +106,66 @@
 .navbar-nav .d-table:first-child {
     margin-right: 15px!important;
 }
+.card {
+    background-color: #fff;
+    border: 0 solid rgba(0,0,0,.125);
+}
 
+.card-body {
+    padding: 0;
+    text-align: center;
+}
+.cover{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+.cover:hover{
+    border-radius: 15px;
+    -webkit-box-shadow: 2px 2px 15px #e1e1e1;
+    box-shadow: 2px 2px 15px #e1e1e1;
+}
+
+.numbering {
+    font-size: 48px;
+    font-weight: normal;
+    font-family: "Open Sans", sans-serif;
+}
+
+.cover:hover .numbering{
+    background: -webkit-linear-gradient( 180deg,rgb(33, 35, 49) 85%, rgb(33, 35, 49) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.cover:hover .card-title{
+    color: #81a109;
+}
+
+.cover:hover .versa-effect{
+    color: #33c9dd;
+}
+
+.cover{
+    padding: 25px;
+    cursor: pointer;
+    -webkit-transition: 0.4s ease;
+    -o-transition: 0.4s ease;
+    transition: 0.4s ease;
+}
+
+.cover .card-title{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-size: 30px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: normal;
+    color: rgb(33, 35, 49);
+    -webkit-transition: 0.9s ease;
+    -o-transition: 0.9s ease;
+    transition: 0.9s ease;
+}
 @import url('https://fonts.googleapis.com/css?family=Montserrat:200,300,400,500,600,700,800|Open+Sans:300,400,600,700');
 body {
     font-size: 15px;
@@ -3112,7 +3171,6 @@ iframe {
 }
 
 .card-body {
-    border-top: 1px solid rgba(0, 0, 0, .1);
     padding-top: 1.85rem;
     padding-bottom: 1.35rem;
 }

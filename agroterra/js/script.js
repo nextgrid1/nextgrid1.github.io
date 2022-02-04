@@ -264,7 +264,7 @@ jQuery(function ($) {
     if ($(".count-number") && $(".count-number").length) {
         $('.count-number').data('countToOptions', {
             formatter: function (value, options) {
-                return value.toFixed(options.decimals).replace(/\B(?=(?:\d{3})+(?!\d))/g, ',');
+                return value.toFixed(options.decimals).replace(/\B(?=(?:\d{3})+(?!\d))/g, '.');
             }
         });
 
