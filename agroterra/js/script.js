@@ -1,4 +1,41 @@
 "use strict";
+/*parallax*/
+var backgroundParallax = $('.banner-parallax');
+var parallaxStrengthInvert = 3; // Divider. Larger number means less effect.
+
+function resizeParallaxBackgrounds() {
+    backgroundParallax.each(function () {
+        var elementHeight = $(this).height();
+        var windowHeight = $(window).height();
+        var backgroundHeight = windowHeight + elementHeight;
+        $(this).css('background-size', backgroundHeight + 'px auto');
+    });
+}
+
+$(document).ready(resizeParallaxBackgrounds);
+$(window).resize(resizeParallaxBackgrounds);
+
+$(window).scroll(function () {
+    var scrollTop = $(this).scrollTop();
+    var windowHeight = $(this).height();
+
+    backgroundParallax.each(function () {
+        var elementTop = $(this).offset().top;
+        var elementHeight = $(this).height();
+
+        if (scrollTop + windowHeight > elementTop) {
+            var maxElementWindowAmount = windowHeight + elementHeight;
+            var maxParallaxAmount = maxElementWindowAmount / parallaxStrengthInvert;
+            var elementInViewportAmount = scrollTop + windowHeight - elementTop;
+            var elementInViewportPercent =
+                elementInViewportAmount / maxElementWindowAmount;
+            var backgroundPosition =
+                (1 - elementInViewportPercent) * maxParallaxAmount * -1;
+            $(this).css('background-position', 'center ' + backgroundPosition + 'px');
+        }
+    });
+});
+
 
 
 /* ===================================
@@ -44,22 +81,22 @@ if ($("nav.navbar").hasClass("fixed-bottom")) {
     Go Top Scroll
 ====================================== */
 
-$(function(){
+$(function () {
     // Scroll Event
-    $(window).on('scroll', function(){
+    $(window).on('scroll', function () {
         var scrolled = $(window).scrollTop();
         if (scrolled > 600) $('.go-top').addClass('active');
         if (scrolled < 600) $('.go-top').removeClass('active');
     });
     // Click Event
-    $('.go-top').on('click', function() {
-        $("html, body").animate({ scrollTop: "0" },  500);
+    $('.go-top').on('click', function () {
+        $("html, body").animate({ scrollTop: "0" }, 500);
     });
 });
 
 /* Hide Menu on Mobile Click */
 
-$(".navbar-nav>li>a").on("click", function(){
+$(".navbar-nav>li>a").on("click", function () {
     $(".navbar-collapse").collapse("hide");
 });
 
@@ -87,7 +124,7 @@ if ($("#sidemenu_toggle").length) {
     });
 }
 
-if($(".just-sidemenu").length){
+if ($(".just-sidemenu").length) {
     var anchor_point = $(".rotating-words").height();
     var side_toggle = $(".just-sidemenu #sidemenu_toggle");
     side_toggle.addClass("toggle_white");
@@ -141,18 +178,18 @@ $("#portfolio-measonry").cubeportfolio({
     COUNTER
 ====================================== */
 (function ($) {
-    $.fn.countTo = function (options,viewCounter) {
-        if(viewCounter == 1){
+    $.fn.countTo = function (options, viewCounter) {
+        if (viewCounter == 1) {
             options = options || {};
 
             return $(this).each(function () {
                 // set options for current element
                 var settings = $.extend({}, $.fn.countTo.defaults, {
-                    from:            $(this).data('from'),
-                    to:              $(this).data('to'),
-                    speed:           $(this).data('speed'),
+                    from: $(this).data('from'),
+                    to: $(this).data('to'),
+                    speed: $(this).data('speed'),
                     refreshInterval: $(this).data('refresh-interval'),
-                    decimals:        $(this).data('decimals')
+                    decimals: $(this).data('decimals')
                 }, options);
 
                 // how many times to update the value, and how much to increment the value on each update
@@ -183,7 +220,7 @@ $("#portfolio-measonry").cubeportfolio({
 
                     render(value);
 
-                    if (typeof(settings.onUpdate) == 'function') {
+                    if (typeof (settings.onUpdate) == 'function') {
                         settings.onUpdate.call(self, value);
                     }
                     if (loopCount >= loops) {
@@ -192,7 +229,7 @@ $("#portfolio-measonry").cubeportfolio({
                         clearInterval(data.interval);
                         value = settings.to;
 
-                        if (typeof(settings.onComplete) == 'function') {
+                        if (typeof (settings.onComplete) == 'function') {
                             settings.onComplete.call(self, value);
                         }
                     }
@@ -224,7 +261,7 @@ $("#portfolio-measonry").cubeportfolio({
 ======================================== */
 jQuery(function ($) {
     // custom formatting example
-    if ($( ".count-number" ) && $( ".count-number" ).length ) {
+    if ($(".count-number") && $(".count-number").length) {
         $('.count-number').data('countToOptions', {
             formatter: function (value, options) {
                 return value.toFixed(options.decimals).replace(/\B(?=(?:\d{3})+(?!\d))/g, ',');
@@ -249,7 +286,7 @@ jQuery(function ($) {
 
 // check if element visible in viewport
 
-$.fn.isOnScreen = function() {
+$.fn.isOnScreen = function () {
     var win = $(window);
     var viewport = {
         top: win.scrollTop(),
@@ -270,11 +307,11 @@ $.fn.isOnScreen = function() {
 ====================================== */
 var owl5 = $('.owl-testimonial');
 owl5.owlCarousel({
-    items:1,
-    dots:true,
-    loop:true,
+    items: 1,
+    dots: true,
+    loop: true,
     responsiveClass: true,
-    center:true,
+    center: true,
     responsive: {
         0: {
             items: 1,

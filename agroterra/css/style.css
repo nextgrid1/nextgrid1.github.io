@@ -37,9 +37,17 @@
     Google font
 ====================================== */
 
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;300;400;500;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Dongle:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,900&display=swap');
 
 .main-font{font-family: 'Raleway', sans-serif;}
 .alt-font{font-family: 'Open Sans', sans-serif;}
@@ -83,6 +91,7 @@
         justify-content: center;
         flex-wrap: wrap;
         align-content: center;
+        color: rgb(255, 255, 255);
         text-shadow: 0px 0px 30px rgba(150, 150, 150, 1);
     }
 
@@ -100,28 +109,8 @@
         padding-top: 1rem;
         padding-bottom: 2rem;
     }
-    .testimonial-sec {
-        display: flex;
-        flex-direction: column;
-        width: 100%;
-        color: #FFFFFF;
-    }
-    .testimonial-sec::after {
-        content: "";
-        position: absolute;
-        top: 0;
-        right: 0;
-        left: 0;
-        bottom: 0;
-        width: 100%;
-        z-index: -1;
-        background-image: url(./../images/banner2.png);
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: 0% 90%;
-    }
 
-    .pink-and-purple-btn{font-size: 12px;font-family: 'Roboto', sans-serif;padding: 12px 48px;color:#ffffff;font-weight: 600;background-color:#66593A;border:1px solid transparent;border-radius: 0;}
+    .pink-and-purple-btn{font-size: 12px;font-family: 'Roboto', sans-serif;padding: 12px 48px;color:#ffffff;font-weight: 600;background-color:#66593A;border:1px solid #5a5a5a;border-radius: 0;}
     .pink-and-purple-btn:hover{color: #ffffff !important;background-color: #907D4C !important;border: 1px solid transparent;}
 
 
@@ -239,7 +228,7 @@ section{padding: 7.5rem 0;}
 /* button */
 .btn {-webkit-appearance: initial; overflow: hidden;position: -webkit-sticky;position: sticky; z-index: 2; display:inline-block; font-size: 15px; border:2px solid transparent; letter-spacing: .5px; line-height: inherit; border-radius: 0; width: auto;font-family: 'Raleway', sans-serif; font-weight: normal; -webkit-transition: all .5s ease;-o-transition: all .5s ease !important;transition: all .5s ease !important;}
 /* Blue button */
-.btn.btn-blue {background: #917F56; border-color: #33c9dd; color: #ffffff}
+.btn.btn-blue {background: #917F56; border-color: #cfcfcf; color: #ffffff}
 .btn.btn-blue:hover {background: #81a109 !important; border-color: #81a109; color: #ffffff !important}
 /* Green button */
 .btn.btn-green {background: #81a109; border-color: #81a109; color: #ffffff}
@@ -1119,6 +1108,20 @@ section{padding: 7.5rem 0;}
     line-height: 1.7;
     font-weight: 400;
 }
+.info2{
+    color: #363636;
+    font-size: 22px;
+    font-family:'Open Sans', sans-serif;
+    line-height: 1.7;
+    font-weight: 600;
+}
+.info3{
+    color: #363636;
+    font-size: 20px;
+    font-family:'Open Sans', sans-serif;
+    line-height: 1.7;
+    font-weight: 500;
+}
 
 .margin_button{
     margin-top: 25px;
@@ -1135,6 +1138,11 @@ section{padding: 7.5rem 0;}
 
 .card-body {
     padding: 0;
+}
+.cover{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
 }
 
 .cover:hover{
@@ -1210,7 +1218,7 @@ section{padding: 7.5rem 0;}
 }
 
 .main_heading{
-    font-size: 48px;
+    font-size: 38px;
     font-family: 'Raleway', sans-serif;
     font-weight: 300;
     color: rgb(33, 35, 49);
@@ -1534,7 +1542,7 @@ figure.snip0015:hover figcaption::before {
     line-height: 0.899;
 }
 .count-text {
-    font-size: 16px;
+    font-size: 18px;
     font-family: 'Open Sans', sans-serif;
     color: #212331;
     margin-top: 10px;
@@ -1559,17 +1567,17 @@ figure.snip0015:hover figcaption::before {
 
 #training_video{
     padding: 0;
-    background: #f6f6f6;
 }
 
 .vedio-heading{
     text-align: left;
-    margin-top: 17.5%;
-    margin-bottom: 17.5%;
+    margin-top: 8%;
+    margin-bottom: 10%;
 }
 
 .vedio_img{
     margin-top: 40px;
+    margin-bottom: 40px;
 }
 
 .img-list {
@@ -1755,9 +1763,6 @@ figure.snip0015:hover figcaption::before {
     padding-bottom: 0;
     margin-bottom: 125px;
     overflow: hidden !important;
-}
-.contact_text{
-    text-align: center;
 }
 .contact_margin{
     margin-left: auto;

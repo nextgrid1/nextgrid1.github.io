@@ -103,7 +103,9 @@
 .inverter{
     flex-direction: row-reverse;
 }
-
+.navbar-nav .d-table:first-child {
+    margin-right: 15px!important;
+}
 
 @import url('https://fonts.googleapis.com/css?family=Montserrat:200,300,400,500,600,700,800|Open+Sans:300,400,600,700');
 body {
@@ -473,6 +475,18 @@ p {
 
 .font-19 {
     font-size: 19px;
+}
+
+.font-20 {
+    font-size: 20px;
+}
+
+.font-21 {
+    font-size: 21px;
+}
+
+.font-22 {
+    font-size: 22px;
 }
 
 .font-60 {
@@ -918,7 +932,7 @@ ul.social-icons li {
 
 ul.social-icons li a,
 ul.social-icons-simple li a {
-    height: 30px;
+    height: px;
     line-height: 30px;
     width: 30px;
     font-size: 14px;
@@ -2759,12 +2773,7 @@ iframe {
     z-index: -1;
 }
 
-.process-wrapp li p:first-child {
-    font-size: 15px;
-}
-
 .process-wrapp li p:last-child {
-    font-size: 13px;
     margin-bottom: 4px;
 }
 
@@ -5830,7 +5839,23 @@ ul.latest_news li a:focus+span.defaultcolor {
 }
 
 @media (max-width: 576px) {
-
+    p.title{
+        font-size: 1.3rem;
+        font-weight: 400;
+    }
+    .navbar-nav .d-table:first-child {
+        margin-right: 10px!important;
+    }
+    
+    .fixedmenu .container .navbar-collapse .icon-white{
+        flex-direction: row;
+    }
+    .navbar-nav{
+        margin:0;
+    }
+    .navbar-collapse{
+        flex-basis:0;
+    }
     .carrossel{
         display: flex;
         justify-content: center;
