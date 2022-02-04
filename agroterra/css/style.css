@@ -36,7 +36,6 @@
 /* ===================================
     Google font
 ====================================== */
-
 .center {
     display: block;
     margin-left: auto;
@@ -2149,7 +2148,7 @@ figure.snip0015:hover figcaption::before {
         font-size: 22px !important;
     }
     .slider-paragraph {
-        font-size: 18px;
+        font-size: 20px !important;
     }
     .wow {
         visibility: visible !important;
@@ -2303,11 +2302,14 @@ figure.snip0015:hover figcaption::before {
     }
     .standalone-detail .para_text {
         font-size: 15px;
+        font-weight: 600;
     }
-    .para_text {
-        font-size: 15px;
+    .para_text{
+        font-weight: 400;
     }
-
+    .container-xxl{
+        max-width: 380px;
+    }
 }
 
 #spin-loader {
