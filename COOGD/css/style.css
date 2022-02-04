@@ -932,7 +932,7 @@ ul.social-icons li {
 
 ul.social-icons li a,
 ul.social-icons-simple li a {
-    height: px;
+    height: 30px;
     line-height: 30px;
     width: 30px;
     font-size: 14px;
@@ -5736,6 +5736,9 @@ ul.latest_news li a:focus+span.defaultcolor {
 }
 
 @media (max-width: 767px) {
+    h4.heading-title-small {
+        font-size: 1.5rem;
+    }
     .revicon {
         display: none;
         visibility: hidden;
