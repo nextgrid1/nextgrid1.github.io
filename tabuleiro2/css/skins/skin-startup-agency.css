@@ -3000,7 +3000,8 @@ html .toggle-light.toggle-minimal .toggle.active > .toggle-title {
 .thumbnail .zoom,
 .img-thumbnail .zoom,
 .thumb-info-ribbon {
-	background-color: #FCEABB;
+	background-color: #FAE706;
+	color: #000000;
 }
 
 html .thumb-info .thumb-info-action-icon-primary {

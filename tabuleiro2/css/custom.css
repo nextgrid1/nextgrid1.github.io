@@ -1,0 +1,24 @@
+.clients .client {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 20%;
+    flex: 0 0 20%;
+    text-align: center;
+    margin: 25px 0;
+    -ms-flex-item-align: center;
+    align-self: center;
+}
+
+@media screen and (max-width: 767px){
+    .clients .client {
+        margin: 10px 0;
+    }
+}
+@media screen and (max-width: 991px){
+    .clients .client {
+        max-width: 33.333333%;
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 33.333333%;
+        flex: 0 0 33.333333%;
+        padding: 0 15px;
+    }
+}
