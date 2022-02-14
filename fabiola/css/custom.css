@@ -1,0 +1,6 @@
+.icone-navbar{
+    display: none !important;
+}
+.sticky-header-active .icone-navbar{
+    display: flex !important;
+}
