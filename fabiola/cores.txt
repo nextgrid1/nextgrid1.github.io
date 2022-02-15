@@ -1,17 +1,17 @@
-Roxo Lucid
-#6d0679
+Nude
+#FFF8FC
 
-Roxo Novo
-#9733EE
+Pale Purple
+#FFE6F3
 
-background: #6a3093;
-background: -webkit-linear-gradient(to right, #a044ff, #6a3093);
-background: linear-gradient(to right, #a044ff, #6a3093);
+Verde Claro
+#A1D3C7
 
-background: #7F00FF;
-background: -webkit-linear-gradient(to right, #E100FF, #7F00FF);
-background: linear-gradient(to right, #E100FF, #7F00FF);
+Verde Escuro
+#286562
 
-background: #DA22FF;
-background: -webkit-linear-gradient(to left, #9733EE, #DA22FF);
-background: linear-gradient(to left, #9733EE, #DA22FF); 
+Roxo
+#822243
+
+Roxo Escuro
+#4F2741

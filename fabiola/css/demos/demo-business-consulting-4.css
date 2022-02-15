@@ -129,8 +129,8 @@
 .custom-element-wrapper.custom-element-8 {
 		top: -5%;
 		left: -6%;
-		-webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 77.2% 100%, 0 54%);
-						clip-path: polygon(0 0, 100% 0, 100% 100%, 77.2% 100%, 0 54%);
+		-webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 66.2% 100%, 0 54%);
+		clip-path: polygon(0 0, 100% 0, 100% 100%, 61% 100%, 0 55%);
 }
 
 @media (min-width: 768px) {
@@ -157,7 +157,7 @@
 @media (min-width: 1400px) {
 		.custom-element-wrapper.custom-element-8 {
 				top: 5%;
-				left: 63%;
+				left: 62%;
 		}
 }
 

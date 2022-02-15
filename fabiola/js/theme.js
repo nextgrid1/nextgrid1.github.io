@@ -1,8 +1,7 @@
-/*
-Name: 			Theme Base
-Written by: 	Okler Themes - (http://www.okler.net)
-Theme Version:	9.4.0
-*/
+var box = document.getElementById('box');
+window.onmousemove = function (e) {
+	box.style.transform  = "rotateX(-30deg) rotateY(" + e.clientX + "deg)";
+};
 
 // Theme
 window.theme = {};
