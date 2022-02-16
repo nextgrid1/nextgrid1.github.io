@@ -1,149 +1,317 @@
-.icone-navbar{
+.icone-navbar {
     display: none !important;
 }
-.sticky-header-active .icone-navbar{
+
+.sticky-header-active .icone-navbar {
     display: flex !important;
 }
 
-/*
+/*------------------
     Box
-*/
+-------------------*/
 
 @import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
 
-#box
-{
-	position: relative;
-	width: 300px;
-	height: 300px;
-	transform-style: preserve-3d;
-	transform: 0.5s;
-	animation: animate 10s linear infinite;
+#box {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    transform-style: preserve-3d;
+    transform: 0.5s;
+    animation: animate 10s linear infinite;
 }
-@keyframes animate 
-{
-	0%
-	{
-		transform: rotateX(-30deg) rotateY(360deg);
-	}
-	100%
-	{
-		transform: rotateX(-30deg) rotateY(0deg);
-	}
+
+@keyframes animate {
+    0% {
+        transform: rotateX(-30deg) rotateY(360deg);
+    }
+
+    100% {
+        transform: rotateX(-30deg) rotateY(0deg);
+    }
 }
-#box .top
-{
-	content: '';
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 300px;
-	height: 300px;
-	background: #e8bb84;
-	display: flex;
-	align-items: center;
-	transform: rotateX(90deg) translateZ(150px);
+
+#box .top {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 300px;
+    height: 300px;
+    background: #e8bb84;
+    display: flex;
+    align-items: center;
+    transform: rotateX(90deg) translateZ(150px);
 }
-#box .top::before 
-{
-	content: '';
-	position: absolute;
-	width: 100%;
-	height: 60px;
-	background: #000 url(../img/tape.jpg);
-	background-size: 85px;
-	background-repeat: repeat-x;
+
+#box .top::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 60px;
+    background: #000 url(../img/tape.jpg);
+    background-size: 85px;
+    background-repeat: repeat-x;
 }
-#box::after
-{
-	content: '';
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 300px;
-	height: 300px;
-	background: rgba(0,0,0,0.05);
-	transform: rotateX(90deg) translateZ(-220px);
-	filter: blur(15px);
+
+#box::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 300px;
+    height: 300px;
+    background: rgba(0, 0, 0, 0.05);
+    transform: rotateX(90deg) translateZ(-220px);
+    filter: blur(15px);
 }
-#box div
-{
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	transform-style: preserve-3d;
+
+#box div {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
 }
-#box div span
-{
-	position: absolute;
-	top: 0;
-	left: 0;
-	display: block;
-	width: 100%;
-	height: 100%;
-	display: flex;
-	justify-content: center;
-	align-items: center;
+
+#box div span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-#box div span:nth-child(1)
-{
-	transform: rotateY(0deg) translate3d(0,0,150px);
-	background: #d8aa77;
+
+#box div span:nth-child(1) {
+    transform: rotateY(0deg) translate3d(0, 0, 150px);
+    background: #d8aa77;
 }
-#box div span:nth-child(1)::before 
-{
-	content: '';
-	position: absolute;
-	width: 200px;
-	height: 200px;
-	background: url(../img/logos/logo-roxo-verde.png);
-	background-size: 200px;
-	background-repeat: no-repeat;
-	background-position: center;
+
+#box div span:nth-child(1)::before {
+    content: '';
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    background: url(../img/logos/logo-roxo-verde.png);
+    background-size: 200px;
+    background-repeat: no-repeat;
+    background-position: center;
 }
-#box div span:nth-child(2)
-{
-	transform: rotateY(90deg) translate3d(0,0,150px);
-	background: #ca9864;
+
+#box div span:nth-child(2) {
+    transform: rotateY(90deg) translate3d(0, 0, 150px);
+    background: #ca9864;
 }
-#box div span:nth-child(3)
-{
-	transform: rotateY(180deg) translate3d(0,0,150px);
-	background: #d8aa77;
+
+#box div span:nth-child(3) {
+    transform: rotateY(180deg) translate3d(0, 0, 150px);
+    background: #d8aa77;
 }
-#box div span:nth-child(3)::before 
-{
-	content: '';
-	position: absolute;
-	width: 200px;
-	height: 200px;
-	background: url(../img/logos/logo-simples-roxo-claro.png);
-	background-size: 200px;
-	background-repeat: no-repeat;
-	background-position: center;
+
+#box div span:nth-child(3)::before {
+    content: '';
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    background: url(../img/logos/logo-simples-roxo-claro.png);
+    background-size: 200px;
+    background-repeat: no-repeat;
+    background-position: center;
 }
-#box div span:nth-child(4)
-{
-	transform: rotateY(270deg) translate3d(0,0,150px);
-	background: #ca9864;
+
+#box div span:nth-child(4) {
+    transform: rotateY(270deg) translate3d(0, 0, 150px);
+    background: #ca9864;
 }
-.tape 
-{
-	position: absolute;
-	top: 30px;
-	left: 50%;
-	transform: translate(-50%) rotate(90deg);
-	width: 120px;
-	height: 60px;
-	background: #000 url(../img/tape.jpg);
-	background-size: 85px;
-	background-repeat: repeat-x;
-	background-position-x: 45px;
+
+.tape {
+    position: absolute;
+    top: 30px;
+    left: 50%;
+    transform: translate(-50%) rotate(90deg);
+    width: 120px;
+    height: 60px;
+    background: #000 url(../img/tape.jpg);
+    background-size: 85px;
+    background-repeat: repeat-x;
+    background-position-x: 45px;
 }
-#box div span:nth-child(4) .tape 
-{
-	transform: translate(-50%) rotate(270deg);
-	background-position-x: 30px;
+
+#box div span:nth-child(4) .tape {
+    transform: translate(-50%) rotate(270deg);
+    background-position-x: 30px;
+}
+
+
+/* Card price*/
+
+.wrapper-card {
+    width: 80%;
+    margin: 40px auto;
+}
+
+.cardp {
+    background: #fff;
+    border-radius: 3px;
+    box-shadow: 0 1px 1px transparent;
+    width: 40%;
+    float: left;
+    margin: 8px;
+    padding: 30px;
+    position: relative;
+    text-align: center;
+    transition: all 0.5s ease-in-out;
+}
+
+
+.cardp.popular .card-title h3 {
+    color: #822243;
+    font-size: 22px;
+}
+
+.cardp.popular .card-price {
+    margin: 50px;
+}
+
+.cardp.popular .card-price h1 {
+    color: #822243;
+    font-size: 50px;
+}
+
+.cardp.popular .card-action button {
+    background-color: #822243;
+    border-radius: 80px;
+    color: #fff;
+    font-size: 17px;
+    margin-top: -15px;
+    padding: 15px;
+    height: 80px;
+}
+
+.cardp.popular .card-action button:hover {
+    background-color: #9b3559;
+    font-size: 23px;
+}
+
+.cardp:hover {
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.card-ribbon {
+    position: absolute;
+    overflow: hidden;
+    top: -10px;
+    left: -10px;
+    width: 114px;
+    height: 112px;
+}
+
+.card-ribbon span {
+    position: absolute;
+    display: block;
+    width: 160px;
+    padding: 10px 0;
+    background-color: #8d2a4c;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+    color: #fff;
+    font-size: 13px;
+    text-transform: uppercase;
+    text-align: center;
+    left: -35px;
+    top: 25px;
+    transform: rotate(-45deg);
+}
+
+.card-ribbon::before,
+.card-ribbon::after {
+    position: absolute;
+    z-index: -1;
+    content: '';
+    display: block;
+    border: 5px solid #822243;
+    border-top-color: transparent;
+    border-left-color: transparent;
+}
+
+.card-ribbon::before {
+    top: 0;
+    right: 0;
+}
+
+.card-ribbon::after {
+    bottom: 0;
+    left: 0;
+}
+
+.card-title h3 {
+    color: rgba(0, 0, 0, 0.3);
+    font-size: 15px;
+    text-transform: uppercase;
+}
+
+.card-title h4 {
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.card-price {
+    margin: 60px 0;
+}
+
+.card-price h1 {
+    font-size: 30px;
+}
+
+.card-price h1 sup {
+    font-size: 15px;
+    display: inline-block;
+    margin-left: -20px;
+    width: 10px;
+}
+
+.card-price h1 small {
+    color: rgba(0, 0, 0, 0.3);
+    display: block;
+    font-size: 11px;
+    text-transform: uppercase;
+}
+
+.card-description ul {
+    display: block;
+    list-style: none;
+    margin: 60px 0;
+    padding: 0;
+}
+
+.card-description li {
+    color: rgba(0, 0, 0, 0.6);
+    font-size: 15px;
+    margin: 0 0 15px;
+}
+
+.card-action button {
+    background: transparent;
+    border: 2px solid #822243;
+    border-radius: 30px;
+    color: #3498db;
+    cursor: pointer;
+    display: block;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 20px;
+    width: 100%;
+    height: 60px;
+    text-transform: uppercase;
+    transition: all 0.3s ease-in-out;
+}
+
+.card-action button:hover {
+    background-color: #8d2a4c;
+    box-shadow: 0 2px 4px #8d2a4c;
+    color: #fff;
+    font-size: 17px;
 }
