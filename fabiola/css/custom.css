@@ -331,3 +331,52 @@
     color: #fff;
     font-size: 17px;
 }
+
+@media (max-width: 768px){
+    .card-title {
+        margin-top: 1rem;
+        margin-bottom: 0.5rem;
+    }
+    .cardp.popular .card-price h1 {
+        color: #822243;
+        font-size: 30px;
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: center;
+    }
+    .cardp.popular .card-price h4 {
+        font-size: 30px;
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 576px){
+    .wrapper-card {
+        width: 100%;
+        margin: 40px auto;
+    }
+    .card-title {
+        margin-top: 3rem;
+        margin-bottom: 0.5rem;
+    }
+    .card-price {
+        margin: 60px 0 !important;
+    }
+    .cardp.popular .card-price h4 {
+        font-size: 28px !important;
+    }
+    .card-description li {
+        color: rgba(0, 0, 0, 0.6);
+        font-size: 15px;
+        margin: 0 0 15px;
+    }
+    .cardp .card-title h2 {
+        font-size: 29px;
+        font-weight: 500;
+    }
+    .cardp{
+        width: 100%;
+    }
+}
