@@ -51,6 +51,11 @@
 19 Media Queries+
 
 /*Global Styling*/
+@media (min-width: 992px){
+    .d-desktop p{
+        display: none !important;
+    }
+}
 .main-color{color: #F7931E;}
 .nav-custom{
     position: relative;
@@ -2915,7 +2920,11 @@ iframe {
 }
 
 .feature-item {
+    margin-top: 20px;
+    margin-bottom: 0px;
     text-align: center;
+    display: flex;
+    justify-content: center;
 }
 
 .feature-item.innovative-border {
@@ -2968,7 +2977,6 @@ iframe {
     text-align: center;
     z-index: 1;
     font-size: 38px;
-    margin-bottom: 20px;
     color: #F7931E;
     vertical-align: top;
     -webkit-transition: 0.3s;
@@ -3048,6 +3056,7 @@ iframe {
     font-size: 6.25rem;
     line-height: 5rem;
 }
+
 
 .counters .count_nums,
 .counters i {
@@ -5789,8 +5798,16 @@ ul.latest_news li a:focus+span.defaultcolor {
 }
 
 @media (max-width: 767px) {
+    .d-mobile{
+        display: none !important;
+    }
     h4.heading-title-small {
-        font-size: 1.5rem;
+        font-size: 18px;
+        font-weight: 300 !important;
+    }
+    h2.heading-title-small {
+        font-size: 23px !important;
+        font-weight: 400 !important;
     }
     .revicon {
         display: none;
