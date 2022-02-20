@@ -353,6 +353,9 @@
 }
 
 @media (max-width: 576px){
+    body{
+        overflow-x: hidden;
+    }
     .wrapper-card {
         width: 100%;
         margin: 40px auto;
