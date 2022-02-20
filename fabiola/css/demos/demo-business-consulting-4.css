@@ -134,30 +134,34 @@
 }
 
 @media (min-width: 768px) {
+		.img-fluid{
+			max-width: 70%;
+			height: auto;
+		}
 		.custom-element-wrapper.custom-element-8 {
-				top: -5%;
-				left: 5%;
+			top: -30%;
+			left: 2%;
 		}
 }
 
 @media (min-width: 992px) {
 		.custom-element-wrapper.custom-element-8 {
-				top: 5%;
-				left: 5%;
+			top: 5%;
+			left: 5%;
 		}
 }
 
 @media (min-width: 1200px) {
 		.custom-element-wrapper.custom-element-8 {
-				top: 0%;
-				left: 10%;
+			top: 0%;
+			left: 10%;
 		}
 }
 
 @media (min-width: 1400px) {
 		.custom-element-wrapper.custom-element-8 {
-				top: -22%;
-				left: 53%;
+			top: -22%;
+			left: 53%;
 		}
 }
 
