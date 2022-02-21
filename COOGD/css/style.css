@@ -565,7 +565,7 @@ p {
     background: #F7931E;
 }
 .bgprimary {
-    background: #026cb8;
+    background: #0F2056;
 }
 
 .bgdark {
@@ -5688,7 +5688,6 @@ ul.hours_links li span:last-child {
 ul.hours_links li>span {
     z-index: 1;
     padding-right: 5px;
-    background-color: #026cb8;
 }
 
 .bgdark ul.hours_links li>span {
