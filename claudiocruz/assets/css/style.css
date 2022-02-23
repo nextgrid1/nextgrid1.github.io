@@ -1,10 +1,4 @@
 @charset "UTF-8";
-/*!
-Theme Name: Sandbox - Modern & Multipurpose Bootstrap 5 Template
-Theme URI:	https://sandbox.elemisthemes.com/start.html
-Version:	1.2.0
-Author:		elemis
-*/
 @import url(https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700);
 
 :root {
@@ -76,7 +70,22 @@ Author:		elemis
     --bs-body-color: #60697b;
     --bs-body-bg: #fefefe
 }
-
+::-webkit-scrollbar {
+    width: 8px;
+}
+::-webkit-scrollbar-track {
+    width: 8px;
+    background:white;
+    border-left: 0 solid white;
+    border-right: 0 solid white;
+}
+::-webkit-scrollbar-thumb {
+    background: #F9982F;
+    width: 0;
+    height: 25%;
+    transition: .5s ease;
+    cursor: pointer;
+}
 *,
 ::after,
 ::before {
@@ -700,6 +709,10 @@ progress {
     .container-sm {
         max-width: 960px
     }
+    .img-ini{
+        width:101vw; max-width: 120%;
+    }
+    
 }
 
 @media (min-width:1200px) {
@@ -3578,12 +3591,21 @@ progress {
         overflow-x: auto;
         -webkit-overflow-scrolling: touch
     }
+    .view-mobile{
+        display: none;
+    }
+    .view-img{
+        display: none;
+    }
 }
 
 @media (max-width:767.98px) {
     .table-responsive-md {
         overflow-x: auto;
         -webkit-overflow-scrolling: touch
+    }
+    .view-mobile{
+        display: none;
     }
 }
 
@@ -3592,6 +3614,9 @@ progress {
         overflow-x: auto;
         -webkit-overflow-scrolling: touch
     }
+    .view-mobile{
+        display: none;
+    }
 }
 
 @media (max-width:1199.98px) {
@@ -3599,12 +3624,18 @@ progress {
         overflow-x: auto;
         -webkit-overflow-scrolling: touch
     }
+    .view-mobile{
+        display: none;
+    }
 }
 
 @media (max-width:1399.98px) {
     .table-responsive-xxl {
         overflow-x: auto;
         -webkit-overflow-scrolling: touch
+    }
+    .view-mobile{
+        display: none;
     }
 }
 
