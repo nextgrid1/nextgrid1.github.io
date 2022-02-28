@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Selio - Real Estate HTML Template</title>
+    <title>Nasser Imóveis</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -18,15 +18,8 @@
 </head>
 
 <body>
-    <!--[if lte IE 9]>
-    <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
-  <![endif]-->
-
-
     <div class="wrapper">
-
         <header>
-
             <div class="header shd">
                 <div class="container">
                     <div class="row">
@@ -40,7 +33,6 @@
                                     <span class="icon-spar"></span>
                                     <span class="icon-spar"></span>
                                 </button>
-
                                 <div class="navbar-collapse" id="navbarSupportedContent">
                                     <ul class="navbar-nav mr-auto">
                                         <li class="nav-item dropdown active">
@@ -129,7 +121,7 @@
                 <div class="container">
                     <form action="#" class="row banner-search">
                         <div class="form_field addres">
-                            <input type="text" class="form-control" placeholder="Enter Address, City or State">
+                            <input type="text" class="form-control" id="inputNames" onkeyup="filterName()" placeholder="Digite o endereço, cidade ou estado">
                         </div>
                         <div class="form_field tpmax">
                             <div class="form-group">
@@ -139,7 +131,7 @@
                                         <i class="fa fa-angle-down"></i>
                                     </div>
                                     <input type="hidden" name="gender">
-                                    <ul class="dropeddown">
+                                    <ul class="dropeddown" id="ul_sale-rent">
                                         <li>For Sale</li>
                                         <li>For Rent</li>
                                     </ul>
