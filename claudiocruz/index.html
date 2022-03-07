@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
+    <script src="https://cdn.jsdelivr.net/npm/tripetto-runner-foundation"></script>
+    <script src="https://cdn.jsdelivr.net/npm/tripetto-runner-autoscroll"></script>
+    <script src="https://cdn.jsdelivr.net/npm/tripetto-services"></script>
         <!-- Author -->
         <meta name="author" content="NextGrid">
         <!-- description -->
@@ -16,6 +19,7 @@
     <link rel="stylesheet" href="./assets/css/colors/aqua.css">
     <link rel="preload" href="./assets/css/fonts/thicccboi.css" as="style" onload="this.rel='stylesheet'">
 </head>
+
 
 <body>
     <div class="content-wrapper" id="inicio">
@@ -76,13 +80,7 @@
                         <p class="lead fs-24 lh-sm text-white mb-7 pe-md-18 pe-lg-0 pe-xxl-15">Do zero absoluto em apenas 6 horas!
                         </p>
                         <div>
-                            <div class="form-floating mb-4">
-                                <input id="textInputExample" type="text" class="form-control" placeholder="Text Input">
-                                <label for="textInputExample">Digite seu e-mail</label>
-                            </div>
-                            <div class="text-center">
-                                <a class="btn btn-lg btn-primary rounded text-center">Entrar para a lista de espera</a>
-                            </div>
+                            <div id="tripetto"></div>
                         </div>
                     </div>
 
@@ -573,6 +571,20 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous"></script>
     <script src="./assets/js/plugins.js"></script>
     <script src="./assets/js/theme.js"></script>
-</body>
 
+    <script rel="preload">
+        var tripetto = TripettoServices.init({ token: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoieXNmK3JlZ09jRDh6aEFPaXJOSzJrdzNHeGV2WjNqaS9ERDdpOGtuNVdsQT0iLCJkZWZpbml0aW9uIjoiSmIwWHpmcDd5a3lHTlQwU1lyNHBDREJXNDBxb3B6eS9vaG1FejE1eDZzYz0iLCJ0eXBlIjoiY29sbGVjdCJ9.k5XhNcP4xOVGDXDPs7w52NHKNOccgkMu-Il-96W1yTc" });
+
+        TripettoAutoscroll.run({
+            element: document.getElementById("tripetto"),
+            definition: tripetto.definition,
+            styles: tripetto.styles,
+            l10n: tripetto.l10n,
+            locale: tripetto.locale,
+            translations: tripetto.translations,
+            attachments: tripetto.attachments,
+            onSubmit: tripetto.onSubmit
+        });
+    </script>
+</body>
 </html>
