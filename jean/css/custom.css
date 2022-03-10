@@ -1,5 +1,21 @@
 .bgk-banner{
     background-image: url(../assets/img/banner_jr.png); 
     background-size: cover; 
-    background-position: center;
+    background-position: center;1
+}
+.bkgyellow{
+    fill:#FFB12A;
+    fill-opacity:0.8;
+    stroke-width:0.26458332
+}
+@media (max-width: 575px) {
+    .bgk-banner{
+        background-image: url(../assets/img/banner_jr_mob.png);
+        
+    }
+    .bkgyellow{
+        fill:#FFB12A;
+        fill-opacity:0.1;
+        stroke-width:0.26458332
+    }
 }
