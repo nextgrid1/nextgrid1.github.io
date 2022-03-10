@@ -3,7 +3,8 @@
     background-size: cover; 
     background-position: center;1
 }
-.bkgyellow{
+d .bkgyellow{
+    color: #FFB12A;
     fill:#FFB12A;
     fill-opacity:0.8;
     stroke-width:0.26458332
@@ -13,7 +14,8 @@
         background-image: url(../assets/img/banner_jr_mob.png);
         
     }
-    .bkgyellow{
+    d .bkgyellow{
+        color: #FFB12A;
         fill:#FFB12A;
         fill-opacity:0.1;
         stroke-width:0.26458332
