@@ -244,10 +244,36 @@ body {
         background-attachment: fixed;
     }
 }
-
-@media (max-width: 767px) {
+@media (max-width: 1367px) {
     .custom-section-svg>svg {
-        width: 290%;
+        width: 105%;
+		opacity: 1;
+    }
+}
+
+@media (max-width: 1200px) {
+    .custom-section-svg>svg {
+        width: 105%;
+		opacity: 1;
+    }
+}
+@media (max-width: 900px) {
+    .custom-section-svg>svg {
+        width: 200%;
+		opacity: 1;
+    }
+}
+
+@media (max-width: 768px) {
+    .custom-section-svg>svg {
+        width: 200%;
+		opacity: 1;
+    }
+}
+
+@media (max-width: 590px) {
+    .custom-section-svg>svg {
+        width: 350%;
 		opacity: 1;
     }
 }
