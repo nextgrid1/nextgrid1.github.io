@@ -7151,10 +7151,9 @@ ul.comments .comment-block,
 /*
 * Custom Heading Bar
 */
-.custom-heading-bar:before {
+.custom-heading-bar:before{
     border-color: #3F0200;
 }
-
 /*
 * Testimonial
 */
