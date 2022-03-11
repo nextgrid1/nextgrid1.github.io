@@ -4396,7 +4396,7 @@ html[dir="rtl"] #header .tip-light:before {
 }
 
 #header .header-btn-collapse-nav {
-    background: #FFB12A;
+    background: transparent;
 }
 
 @media (min-width: 992px) {

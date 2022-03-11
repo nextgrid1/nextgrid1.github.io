@@ -1,3 +1,5 @@
+
+
 .bgk-banner {
     background-image: url(../assets/img/banner_jr.png);
     background-size: cover;
@@ -11,9 +13,10 @@
     stroke-width: 0.26458332
 }
 
-
-
 @media (max-width: 575px) {
+    body{
+        overflow-x: hidden;
+    }
     .bgk-banner {
         background-image: url(../assets/img/banner_jr_mob.png);
     }
@@ -40,6 +43,10 @@
     .column-smartfone{
         flex-direction: column;
     }
+    .smartphone {
+        display: none;
+    }
+
 }
 
 ._form-branding {
@@ -104,7 +111,7 @@
     font-family: Lora, sans-serif;
     font-size: 14px;
     text-align: center;
-    background: #FFB12A !important;
+    background: #363636 !important;
     border: 0 !important;
     -moz-border-radius: 4px !important;
     -webkit-border-radius: 4px !important;
@@ -508,6 +515,7 @@
 #_form_2_._inline-form input,
 #_form_2_._inline-form ._submit {
     font-family: Lora, sans-serif;
+    border-radius: 10px;
 }
 
 #_form_2_ ._form-title {

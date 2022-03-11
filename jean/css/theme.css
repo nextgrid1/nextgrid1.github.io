@@ -1203,11 +1203,11 @@ pre {
 
 #header .header-btn-collapse-nav {
 	background: #CCC;
-	color: #FFF;
+	color: #4267B2;
 	display: none;
 	float: right;
 	margin: 0 0 0 16px;
-	margin: 0 0 0 1rem;
+	margin: 0 0 0 3rem;
 }
 
 #header.header-narrow .header-body {
@@ -3224,7 +3224,6 @@ html.sticky-header-enabled.sticky-header-active #header .header-logo-sticky-chan
 	}
 
 	#header.header-floating-icons .header-btn-collapse-nav {
-		padding: 15px 20px;
 		margin: 0;
 	}
 
