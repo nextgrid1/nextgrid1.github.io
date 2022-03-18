@@ -1,0 +1,4362 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: WP Pro Real Estate 7\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-01-16 17:09+0000\n"
+"POT-Revision-Date: Wed Jul 27 2016 08:19:42 GMT-0700 (PDT)\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Chris Robinson <chris@contempographicdesign.com>\n"
+"Language-Team: Contempo <chris@contempographicdesign.com>\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: _:1;gettext:1;dgettext:2;ngettext:1,2;dngettext:2,3;"
+"__:1;_e:1;_c:1;_n:1,2;_n_noop:1,2;_nc:1,2;__ngettext:1,2;__ngettext_noop:1,2;"
+"_x:1,2c;_ex:1,2c;_nx:1,2,4c;_nx_noop:1,2,3c;_n_js:1,2;_nx_js:1,2,3c;"
+"esc_attr__:1;esc_html__:1;esc_attr_e:1;esc_html_e:1;esc_attr_x:1,2c;"
+"esc_html_x:1,2c;comments_number_link:2,3;t:1;st:1;trans:1;transChoice:1,2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: includes\n"
+"X-Poedit-SearchPath-2: layouts\n"
+"X-Poedit-SearchPath-3: 404.php\n"
+"X-Poedit-SearchPath-4: archive.php\n"
+"X-Poedit-SearchPath-5: author.php\n"
+"X-Poedit-SearchPath-6: comments.php\n"
+"X-Poedit-SearchPath-7: content.php\n"
+"X-Poedit-SearchPath-8: footer.php\n"
+"X-Poedit-SearchPath-9: functions.php\n"
+"X-Poedit-SearchPath-10: header.php\n"
+"X-Poedit-SearchPath-11: index.php\n"
+"X-Poedit-SearchPath-12: page.php\n"
+"X-Poedit-SearchPath-13: rtl.css\n"
+"X-Poedit-SearchPath-14: search-listings.php\n"
+"X-Poedit-SearchPath-15: searchform.php\n"
+"X-Poedit-SearchPath-16: sidebar.php\n"
+"X-Poedit-SearchPath-17: single-listings.php\n"
+"X-Poedit-SearchPath-18: single.php\n"
+"X-Poedit-SearchPath-19: template-agents.php\n"
+"X-Poedit-SearchPath-20: template-big-map.php\n"
+"X-Poedit-SearchPath-21: template-contact.php\n"
+"X-Poedit-SearchPath-22: template-demo-home-map.php\n"
+"X-Poedit-SearchPath-23: template-dsidxpress.php\n"
+"X-Poedit-SearchPath-24: template-edit-listing.php\n"
+"X-Poedit-SearchPath-25: template-edit-profile.php\n"
+"X-Poedit-SearchPath-26: template-favorite-listings.php\n"
+"X-Poedit-SearchPath-27: template-full-width.php\n"
+"X-Poedit-SearchPath-28: template-home.php\n"
+"X-Poedit-SearchPath-29: template-left-sidebar.php\n"
+"X-Poedit-SearchPath-30: template-sitemap.php\n"
+"X-Poedit-SearchPath-31: template-submit-listing.php\n"
+"X-Poedit-SearchPath-32: template-testimonials.php\n"
+"X-Poedit-SearchPath-33: template-view-listings.php\n"
+"X-Poedit-SearchPath-34: admin/ct-child-theme\n"
+"X-Poedit-SearchPath-35: admin/profile-fields.php\n"
+"X-Poedit-SearchPath-36: admin/theme-functions.php\n"
+"X-Poedit-SearchPathExcluded-0: admin/ReduxFramework\n"
+"X-Poedit-SearchPathExcluded-1: admin/aq-resizer\n"
+"X-Poedit-SearchPathExcluded-2: admin/plugins\n"
+"X-Poedit-SearchPathExcluded-3: js\n"
+"X-Poedit-SearchPathExcluded-4: css\n"
+"X-Poedit-SearchPathExcluded-5: fonts\n"
+"X-Poedit-SearchPathExcluded-6: images\n"
+"X-Poedit-SearchPathExcluded-7: admin/images\n"
+"Language: "
+
+#: template-submit-listing.php:480 template-edit-listing.php:487
+msgid " (e.g. /month, /week)"
+msgstr ""
+
+#: template-submit-listing.php:695
+msgid " (e.g. 1 night)"
+msgstr ""
+
+#: template-submit-listing.php:707
+msgid " (e.g. 11:00 AM)"
+msgstr ""
+
+#: template-submit-listing.php:719
+msgid " (e.g. 150)"
+msgstr ""
+
+#: template-submit-listing.php:690
+msgid " (e.g. 2)"
+msgstr ""
+
+#: template-submit-listing.php:726
+msgid " (e.g. 275)"
+msgstr ""
+
+#: template-submit-listing.php:702
+msgid " (e.g. 3:00 PM)"
+msgstr ""
+
+#: template-submit-listing.php:714
+msgid " (e.g. 50)"
+msgstr ""
+
+#: template-submit-listing.php:731
+msgid " (e.g. 895)"
+msgstr ""
+
+#: template-submit-listing.php:475 template-edit-listing.php:482
+msgid " (e.g. From, Call for price)"
+msgstr ""
+
+#: admin/theme-functions.php:54
+msgid " Dismiss this notice"
+msgstr ""
+
+#: admin/theme-functions.php:9683
+msgid " km"
+msgstr ""
+
+#: admin/theme-functions.php:3030 admin/theme-functions.php:3101
+#: admin/theme-functions.php:3172
+msgid " Listings found"
+msgstr ""
+
+#: admin/theme-functions.php:9685
+msgid " mi"
+msgstr ""
+
+#: admin/theme-functions.php:8687
+msgid " m²"
+msgstr ""
+
+#: admin/theme-functions.php:7089
+msgid " Photo"
+msgstr ""
+
+#: admin/theme-functions.php:7091
+msgid " Photos"
+msgstr ""
+
+#: admin/theme-functions.php:8685
+msgid " Sq Ft"
+msgstr ""
+
+#: template-view-listings.php:180 admin/theme-functions.php:7112
+msgid " Views"
+msgstr ""
+
+#: admin/theme-functions.php:53
+msgid ""
+" — 40+ All-New Blocks added, including 2 new lead gen landing pages! <a "
+"href=\"https://contempothemes.com/changelog/\" target=\"_blank\">View "
+"Changelog</a>"
+msgstr ""
+
+#: comments.php:31
+msgid "% Comments"
+msgstr ""
+
+#: single-brokerage.php:474 includes/single-listing-reviews.php:21
+#: includes/single-listing-reviews.php:25
+msgid "% Reviews"
+msgstr ""
+
+#. %d: number of baths.
+#: layouts/saved-search-list.php:225 layouts/saved-search-list.php:235
+#, php-format
+msgid "%d %s"
+msgstr ""
+
+#. %d: number of beds plus.
+#. %d: number of baths plus.
+#: layouts/saved-search-list.php:243 layouts/saved-search-list.php:247
+#, php-format
+msgid "%d + %s"
+msgstr ""
+
+#: admin/theme-functions.php:11792 admin/theme-functions.php:11793
+msgid "%link"
+msgstr ""
+
+#. %d: number of beds.
+#: layouts/saved-search-list.php:221 layouts/saved-search-list.php:231
+#, php-format
+msgid "%s %s"
+msgstr ""
+
+#: admin/theme-functions.php:7860
+#, php-format
+msgid "%s ago"
+msgstr ""
+
+#. Theme Name
+#: admin/merlin-config.php:50
+#, php-format
+msgid "%s is Activated"
+msgstr ""
+
+#: admin/theme-functions.php:8518 admin/theme-functions.php:8628
+#, php-format
+msgid "%s/mo"
+msgstr ""
+
+#: comments.php:44
+msgid "&larr; Older Comments"
+msgstr ""
+
+#: template-submit-listing.php:619
+msgid "(e.g. Carport, 2 Car Garage)"
+msgstr ""
+
+#: template-submit-listing.php:614
+msgid "(e.g. Cats, small dogs)"
+msgstr ""
+
+#: template-submit-listing.php:395 template-edit-listing.php:408
+msgid "(e.g. Downtown Penthouse)"
+msgstr ""
+
+#: template-edit-profile.php:124
+msgid "(required)"
+msgstr ""
+
+#: admin/theme-functions.php:1309
+msgid "* Invalid date, must be in YYYY-MM-DD format"
+msgstr ""
+
+#: admin/theme-functions.php:1308
+msgid "* Invalid email address"
+msgstr ""
+
+#: admin/theme-functions.php:1307
+msgid "* Invalid phone number"
+msgstr ""
+
+#: admin/theme-functions.php:1312
+msgid "* Letters only"
+msgstr ""
+
+#: admin/theme-functions.php:1311
+msgid "* No special caracters allowed"
+msgstr ""
+
+#: admin/theme-functions.php:1310
+msgid "* Numbers only"
+msgstr ""
+
+#: admin/theme-functions.php:1305
+msgid "* Please select an option"
+msgstr ""
+
+#: admin/theme-functions.php:1306
+msgid "* This checkbox is required"
+msgstr ""
+
+#: admin/theme-functions.php:1304
+msgid "* This field is required"
+msgstr ""
+
+#: template-submit-listing.php:531
+msgid "*At least one image is for valid submission, minimum width of 817px."
+msgstr ""
+
+#: template-edit-listing.php:609
+msgid ""
+"*At least one image is required for valid submission, minimum width of 817px."
+msgstr ""
+
+#: template-submit-listing.php:554 template-edit-listing.php:646
+msgid "*Supported file types are PDF, Word, Excel & PowerPoint."
+msgstr ""
+
+#: template-submit-listing.php:532 template-edit-listing.php:610
+msgid ""
+"*You can mark an image as featured by clicking the star icon, Otherwise "
+"first image will be considered featured image."
+msgstr ""
+
+#: template-view-invoices.php:124
+msgid "-"
+msgstr ""
+
+#: includes/single-listing-affordability-calculator.php:170
+msgid "/Month"
+msgstr ""
+
+#: includes/single-listing-affordability-calculator.php:70
+msgid "/month"
+msgstr ""
+
+#: comments.php:31
+msgid "1 Comment"
+msgstr ""
+
+#: admin/theme-functions.php:3028 admin/theme-functions.php:3099
+#: admin/theme-functions.php:3170
+msgid "1 Listing found"
+msgstr ""
+
+#: single-brokerage.php:474 includes/single-listing-reviews.php:21
+#: includes/single-listing-reviews.php:25
+msgid "1 Review"
+msgstr ""
+
+#: includes/header-advanced-search.php:691
+#: includes/header-advanced-search.php:726
+msgid "1+"
+msgstr ""
+
+#: includes/single-listing-ct-idx-pro-info.php:599
+#: includes/single-listing-ct-idx-pro-info.php:1199
+msgid "1/2 Baths"
+msgstr ""
+
+#: includes/single-listing-affordability-calculator.php:47
+msgid "10-year Fixed"
+msgstr ""
+
+#: template-submit-listing.php:390
+msgid "1234 Somewhere St."
+msgstr ""
+
+#: includes/single-listing-affordability-calculator.php:46
+msgid "15-year Fixed"
+msgstr ""
+
+#: includes/header-advanced-search.php:694
+#: includes/header-advanced-search.php:729
+msgid "2+"
+msgstr ""
+
+#: includes/single-listing-affordability-calculator.php:45
+msgid "20-year Fixed"
+msgstr ""
+
+#: admin/elementor-templates/templates.php:36
+msgid "200+ Professionally Designed<br/>Blocks & Pages"
+msgstr ""
+
+#: includes/header-advanced-search.php:697
+#: includes/header-advanced-search.php:732
+msgid "3+"
+msgstr ""
+
+#: includes/single-listing-ct-idx-pro-info.php:585
+#: includes/single-listing-ct-idx-pro-info.php:1188
+msgid "3/4 Baths"
+msgstr ""
+
+#: includes/single-listing-affordability-calculator.php:44
+msgid "30-year Fixed"
+msgstr ""
+
+#: includes/header-advanced-search.php:700
+#: includes/header-advanced-search.php:735
+msgid "4+"
+msgstr ""
+
+#: admin/theme-functions.php:12158
+msgid "404 Not Found"
+msgstr ""
+
+#: includes/header-advanced-search.php:703
+#: includes/header-advanced-search.php:738
+msgid "5+"
+msgstr ""
+
+#: admin/getting-started/getting-started.php:201
+#, php-format
+msgid ""
+"<a href=\"%s\" target=\"_blank\">WPML</a> allows running fully multilingual "
+"websites with WordPress, making it easy to translate WordPress pages, posts, "
+"tags, categories and themes."
+msgstr ""
+
+#: admin/ReduxFramework/theme-options/re7-config.php:5658
+msgid ""
+"<p class=\"description\">This is a section created by adding a filter to the "
+"sections array. Can be used by child themes to add/remove sections from the "
+"options.</p>"
+msgstr ""
+
+#: admin/ReduxFramework/theme-options/re7-config.php:727
+msgid "<p>This is the sidebar content, HTML is allowed.</p>"
+msgstr ""
+
+#: admin/ReduxFramework/theme-options/re7-config.php:716
+#: admin/ReduxFramework/theme-options/re7-config.php:721
+msgid "<p>This is the tab content, HTML is allowed.</p>"
+msgstr ""
+
+#: admin/theme-functions.php:10368
+msgid "<span class=\"meta-nav\">&larr;</span> Older"
+msgstr ""
+
+#: admin/theme-functions.php:11769
+msgid ""
+"<span class=\"meta-nav\"><i class=\"fas fa-chevron-left\"></i></span> Older "
+"listings"
+msgstr ""
+
+#: admin/updater/theme-updater.php:53 admin/updater/theme-updater-admin.php:78
+#, php-format
+msgid ""
+"<strong>%1$s %2$s</strong> is available. <a href=\"%3$s\" class=\"thickbox\" "
+"title=\"%4s\">Check out what's new</a> or <a href=\"%5$s\"%6$s>update now</a>"
+"."
+msgstr ""
+
+#. Description of the theme
+msgid ""
+"A responsive real estate theme, designed by <a href=\"https://www."
+"contempothemes.com\">Contempo</a>."
+msgstr ""
+
+#: admin/theme-functions.php:9797
+msgid ""
+"A server-side error happened trying again may be successful, please "
+"shift+refresh the page."
+msgstr ""
+
+#: admin/theme-functions.php:10256
+msgid "About The Author"
+msgstr ""
+
+#: template-edit-profile.php:197
+msgid "About Yourself"
+msgstr ""
+
+#: includes/user-sidebar.php:67 admin/theme-functions.php:2681
+msgid "Account Settings"
+msgstr ""
+
+#: admin/theme-functions.php:8704
+msgid "Acres"
+msgstr ""
+
+#: admin/merlin-config.php:57
+msgid "Activate"
+msgstr ""
+
+#: template-listing-email-alerts.php:70
+msgid ""
+"Activate \"Contempo Email Alerts\" plugin via Appearance > Install Plugins."
+msgstr ""
+
+#: admin/merlin-config.php:48
+#, php-format
+msgid "Activate %s"
+msgstr ""
+
+#: admin/updater/theme-updater.php:37 admin/updater/theme-updater-admin.php:62
+msgid "Activate License"
+msgstr ""
+
+#: admin/theme-functions.php:6668
+msgid "Active"
+msgstr ""
+
+#: admin/theme-functions.php:13920
+msgid "Add"
+msgstr ""
+
+#: header.php:679
+msgid "Add \"CT Compare\" Widget via Appearance > Widgets > Compare."
+msgstr ""
+
+#: admin/profile-fields.php:172
+msgid "Add the agents license number here."
+msgstr ""
+
+#: admin/profile-fields.php:237
+msgid "Add the brokerage license number here."
+msgstr ""
+
+#: admin/theme-functions.php:6908
+msgid "Add to Favorites"
+msgstr ""
+
+#: template-advanced-search.php:181 includes/advanced-search.php:134
+msgid "Additional Features"
+msgstr ""
+
+#: template-submit-listing.php:674 template-edit-listing.php:768
+msgid "Additional Features (comma separated)"
+msgstr ""
+
+#: admin/profile-fields.php:130
+msgid "Additional Phone"
+msgstr ""
+
+#: admin/profile-fields.php:136
+msgid "Additional Phone 2"
+msgstr ""
+
+#: template-submit-listing.php:742 template-edit-listing.php:843
+#: admin/profile-fields.php:247
+msgid "Address"
+msgstr ""
+
+#. Name of the template
+#: admin/ReduxFramework/theme-options/re7-config.php:2331
+msgid "Advanced Search"
+msgstr ""
+
+#: includes/single-listing-affordability-calculator.php:61
+msgid "Affordability"
+msgstr ""
+
+#: author.php:39 includes/single-listing-lead-media-with-contact.php:141
+#: includes/single-listing-contact.php:101
+#: includes/single-listing-lead-media-with-contact-gallery-modal.php:245
+#: admin/profile-fields.php:87 admin/theme-functions.php:2542
+#: admin/theme-functions.php:6002 layouts/list.php:181
+msgid "Agent"
+msgstr ""
+
+#: includes/single-listing-contact.php:154
+msgid "Agent #"
+msgstr ""
+
+#: admin/profile-fields.php:169
+msgid "Agent License #"
+msgstr ""
+
+#: admin/profile-fields.php:93
+msgid "Agent Order"
+msgstr ""
+
+#: admin/ReduxFramework/theme-options/re7-config.php:2170
+msgid "Agent Single"
+msgstr ""
+
+#: admin/profile-fields.php:180
+msgid "Agent Testimonials"
+msgstr ""
+
+#. Name of the template
+#: single-brokerage.php:218
+#: admin/ReduxFramework/theme-options/re7-config.php:2077
+msgid "Agents"
+msgstr ""
+
+#: admin/elementor-templates/templates.php:61
+msgid "All"
+msgstr ""
+
+#: admin/theme-functions.php:9020
+msgid "All Additional Features"
+msgstr ""
+
+#: admin/theme-functions.php:1269 admin/theme-functions.php:8992
+msgid "All Areas"
+msgstr ""
+
+#: includes/header-advanced-search.php:258
+msgid "All Bath"
+msgstr ""
+
+#: includes/header-advanced-search.php:254
+msgid "All Bathrooms"
+msgstr ""
+
+#: includes/header-advanced-search.php:256
+msgid "All Baths"
+msgstr ""
+
+#: includes/header-advanced-search.php:234
+msgid "All Bed"
+msgstr ""
+
+#: includes/header-advanced-search.php:230
+msgid "All Bedrooms"
+msgstr ""
+
+#: includes/header-advanced-search.php:232
+msgid "All Beds"
+msgstr ""
+
+#: admin/theme-functions.php:9143
+msgid "All Brokerages"
+msgstr ""
+
+#: admin/theme-functions.php:9030
+msgid "All Buildings"
+msgstr ""
+
+#: admin/theme-functions.php:1234 admin/theme-functions.php:1265
+#: admin/theme-functions.php:8990
+msgid "All Cities"
+msgstr ""
+
+#: admin/theme-functions.php:9036
+msgid "All Communities"
+msgstr ""
+
+#: admin/theme-functions.php:9032
+msgid "All Complexes"
+msgstr ""
+
+#: admin/theme-functions.php:8984
+msgid "All Counties"
+msgstr ""
+
+#: admin/theme-functions.php:8982
+msgid "All Countries"
+msgstr ""
+
+#: admin/theme-functions.php:9024
+msgid "All Districts"
+msgstr ""
+
+#: search-listings.php:419 search-listings.php:440 search-listings.php:463
+msgid "All listings"
+msgstr ""
+
+#: admin/theme-functions.php:9022
+msgid "All Neighborhoods"
+msgstr ""
+
+#: admin/theme-functions.php:1277 admin/theme-functions.php:9000
+msgid "All Parishes"
+msgstr ""
+
+#: admin/theme-functions.php:1285 admin/theme-functions.php:9040
+msgid "All Postal Codes"
+msgstr ""
+
+#: admin/theme-functions.php:1283 admin/theme-functions.php:9038
+msgid "All Postcodes"
+msgstr ""
+
+#: admin/theme-functions.php:8980
+msgid "All Property Types"
+msgstr ""
+
+#: admin/theme-functions.php:1273 admin/theme-functions.php:8996
+msgid "All Provinces"
+msgstr ""
+
+#: admin/theme-functions.php:1275 admin/theme-functions.php:8998
+msgid "All Regions"
+msgstr ""
+
+#: footer.php:108
+msgid "All Rights Reserved."
+msgstr ""
+
+#: includes/header-advanced-search.php:228
+msgid "All Rooms"
+msgstr ""
+
+#: admin/theme-functions.php:9026
+msgid "All School Districts"
+msgstr ""
+
+#: admin/theme-functions.php:9034
+msgid "All Sectors"
+msgstr ""
+
+#: admin/theme-functions.php:1279 admin/theme-functions.php:9002
+msgid "All States"
+msgstr ""
+
+#: admin/theme-functions.php:1224 admin/theme-functions.php:9018
+msgid "All Statuses"
+msgstr ""
+
+#: admin/theme-functions.php:1271 admin/theme-functions.php:8994
+#: admin/theme-functions.php:9028
+msgid "All Suburbs"
+msgstr ""
+
+#: admin/theme-functions.php:1228 admin/theme-functions.php:1261
+#: admin/theme-functions.php:8986
+msgid "All Towns"
+msgstr ""
+
+#: admin/theme-functions.php:1231 admin/theme-functions.php:1263
+#: admin/theme-functions.php:8988
+msgid "All Villages"
+msgstr ""
+
+#: admin/theme-functions.php:1287 admin/theme-functions.php:9042
+msgid "All Zipcodes"
+msgstr ""
+
+#: template-submit-listing.php:394 template-edit-listing.php:407
+msgid "Alternate Title"
+msgstr ""
+
+#: admin/updater/theme-updater-admin.php:357
+#: admin/updater/theme-updater-admin.php:411
+#: admin/updater/theme-updater-admin.php:472
+msgid "An error occurred, please try again."
+msgstr ""
+
+#: includes/user-sidebar.php:63 admin/theme-functions.php:2676
+msgid "Analytics"
+msgstr ""
+
+#: comments.php:53
+msgid "and pingbacks are open."
+msgstr ""
+
+#: template-submit-listing.php:409 template-submit-listing.php:434
+#: template-edit-listing.php:420 template-edit-listing.php:449
+#: includes/header-advanced-search.php:688
+#: includes/header-advanced-search.php:723 admin/theme-functions.php:9494
+#: admin/theme-functions.php:9528 admin/theme-functions.php:9562
+msgid "Any"
+msgstr ""
+
+#: admin/theme-functions.php:10073
+msgid "Archives"
+msgstr ""
+
+#: template-advanced-search.php:77 includes/advanced-search.php:58
+#: admin/theme-functions.php:8689 admin/theme-functions.php:8710
+#: admin/theme-functions.php:8793
+msgid "Area"
+msgstr ""
+
+#: admin/profile-fields.php:230
+msgid ""
+"Assign a brokerage here, these are pulled from the Brokerage custom post "
+"type."
+msgstr ""
+
+#: admin/theme-functions.php:7882
+msgid "at"
+msgstr ""
+
+#: includes/single-listing-attachments.php:22
+#: includes/single-listing-attachments.php:24
+#: includes/single-listing-sub-navigation.php:120
+msgid "Attachments"
+msgstr ""
+
+#: admin/theme-functions.php:10061
+#, php-format
+msgid "Author: %s"
+msgstr ""
+
+#: includes/single-listing-multi-floorplan.php:53
+msgid "Availability"
+msgstr ""
+
+#: footer.php:106
+msgid "Back to top"
+msgstr ""
+
+#: footer.php:108
+msgid "Back to top "
+msgstr ""
+
+#: includes/single-listing-yelp.php:82
+msgid "Bank"
+msgstr ""
+
+#: includes/single-listing-google-places.php:102
+msgid "Banks"
+msgstr ""
+
+#: includes/single-listing-yelp.php:90
+#: includes/single-listing-google-places.php:111
+msgid "Bars"
+msgstr ""
+
+#: includes/single-listing-ct-idx-pro-info.php:610
+#: includes/single-listing-ct-idx-pro-info.php:1210
+msgid "Basement"
+msgstr ""
+
+#: template-view-listings.php:146 search-listings.php:45
+#: includes/sub-listings.php:210
+#: includes/single-listing-lead-media-with-contact-gallery-modal.php:162
+#: includes/header-advanced-search.php:718 admin/theme-functions.php:7324
+#: admin/theme-functions.php:8751 admin/theme-functions.php:9014
+#: layouts/saved-search-list.php:212 layouts/list.php:142
+msgid "Bath"
+msgstr ""
+
+#: template-view-listings.php:142 search-listings.php:41
+#: includes/sub-listings.php:206
+#: includes/single-listing-lead-media-with-contact-gallery-modal.php:158
+#: includes/header-advanced-search.php:714 admin/theme-functions.php:7320
+#: admin/theme-functions.php:8747 admin/theme-functions.php:9012
+#: layouts/saved-search-list.php:207 layouts/list.php:138
+msgid "Bathrooms"
+msgstr ""
+
+#: template-advanced-search.php:110 template-view-listings.php:144
+#: search-listings.php:43 includes/single-listing-multi-floorplan.php:43
+#: includes/sub-listings.php:208
+#: includes/single-listing-lead-media-with-contact-gallery-modal.php:160
+#: includes/advanced-search.php:116 includes/header-advanced-search.php:215
+#: includes/header-advanced-search.php:666
+#: includes/header-advanced-search.php:716 admin/theme-functions.php:7322
+#: admin/theme-functions.php:8749 admin/theme-functions.php:9016
+#: layouts/saved-search-list.php:208 layouts/list.php:140
+msgid "Baths"
+msgstr ""
+
+#: includes/header-advanced-search.php:250
+msgid "Baths +"
+msgstr ""
+
+#: admin/theme-functions.php:3018 admin/theme-functions.php:3089
+#: admin/theme-functions.php:3159
+msgid "Baths: "
+msgstr ""
+
+#: template-view-listings.php:130 search-listings.php:37
+#: includes/sub-listings.php:190
+#: includes/single-listing-lead-media-with-contact-gallery-modal.php:150
+#: includes/header-advanced-search.php:683 admin/theme-functions.php:7304
+#: admin/theme-functions.php:8732 admin/theme-functions.php:9008
+#: layouts/saved-search-list.php:199 layouts/list.php:122
+msgid "Bed"
+msgstr ""
+
+#: template-view-listings.php:126 search-listings.php:33
+#: includes/sub-listings.php:186
+#: includes/single-listing-ct-idx-pro-info.php:563
+#: includes/single-listing-ct-idx-pro-info.php:1166
+#: includes/single-listing-lead-media-with-contact-gallery-modal.php:146
+#: includes/header-advanced-search.php:679 admin/theme-functions.php:7300
+#: admin/theme-functions.php:8728 admin/theme-functions.php:9006
+#: layouts/saved-search-list.php:194 layouts/list.php:118
+msgid "Bedrooms"
+msgstr ""
+
+#: template-advanced-search.php:105 template-view-listings.php:128
+#: search-listings.php:35 includes/single-listing-multi-floorplan.php:40
+#: includes/sub-listings.php:188
+#: includes/single-listing-lead-media-with-contact-gallery-modal.php:148
+#: includes/advanced-search.php:107 includes/header-advanced-search.php:206
+#: includes/header-advanced-search.php:656
+#: includes/header-advanced-search.php:681 admin/theme-functions.php:7302
+#: admin/theme-functions.php:8730 admin/theme-functions.php:9010
+#: layouts/saved-search-list.php:195 layouts/list.php:120
+msgid "Beds"
+msgstr ""
+
+#: includes/header-advanced-search.php:224
+msgid "Beds +"
+msgstr ""
+
+#: admin/theme-functions.php:3017 admin/theme-functions.php:3088
+#: admin/theme-functions.php:3158
+msgid "Beds: "
+msgstr ""
+
+#: admin/getting-started/getting-started.php:125
+msgid ""
+"Below is a list of required and recommended plugins to install that will "
+"help you get the most out of WP Pro Real Estate 7. To begin please use the "
+"button below or browse through the list to learn about each one in a little "
+"more detail."
+msgstr ""
+
+#. Name of the template
+msgid "Big Map"
+msgstr ""
+
+#: template-edit-profile.php:201
+msgid "Biographical Information"
+msgstr ""
+
+#: admin/ReduxFramework/theme-options/re7-config.php:5218
+msgid "Blog Archive"
+msgstr ""
+
+#: admin/ReduxFramework/theme-options/re7-config.php:1345
+msgid "Body"
+msgstr ""
+
+#: admin/ReduxFramework/theme-options/re7-config.php:1504
+msgid "Body Background"
+msgstr ""
+
+#: includes/single-listing-home.php:156
+#: includes/single-listing-booking-calendar.php:19
+#: includes/single-listing-booking-calendar.php:21
+msgid "Book this listing"
+msgstr ""
+
+#: includes/single-listing-sub-navigation.php:110
+msgid "Booking"
+msgstr ""
+
+#: admin/theme-functions.php:8843
+msgid "Borough"
+msgstr ""
+
+#: admin/theme-functions.php:2561
+msgid "Broker"
+msgstr ""
+
+#: template-agents.php:394
+msgid "Broker#"
+msgstr ""
+
+#: single-brokerage.php:40 includes/header-advanced-search.php:293
+#: includes/header-advanced-search.php:768 admin/profile-fields.php:216
+msgid "Brokerage"
+msgstr ""
+
+#: admin/profile-fields.php:234
+msgid "Brokerage License #"
+msgstr ""
+
+#. Name of the template
+#: archive-brokerage.php:38
+#: admin/ReduxFramework/theme-options/re7-config.php:2227
+msgid "Brokerages"
+msgstr ""
+
+#: admin/theme-functions.php:8022 admin/theme-functions.php:8040
+msgid "Brokered by"
+msgstr ""
+
+#: admin/theme-functions.php:8839
+msgid "Building"
+msgstr ""
+
+#: includes/single-listing-energy-efficiency.php:42
+msgid "Building Energy Performance"
+msgstr ""
+
+#: admin/elementor-templates/templates.php:41
+msgid "Buy Now"
+msgstr ""
+
+#: admin/theme-functions.php:2511 admin/theme-functions.php:6000
+msgid "Buyer"
+msgstr ""
+
+#: admin/theme-functions.php:5997
+msgid "Buyer, Seller or Agent?"
+msgstr ""
+
+#: single.php:79 includes/post-author-info.php:15 layouts/blog-grid.php:82
+#: layouts/blog-large.php:82
+msgid "By"
+msgstr ""
+
+#: includes/single-listing-affordability-calculator.php:66
+msgid "Calculate your monthly mortgage payments"
+msgstr ""
+
+#: includes/single-listing-tools.php:47
+msgid "Call"
+msgstr ""
+
+#: admin/theme-functions.php:3625
+msgid "Can be due to missing, bad or improper address information"
+msgstr ""
+
+#: template-submit-listing.php:819 template-edit-listing.php:914
+msgid "Cancel"
+msgstr ""
+
+#: template-submit-listing.php:725 template-edit-listing.php:819
+#: admin/theme-functions.php:7676
+msgid "Cancellation Fee"
+msgstr ""
+
+#: template-sitemap.php:74
+msgid "Categories"
+msgstr ""
+
+#: admin/ReduxFramework/theme-options/re7-config.php:5541
+msgid "Changelog"
+msgstr ""
+
+#: single-brokerage.php:452 layouts/grid.php:23 layouts/grid.php:27
+#: layouts/list.php:23 layouts/list.php:25
+msgid "Check back soon."
+msgstr ""
+
+#: admin/theme-functions.php:7600
+msgid "Check In"
+msgstr ""
+
+#: template-submit-listing.php:701 template-edit-listing.php:795
+msgid "Check In Time"
+msgstr ""
+
+#: admin/theme-functions.php:7611
+msgid "Check Out"
+msgstr ""
+
+#: includes/post-social.php:16 includes/post-social.php:17
+#: includes/post-social.php:18 admin/theme-functions.php:10174
+#: admin/theme-functions.php:10191
+msgid "Check out this great article on"
+msgstr ""
+
+#: includes/single-listing-home.php:372 includes/single-listing-home.php:373
+#: includes/single-listing-home.php:374 includes/single-listing-tools.php:61
+#: includes/single-listing-tools.php:99 includes/single-listing-tools.php:105
+msgid "Check out this great listing on"
+msgstr ""
+
+#: template-submit-listing.php:706 template-edit-listing.php:800
+msgid "Check Out Time"
+msgstr ""
+
+#: admin/ReduxFramework/theme-options/re7-config.php:3903
+msgid ""
+"Choose which forms you'd like to send data from, if set to \"No\" regular "
+"email will be used. <strong>Note:</strong> This does not apply to third-"
+"party plugin forms (Contact Form 7, Elementor Forms, etc…)"
+msgstr ""
+
+#: admin/theme-functions.php:1235
+msgid "Cities"
+msgstr ""
+
+#: template-advanced-search.php:67 template-agents.php:96
+#: includes/advanced-search.php:44 includes/header-advanced-search.php:138
+#: includes/header-advanced-search.php:608 admin/profile-fields.php:253
+#: admin/theme-functions.php:8770
+msgid "City"
+msgstr ""
+
+#: template-submit-listing.php:718 template-edit-listing.php:812
+#: admin/theme-functions.php:7665
+msgid "Cleaning Fee"
+msgstr ""
+
+#: admin/elementor-templates/bootstrap.php:32
+msgid "click here"
+msgstr ""
+
+#: admin/theme-functions.php:1247
+msgid "Close"
+msgstr ""
+
+#: search-listings.php:422 search-listings.php:465
+#: admin/theme-functions.php:1243
+msgid "Close Map"
+msgstr ""
+
+#: admin/theme-functions.php:1245
+msgid "Close Search"
+msgstr ""
+
+#: admin/plugins/register.php:66 admin/getting-started/getting-started.php:218
+msgid "Co-Authors Plus"
+msgstr ""
+
+#: includes/single-listing-home.php:75 includes/single-listing-header.php:38
+#: includes/single-listing-header.php:100
+msgid "Co-listing"
+msgstr ""
+
+#: includes/single-listing-contact.php:246 includes/single-listing-home.php:301
+msgid "Co-listing Agent"
+msgstr ""
+
+#: includes/single-listing-yelp.php:58
+#: includes/single-listing-google-places.php:75
+msgid "Coffee Shops"
+msgstr ""
+
+#: includes/single-listing-content.php:69
+msgid "Collapse"
+msgstr ""
+
+#: admin/ReduxFramework/theme-options/re7-config.php:1099
+msgid "Column One"
+msgstr ""
+
+#: admin/ReduxFramework/theme-options/re7-config.php:1161
+msgid "Column Three"
+msgstr ""
+
+#: admin/ReduxFramework/theme-options/re7-config.php:1130
+msgid "Column Two"
+msgstr ""
+
+#: comments.php:53
+msgid "Comments are closed, but"
+msgstr ""
+
+#: comments.php:61
+msgid "Comments are closed."
+msgstr ""
+
+#: template-advanced-search.php:129 includes/advanced-search.php:152
+#: includes/header-advanced-search.php:197
+#: includes/header-advanced-search.php:311
+#: includes/header-advanced-search.php:802 admin/theme-functions.php:8847
+msgid "Community"
+msgstr ""
+
+#. Name of the template
+#: admin/theme-functions.php:7007
+msgid "Compare"
+msgstr ""
+
+#: template-packages-thank-you.php:40
+msgid "Complete"
+msgstr ""
+
+#: admin/theme-functions.php:8841
+msgid "Complex"
+msgstr ""
+
+#: admin/theme-functions.php:3639
+msgid "Conflicting Coordinates"
+msgstr ""
+
+#. Name of the template
+#: includes/single-listing-sub-navigation.php:185
+#: admin/ReduxFramework/theme-options/re7-config.php:5368
+msgid "Contact"
+msgstr ""
+
+#: admin/plugins/register.php:72
+msgid "Contact Form 7"
+msgstr ""
+
+#: template-edit-profile.php:166
+msgid "Contact Info"
+msgstr ""
+
+#. Name of the template
+msgid "Contact No Form"
+msgstr ""
+
+#: admin/ReduxFramework/theme-options/re7-config.php:963
+msgid "Contact Phone"
+msgstr ""
+
+#: admin/plugins/register.php:111 admin/getting-started/getting-started.php:167
+msgid "Contempo Compare Listings"
+msgstr ""
+
+#: admin/theme-functions.php:93
+msgid "Contempo Compare Listings Needs to be Setup"
+msgstr ""
+
+#: admin/plugins/register.php:100 admin/getting-started/getting-started.php:179
+msgid "Contempo Favorite Listings"
+msgstr ""
+
+#: admin/plugins/register.php:78
+msgid "Contempo Leads Pro"
+msgstr ""
+
+#: admin/plugins/register.php:89
+msgid "Contempo Listing Analytics"
+msgstr ""
+
+#: admin/plugins/register.php:46 admin/getting-started/getting-started.php:143
+msgid "Contempo Real Estate Custom Posts"
+msgstr ""
+
+#: admin/plugins/register.php:122 admin/getting-started/getting-started.php:155
+msgid "Contempo Saved Searches & Email Alerts"
+msgstr ""
+
+#. Author of the theme
+msgid "Contempo Themes"
+msgstr ""
+
+#: includes/single-listing-yelp.php:122
+#: includes/single-listing-google-places.php:147
+msgid "Convenience Stores"
+msgstr ""
+
+#: includes/single-listing-ct-idx-pro-info.php:355
+#: includes/single-listing-ct-idx-pro-info.php:993
+msgid "Cooling"
+msgstr ""
+
+#: template-submit-listing.php:768 template-advanced-search.php:100
+#: template-edit-listing.php:869 includes/advanced-search.php:89
+#: includes/header-advanced-search.php:178
+#: includes/header-advanced-search.php:646
+msgid "Country"
+msgstr ""
+
+#: template-submit-listing.php:763 template-edit-listing.php:864
+#: includes/advanced-search.php:98 includes/header-advanced-search.php:188
+#: includes/header-advanced-search.php:636
+msgid "County"
+msgstr ""
+
+#: admin/ReduxFramework/theme-options/re7-config.php:1294
+msgid "Create a Skin"
+msgstr ""
+
+#: admin/theme-functions.php:5956
+msgid "Create an account"
+msgstr ""
+
+#: template-view-listings.php:218
+msgid "Create One"
+msgstr ""
+
+#: admin/theme-functions.php:5871
+msgid "Create your account,"
+msgstr ""
+
+#: admin/theme-functions.php:6665
+msgid "Current Package Details"
+msgstr ""
+
+#: admin/ReduxFramework/theme-options/re7-config.php:5417
+msgid "Custom CSS"
+msgstr ""
+
+#: admin/ReduxFramework/theme-options/re7-config.php:5432
+msgid "Custom JS"
+msgstr ""
+
+#: admin/ReduxFramework/theme-options/re7-config.php:875
+msgid "Custom Logo"
+msgstr ""
+
+#: includes/user-sidebar.php:37 admin/theme-functions.php:2647
+msgid "Dashboard"
+msgstr ""
+
+#: template-submit-listing.php:646 template-edit-listing.php:748
+#: includes/single-listing-open-house.php:48
+msgid "Date"
+msgstr ""
+
+#: admin/theme-functions.php:3405
+msgid "Date - New to Old"
+msgstr ""
+
+#: admin/theme-functions.php:3404
+msgid "Date - Old to New"
+msgstr ""
+
+#: admin/theme-functions.php:10064
+#, php-format
+msgid "Day: %s"
+msgstr ""
+
+#: admin/updater/theme-updater.php:36 admin/updater/theme-updater-admin.php:61
+msgid "Deactivate License"
+msgstr ""
+
+#: admin/theme-functions.php:3401
+msgid "Default Order"
+msgstr ""
+
+#: admin/theme-functions.php:5739
+msgid "Delete"
+msgstr ""
+
+#: template-edit-profile.php:229
+msgid "Delete Account"
+msgstr ""
+
+#: includes/single-listing-sub-navigation.php:34
+msgid "Description"
+msgstr ""
+
+#: includes/single-listing-sub-navigation.php:43 admin/theme-functions.php:6729
+#: admin/ReduxFramework/theme-options/re7-config.php:4521
+msgid "Details"
+msgstr ""
+
+#: admin/theme-functions.php:95 admin/theme-functions.php:137
+msgid "Dismiss this notice"
+msgstr ""
+
+#: template-edit-profile.php:128
+msgid "Display to Public as"
+msgstr ""
+
+#: template-advanced-search.php:127
+#: includes/single-listing-ct-idx-pro-info.php:642
+#: includes/single-listing-ct-idx-pro-info.php:1230
+#: includes/advanced-search.php:150 includes/header-advanced-search.php:309
+#: includes/header-advanced-search.php:800 admin/theme-functions.php:8835
+msgid "District"
+msgstr ""
+
+#: admin/getting-started/getting-started.php:116
+#: admin/ReduxFramework/theme-options/re7-config.php:5524
+msgid "Documentation"
+msgstr ""
+
+#: admin/theme-functions.php:94 admin/theme-functions.php:136
+msgid "documentation"
+msgstr ""
+
+#: admin/theme-functions.php:5871
+msgid "Don't have an account?"
+msgstr ""
+
+#: includes/single-listing-affordability-calculator.php:101
+msgid "Down Payment"
+msgstr ""
+
+#: template-view-listings.php:161
+msgid "Draft"
+msgstr ""
+
+#: template-submit-listing.php:521 template-edit-listing.php:599
+msgid "Drag & Drop Images Here"
+msgstr ""
+
+#: template-edit-profile.php:170
+msgid "E-mail *"
+msgstr ""
+
+#: template-view-listings.php:176
+msgid "Edit"
+msgstr ""
+
+#. Name of the template
+msgid "Edit Listing"
+msgstr ""
+
+#. Name of the template
+msgid "Edit Profile"
+msgstr ""
+
+#: includes/single-listing-yelp.php:74
+#: includes/single-listing-google-places.php:93
+msgid "Education"
+msgstr ""
+
+#: includes/single-listing-ct-idx-pro-info.php:653
+#: includes/single-listing-ct-idx-pro-info.php:1241
+msgid "Elementary"
+msgstr ""
+
+#: admin/plugins/register.php:54
+msgid "Elementor Page Builder"
+msgstr ""
+
+#: admin/ReduxFramework/theme-options/re7-config.php:2661
+msgid "Elementor Search Module"
+msgstr ""
+
+#: template-favorite-listings.php:95 archive-brokerage.php:115
+#: archive-brokerage.php:178 single-brokerage.php:86 single-brokerage.php:145
+#: single-brokerage.php:359 single-brokerage.php:423
+#: template-brokerages.php:129 template-brokerages.php:190 author.php:88
+#: author.php:139 author.php:383 template-agents.php:302
+#: includes/single-listing-lead-media-with-contact.php:185
+#: includes/single-listing-contact.php:137
+#: includes/single-listing-contact.php:207
+#: includes/single-listing-contact.php:286 includes/single-listing-home.php:257
+#: includes/single-listing-home.php:279 includes/single-listing-home.php:341
+#: includes/single-listing-lead-media-with-contact-gallery-modal.php:289
+#: includes/agent-contact-modal.php:27 includes/agent-contact-modal.php:27
+#: includes/agent-contact-modal.php:27 includes/single-listing-tools.php:48
+#: admin/theme-functions.php:5976
+msgid "Email"
+msgstr ""
+
+#: admin/theme-functions.php:6082
+msgid "Email already registered"
+msgstr ""
+
+#: admin/ReduxFramework/theme-options/re7-config.php:5078
+msgid "Email Content"
+msgstr ""
+
+#: template-contact.php:67
+msgid "Email*"
+msgstr ""
+
+#: admin/theme-functions.php:6359
+#, php-format
+msgid "Email: %s"
+msgstr ""
+
+#: template-submit-listing.php:656 template-edit-listing.php:758
+msgid "End Time"
+msgstr ""
+
+#: includes/single-listing-energy-efficiency.php:33
+msgid "Energy Class"
+msgstr ""
+
+#: includes/single-listing-energy-efficiency.php:24
+#: includes/single-listing-energy-efficiency.php:26
+msgid "Energy Efficiency"
+msgstr ""
+
+#: admin/elementor-templates/templates.php:42
+msgid "Enter License"
+msgstr ""
+
+#: admin/theme-functions.php:6692
+msgid "Enter the listing street address here"
+msgstr ""
+
+#: admin/theme-functions.php:5916
+msgid ""
+"Enter your email address and we'll send you a link you can use to pick a new "
+"password."
+msgstr ""
+
+#. Theme Name
+#: admin/merlin-config.php:52
+msgid "Enter your license key to enable remote updates and theme support."
+msgstr ""
+
+#: admin/updater/theme-updater-admin.php:58
+msgid "Enter your purchase code."
+msgstr ""
+
+#: includes/single-listing-map.php:36
+msgid "Enter your starting address"
+msgstr ""
+
+#: admin/updater/theme-updater.php:33
+msgid "Enter your Themeforest purchase code."
+msgstr ""
+
+#: includes/single-listing-ct-idx-pro-info.php:440
+#: includes/single-listing-ct-idx-pro-info.php:1058
+msgid "Equipment"
+msgstr ""
+
+#: admin/theme-functions.php:6302
+msgid "Error"
+msgstr ""
+
+#: admin/theme-functions.php:3619
+msgid "Error:"
+msgstr ""
+
+#: includes/single-listing-estimated-payment.php:30
+msgid "Est. Payment"
+msgstr ""
+
+#: admin/ReduxFramework/theme-options/re7-config.php:3341
+msgid "Estimated Payment"
+msgstr ""
+
+#: admin/elementor-templates/templates.php:38
+msgid ""
+"Exclusive to Real Estate 7 Yearly utilize our collection of 200+ "
+"professionally designed Elementor blocks & pages, ready-to-use, click to "
+"insert, drag and drop, swap in your content, customize, and build pages "
+"quickly and easily — all while looking like a seasoned professional."
+msgstr ""
+
+#: template-view-invoices.php:94
+msgid "Expire"
+msgstr ""
+
+#: template-view-invoices.php:114 admin/theme-functions.php:6656
+msgid "Expired"
+msgstr ""
+
+#: admin/updater/theme-updater.php:42 admin/updater/theme-updater-admin.php:67
+#, php-format
+msgid "Expires %s."
+msgstr ""
+
+#: includes/single-listing-ct-idx-pro-info.php:233
+#: includes/single-listing-ct-idx-pro-info.php:418
+#: includes/single-listing-ct-idx-pro-info.php:883
+#: includes/single-listing-ct-idx-pro-info.php:1036
+msgid "Exterior"
+msgstr ""
+
+#: admin/theme-functions.php:7654
+msgid "Extra People"
+msgstr ""
+
+#: template-submit-listing.php:713 template-edit-listing.php:807
+msgid "Extra Person Charge"
+msgstr ""
+
+#: admin/profile-fields.php:81
+msgid "Extra profile information"
+msgstr ""
+
+#: admin/theme-functions.php:12132 admin/theme-functions.php:12143
+msgid "F"
+msgstr ""
+
+#: admin/profile-fields.php:54
+msgid "Facebook URL"
+msgstr ""
+
+#: admin/getting-started/getting-started.php:101
+msgid "FAQ &amp; Support"
+msgstr ""
+
+#: admin/getting-started/getting-started.php:244
+#, php-format
+msgid "FAQ for %s?"
+msgstr ""
+
+#: admin/theme-functions.php:6913
+msgid "Favorite"
+msgstr ""
+
+#. Name of the template
+#: includes/user-sidebar.php:42 admin/theme-functions.php:2655
+#: admin/ReduxFramework/theme-options/re7-config.php:5172
+msgid "Favorite Listings"
+msgstr ""
+
+#: admin/profile-fields.php:150
+msgid "Fax #"
+msgstr ""
+
+#: template-submit-listing.php:446 template-view-listings.php:164
+#: template-edit-listing.php:462 includes/home-listings-count.php:201
+#: admin/theme-functions.php:8208
+msgid "Featured"
+msgstr ""
+
+#: includes/single-listing-home.php:29 includes/featured-listings.php:67
+#: includes/featured-listings.php:76 includes/home-listings-carousel.php:44
+#: includes/home-listings-carousel.php:53
+msgid "featured"
+msgstr ""
+
+#: template-user-dashboard.php:162
+msgid "Featured Listings"
+msgstr ""
+
+#: admin/theme-functions.php:6673
+msgid "Featured Listings Remaining:"
+msgstr ""
+
+#: includes/single-listing-sub-navigation.php:100
+#: includes/single-listing-ct-idx-pro-info.php:408
+#: includes/single-listing-ct-idx-pro-info.php:410
+#: includes/single-listing-ct-idx-pro-info.php:1030
+msgid "Features"
+msgstr ""
+
+#: includes/single-listing-ct-idx-pro-info.php:184
+#: includes/single-listing-ct-idx-pro-info.php:834
+msgid "Fencing"
+msgstr ""
+
+#: includes/single-listing-affordability-calculator.php:49
+msgid "FHA 15-year-fixed"
+msgstr ""
+
+#: includes/single-listing-affordability-calculator.php:48
+msgid "FHA 30-year Fixed"
+msgstr ""
+
+#: template-submit-listing.php:542 template-edit-listing.php:622
+msgid "Files & Documents"
+msgstr ""
+
+#: search-listings.php:302 search-listings.php:404
+msgid "Find A Home"
+msgstr ""
+
+#: includes/single-listing-ct-idx-pro-info.php:462
+#: includes/single-listing-ct-idx-pro-info.php:1080
+msgid "Fireplace"
+msgstr ""
+
+#: includes/single-listing-ct-idx-pro-info.php:473
+#: includes/single-listing-ct-idx-pro-info.php:1091
+msgid "Fireplace Type"
+msgstr ""
+
+#: template-edit-profile.php:116 admin/theme-functions.php:5981
+msgid "First Name"
+msgstr ""
+
+#: admin/ReduxFramework/theme-options/re7-config.php:1216
+msgid "FlexSlider"
+msgstr ""
+
+#: includes/single-listing-ct-idx-pro-info.php:531
+#: includes/single-listing-ct-idx-pro-info.php:1146
+msgid "Floor Coverings"
+msgstr ""
+
+#: includes/single-listing-sub-navigation.php:72
+msgid "Floor Plans"
+msgstr ""
+
+#: includes/single-listing-multi-floorplan.php:24
+#: includes/single-listing-multi-floorplan.php:26
+msgid "Floor Plans & Pricing"
+msgstr ""
+
+#: admin/ReduxFramework/theme-options/re7-config.php:1937
+#: admin/ReduxFramework/theme-options/re7-config.php:5447
+msgid "Footer"
+msgstr ""
+
+#: admin/theme-functions.php:330
+msgid "Footer Menu"
+msgstr ""
+
+#: includes/home-listings-count.php:149
+msgid "For Rent"
+msgstr ""
+
+#: admin/ReduxFramework/theme-options/re7-config.php:3902
+msgid "Forms"
+msgstr ""
+
+#: includes/advanced-search.php:180 includes/header-advanced-search.php:389
+#: includes/header-advanced-search.php:886
+msgid "From"
+msgstr ""
+
+#: admin/ReduxFramework/theme-options/re7-config.php:4072
+msgid "Front End Login & Registration"
+msgstr ""
+
+#: admin/ReduxFramework/theme-options/re7-config.php:4218
+msgid "Front End Submission"
+msgstr ""
+
+#: includes/single-listing-ct-idx-pro-info.php:574
+#: includes/single-listing-ct-idx-pro-info.php:1177
+msgid "Full Baths"
+msgstr ""
+
+#. Name of the template
+msgid "Full Width"
+msgstr ""
+
+#. Name of the template
+msgid "Full Width 2"
+msgstr ""
+
+#: admin/theme-functions.php:9046
+msgid "Furnished/Unfurnished?"
+msgstr ""
+
+#: admin/theme-functions.php:12120
+msgid "g a"
+msgstr ""
+
+#: admin/theme-functions.php:12114
+msgid "g:i a"
+msgstr ""
+
+#: template-submit-listing.php:504
+msgid "Gallery Images (select as many as you like)"
+msgstr ""
+
+#: includes/single-listing-ct-idx-pro-info.php:296
+#: includes/single-listing-ct-idx-pro-info.php:938
+msgid "Garage Stalls"
+msgstr ""
+
+#: includes/single-listing-yelp.php:106
+#: includes/single-listing-google-places.php:129
+msgid "Gas Stations"
+msgstr ""
+
+#: template-favorite-listings.php:90 archive-brokerage.php:110
+#: single-brokerage.php:81 single-brokerage.php:354 template-brokerages.php:124
+#: author.php:83 template-agents.php:297
+msgid "General Questions"
+msgstr ""
+
+#: admin/ReduxFramework/theme-options/re7-config.php:733
+msgid "General Settings"
+msgstr ""
+
+#: admin/theme-functions.php:3644
+#, php-format
+msgid "Generated from Address: %s, %s"
+msgstr ""
+
+#: includes/single-listing-map.php:52
+msgid "get directions"
+msgstr ""
+
+#: admin/theme-functions.php:5920
+msgid "Get New Password"
+msgstr ""
+
+#: includes/single-listing-affordability-calculator.php:190
+#: admin/ReduxFramework/theme-options/re7-config.php:3412
+msgid "Get Pre-Qualified"
+msgstr ""
+
+#: template-submit-listing.php:364
+msgid "Get Started!"
+msgstr ""
+
+#: functions.php:56
+msgid "Getting Started"
+msgstr ""
+
+#: admin/getting-started/getting-started.php:91
+#, php-format
+msgid "Getting started with Real Estate 7 v%2$s"
+msgstr ""
+
+#: includes/single-listing-energy-efficiency.php:36
+msgid "Global Energy Performance"
+msgstr ""
+
+#: admin/ReduxFramework/theme-options/re7-config.php:2341
+msgid "Global Options"
+msgstr ""
+
+#: 404.php:17
+msgid "Go back to the homepage"
+msgstr ""
+
+#: admin/theme-functions.php:3839 admin/theme-functions.php:3915
+#: admin/theme-functions.php:4035 admin/theme-functions.php:4184
+#: admin/theme-functions.php:4275 admin/theme-functions.php:4419
+msgid "Go into Admin > Real Estate 7 Options > Google Maps"
+msgstr ""
+
+#: includes/single-listing-yelp.php:177
+msgid "Go into Admin > Real Estate 7 Options > What's Nearby? > Create App"
+msgstr ""
+
+#: admin/ReduxFramework/theme-options/re7-config.php:2247
+msgid "Google Maps"
+msgstr ""
+
+#: admin/theme-functions.php:3621
+msgid ""
+"Google Maps Geocoding API Failed to Automatically Generate the Coordinates "
+"for this Listing"
+msgstr ""
+
+#: admin/google-places/GooglePlaces.php:149
+#: admin/google-places/GooglePlaces.php:165
+#: admin/google-places/GooglePlaces.php:182
+msgid "Google Places API is currently unavailable."
+msgstr ""
+
+#: includes/single-listing-google-places.php:196
+msgid "Google Places/What's Nearby? Error."
+msgstr ""
+
+#: admin/ReduxFramework/theme-options/re7-config.php:2294
+msgid "Google reCAPTCHA"
+msgstr ""
+
+#: search-listings.php:508
+msgid "Grid"
+msgstr ""
+
+#: includes/single-listing-yelp.php:66
+msgid "Grocery"
+msgstr ""
+
+#: includes/sub-listings.php:278 admin/theme-functions.php:7392
+msgid "Guests"
+msgstr ""
+
+#: admin/ReduxFramework/theme-options/re7-config.php:1383
+msgid "H1"
+msgstr ""
+
+#: admin/ReduxFramework/theme-options/re7-config.php:1403
+msgid "H2"
+msgstr ""
+
+#: admin/ReduxFramework/theme-options/re7-config.php:1423
+msgid "H3"
+msgstr ""
+
+#: admin/ReduxFramework/theme-options/re7-config.php:1443
+msgid "H4"
+msgstr ""
+
+#: admin/ReduxFramework/theme-options/re7-config.php:1463
+msgid "H5"
+msgstr ""
+
+#: admin/ReduxFramework/theme-options/re7-config.php:1483
+msgid "H6"
+msgstr ""
+
+#: admin/ReduxFramework/theme-options/re7-config.php:792
+#: admin/ReduxFramework/theme-options/re7-config.php:1520
+msgid "Header"
+msgstr ""
+
+#: admin/ReduxFramework/theme-options/re7-config.php:1091
+msgid "Header Info Columns"
+msgstr ""
+
+#: admin/ReduxFramework/theme-options/re7-config.php:2504
+msgid "Header Search"
+msgstr ""
+
+#: admin/ReduxFramework/theme-options/re7-config.php:1364
+msgid "Headings"
+msgstr ""
+
+#: includes/single-listing-ct-idx-pro-info.php:344
+#: includes/single-listing-ct-idx-pro-info.php:982
+msgid "Heat Source"
+msgstr ""
+
+#: includes/single-listing-ct-idx-pro-info.php:318
+#: includes/single-listing-ct-idx-pro-info.php:960
+msgid "Heating"
+msgstr ""
+
+#: admin/theme-functions.php:6355
+#, php-format
+msgid "Hi %s,"
+msgstr ""
+
+#: admin/theme-functions.php:2604
+msgid "Hi, "
+msgstr ""
+
+#: includes/single-listing-ct-idx-pro-info.php:678
+#: includes/single-listing-ct-idx-pro-info.php:1263
+msgid "High"
+msgstr ""
+
+#: includes/single-listing-ct-idx-pro-info.php:700
+#: includes/single-listing-ct-idx-pro-info.php:702
+#: includes/single-listing-ct-idx-pro-info.php:710
+#: includes/single-listing-ct-idx-pro-info.php:1277
+#: includes/single-listing-ct-idx-pro-info.php:1283
+msgid "HOA"
+msgstr ""
+
+#: includes/single-listing-ct-idx-pro-info.php:721
+#: includes/single-listing-ct-idx-pro-info.php:1294
+msgid "HOA Fee Due"
+msgstr ""
+
+#: includes/single-listing-ct-idx-pro-info.php:732
+#: includes/single-listing-ct-idx-pro-info.php:1305
+msgid "HOA Includes"
+msgstr ""
+
+#. Name of the template
+#: single-listings.php:63 admin/theme-functions.php:10053
+#: admin/theme-functions.php:11956
+msgid "Home"
+msgstr ""
+
+#: includes/single-listing-affordability-calculator.php:185
+msgid "Home Insurance"
+msgstr ""
+
+#: includes/single-listing-affordability-calculator.php:83
+msgid "Home Price"
+msgstr ""
+
+#: admin/ReduxFramework/theme-options/re7-config.php:1193
+msgid "Homepage"
+msgstr ""
+
+#: admin/ReduxFramework/theme-options/re7-config.php:2629
+msgid "Homepage Search"
+msgstr ""
+
+#: includes/home-listings-count.php:45
+msgid "Homes For Sale"
+msgstr ""
+
+#: includes/single-listing-yelp.php:98
+#: includes/single-listing-google-places.php:120
+msgid "Hospitals"
+msgstr ""
+
+#: admin/theme-functions.php:7961
+msgid "Hosted By"
+msgstr ""
+
+#: admin/getting-started/getting-started.php:298
+msgid "Hosting Recommendations"
+msgstr ""
+
+#. URI of the theme
+msgid "https://contempothemes.com/wp-real-estate-7/"
+msgstr ""
+
+#. Author URI of the theme
+msgid "https://www.contempothemes.com/"
+msgstr ""
+
+#: admin/theme-functions.php:12117
+msgid "i"
+msgstr ""
+
+#: admin/theme-functions.php:6019
+msgid "I accept the"
+msgstr ""
+
+#: admin/ReduxFramework/theme-options/re7-config.php:983
+#: admin/ReduxFramework/theme-options/re7-config.php:1122
+#: admin/ReduxFramework/theme-options/re7-config.php:1153
+#: admin/ReduxFramework/theme-options/re7-config.php:1184
+msgid "Icon"
+msgstr ""
+
+#: admin/ReduxFramework/theme-options/re7-config.php:1318
+msgid "If this isn't set to Yes NONE of the Styles will be Applied."
+msgstr ""
+
+#: admin/profile-fields.php:184
+msgid ""
+"If this user is marked as an agent (\"Show on agents page\" option above) "
+"use this area to add client testimonials."
+msgstr ""
+
+#: admin/profile-fields.php:96
+msgid ""
+"If user is an agent select the order you would like them displayed on the "
+"agents page, e.g. 1, 2, 3, etc&hellip; NOTE: You must also set Real Estate 7 "
+"Options > Agents > Manually Order Agents? > to Yes, otherwise the ordering "
+"won't be applied."
+msgstr ""
+
+#: admin/theme-functions.php:6368
+#, php-format
+msgid "If you have any problems, please contact us at %s."
+msgstr ""
+
+#: admin/ReduxFramework/theme-options/re7-config.php:3413
+msgid ""
+"If you have the \"Affordability\" module enabled under the \"Main Layout "
+"Blocks\" manager, you can use this to display a button to \"Get Pre-"
+"Qualified\". This is perfect if you own your own mortgage company, have a "
+"partnership with one, or to use as an affiliate link for lead referrals."
+msgstr ""
+
+#: admin/ReduxFramework/theme-options/re7-config.php:3342
+msgid ""
+"If you have the \"Est Payment\" module enabled under the \"Main Layout "
+"Blocks\" manager, these are the assumptions settings used to display it."
+msgstr ""
+
+#: template-edit-profile.php:205
+msgid ""
+"If you would like to change the password type a new one. Otherwise leave "
+"this blank."
+msgstr ""
+
+#: admin/getting-started/getting-started.php:241
+#, php-format
+msgid ""
+"If you've read through the <a href=\"%1$s\" target=\"_blank\">"
+"documentation</a> and <a href=\"%2$s\" target=\"_blank\">knowledge base</a> "
+"and still have questions or are experiencing issues, we're happy to help! "
+"Simply <a href=\"%3$s\" target=\"_blank\" title=\"Open a live chat\">open a "
+"live chat</a> we'll personally get back to you, thanks in advance for your "
+"patience."
+msgstr ""
+
+#: admin/ReduxFramework/theme-options/re7-config.php:5504
+msgid "Import/Export"
+msgstr ""
+
+#: single.php:79 layouts/blog-grid.php:82 layouts/blog-large.php:96
+msgid "in"
+msgstr ""
+
+#: admin/theme-functions.php:6203 admin/theme-functions.php:6252
+msgid "Incorrect password"
+msgstr ""
+
+#: admin/profile-fields.php:60
+msgid "Instagram URL"
+msgstr ""
+
+#: admin/getting-started/getting-started.php:220
+msgid "Install Co-Authors Plus"
+msgstr ""
+
+#: admin/getting-started/getting-started.php:169
+msgid "Install Contempo Compare Listings"
+msgstr ""
+
+#: admin/getting-started/getting-started.php:181
+msgid "Install Contempo Favorite Listings"
+msgstr ""
+
+#: admin/getting-started/getting-started.php:145
+msgid "Install Contempo Real Estate Custom Posts"
+msgstr ""
+
+#: admin/getting-started/getting-started.php:157
+msgid "Install Contempo Saved Searches & Email Alerts"
+msgstr ""
+
+#: admin/getting-started/getting-started.php:208
+msgid "Install Miniorange Social Login"
+msgstr ""
+
+#: admin/getting-started/getting-started.php:133
+#: admin/getting-started/getting-started.php:145
+#: admin/getting-started/getting-started.php:157
+#: admin/getting-started/getting-started.php:169
+#: admin/getting-started/getting-started.php:181
+#: admin/getting-started/getting-started.php:193
+#: admin/getting-started/getting-started.php:208
+#: admin/getting-started/getting-started.php:220
+msgid "Install Now"
+msgstr ""
+
+#: admin/getting-started/getting-started.php:133
+msgid "Install Redux Framework"
+msgstr ""
+
+#: admin/getting-started/getting-started.php:193
+msgid "Install WPML"
+msgstr ""
+
+#: admin/getting-started/getting-started.php:135
+#: admin/getting-started/getting-started.php:147
+#: admin/getting-started/getting-started.php:159
+#: admin/getting-started/getting-started.php:171
+#: admin/getting-started/getting-started.php:183
+#: admin/getting-started/getting-started.php:195
+#: admin/getting-started/getting-started.php:210
+#: admin/getting-started/getting-started.php:222
+msgid "Installed"
+msgstr ""
+
+#: admin/getting-started/getting-started.php:110
+#, php-format
+msgid "Installing %s"
+msgstr ""
+
+#: includes/single-listing-affordability-calculator.php:130
+msgid "Interest Rate"
+msgstr ""
+
+#: includes/single-listing-ct-idx-pro-info.php:429
+#: includes/single-listing-ct-idx-pro-info.php:1047
+msgid "Interior"
+msgstr ""
+
+#: admin/theme-functions.php:6078
+msgid "Invalid email"
+msgstr ""
+
+#: admin/updater/theme-updater-admin.php:390
+msgid "Invalid license."
+msgstr ""
+
+#: admin/theme-functions.php:6070 admin/theme-functions.php:6192
+#: admin/theme-functions.php:6241
+msgid "Invalid username"
+msgstr ""
+
+#: template-view-invoices.php:91
+msgid "Invoice"
+msgstr ""
+
+#. Name of the template
+#: includes/user-sidebar.php:60 admin/theme-functions.php:2673
+msgid "Invoices"
+msgstr ""
+
+#: admin/theme-functions.php:5871
+msgid "it takes less than a minute."
+msgstr ""
+
+#: admin/theme-functions.php:5957
+msgid "It takes less than a minute. If you already have an account "
+msgstr ""
+
+#: admin/theme-functions.php:12133
+msgid "j"
+msgstr ""
+
+#: admin/theme-functions.php:136
+msgid ""
+"Just takes a few minutes to setup the miniOrange Social Login plugin "
+"properly please see the "
+msgstr ""
+
+#: admin/theme-functions.php:94
+msgid "Just takes a few seconds to setup the plugin properly please see the "
+msgstr ""
+
+#: includes/advanced-search.php:239 includes/header-advanced-search.php:102
+#: includes/home-hero-advanced-search.php:21
+msgid "Keyword"
+msgstr ""
+
+#: admin/theme-functions.php:13913
+msgid "Keywords"
+msgstr ""
+
+#. Name of the template
+msgid "Landing Page"
+msgstr ""
+
+#: template-edit-profile.php:120 admin/theme-functions.php:5986
+msgid "Last Name"
+msgstr ""
+
+#: template-sitemap.php:51
+msgid "Last Twenty Posts"
+msgstr ""
+
+#: admin/merlin-config.php:58
+msgid "Later"
+msgstr ""
+
+#: admin/getting-started/getting-started.php:102
+msgid "Latest Updates"
+msgstr ""
+
+#: template-submit-listing.php:778 template-edit-listing.php:879
+msgid "Latitude & Longitude (optional)"
+msgstr ""
+
+#: template-user-dashboard.php:97
+msgid "Lead Sources"
+msgstr ""
+
+#: template-user-dashboard.php:86
+msgid "Leads Active"
+msgstr ""
+
+#: template-user-dashboard.php:114
+msgid "Leads Funnel"
+msgstr ""
+
+#: includes/home-listings-count.php:175
+msgid "Leased"
+msgstr ""
+
+#. Name of the template
+msgid "Left Sidebar"
+msgstr ""
+
+#: admin/updater/theme-updater.php:35 admin/updater/theme-updater-admin.php:60
+msgid "License Action"
+msgstr ""
+
+#: admin/updater/theme-updater.php:48 admin/updater/theme-updater-admin.php:73
+msgid "License is inactive."
+msgstr ""
+
+#: admin/updater/theme-updater.php:34 admin/updater/theme-updater-admin.php:59
+msgid "License Key"
+msgstr ""
+
+#: admin/merlin-config.php:53
+msgid "License key"
+msgstr ""
+
+#: admin/updater/theme-updater.php:45 admin/updater/theme-updater-admin.php:70
+#, php-format
+msgid "License key expired %s."
+msgstr ""
+
+#: admin/updater/theme-updater.php:46 admin/updater/theme-updater-admin.php:71
+msgid "License key has expired."
+msgstr ""
+
+#: admin/updater/theme-updater.php:41 admin/updater/theme-updater-admin.php:66
+msgid "License key is active."
+msgstr ""
+
+#: admin/updater/theme-updater.php:49 admin/updater/theme-updater-admin.php:74
+msgid "License key is disabled."
+msgstr ""
+
+#: admin/updater/theme-updater.php:47 admin/updater/theme-updater-admin.php:72
+msgid "License keys do not match."
+msgstr ""
+
+#: admin/updater/theme-updater.php:38 admin/updater/theme-updater.php:51
+#: admin/updater/theme-updater-admin.php:63
+#: admin/updater/theme-updater-admin.php:76
+msgid "License status is unknown."
+msgstr ""
+
+#: template-agents.php:395
+msgid "License#"
+msgstr ""
+
+#: admin/updater/theme-updater.php:43 admin/updater/theme-updater-admin.php:68
+msgid "Lifetime License."
+msgstr ""
+
+#: admin/theme-functions.php:6652
+msgid "Limit Reached"
+msgstr ""
+
+#: admin/profile-fields.php:66
+msgid "LinkedIn URL"
+msgstr ""
+
+#: admin/ReduxFramework/theme-options/re7-config.php:1897
+msgid "Links"
+msgstr ""
+
+#. Name of the template
+#: admin/ReduxFramework/theme-options/re7-config.php:3765
+msgid "Listing Analytics"
+msgstr ""
+
+#: template-submit-listing.php:485 template-edit-listing.php:492
+msgid "Listing Description"
+msgstr ""
+
+#. Name of the template
+#: admin/ReduxFramework/theme-options/re7-config.php:5044
+msgid "Listing Email Alerts"
+msgstr ""
+
+#: template-submit-listing.php:499 template-edit-listing.php:509
+msgid "Listing Featured Image"
+msgstr ""
+
+#: includes/single-listing-sub-navigation.php:179
+msgid "Listing Features"
+msgstr ""
+
+#: search-listings.php:290 search-listings.php:394 search-listings.php:444
+msgid "listing found"
+msgstr ""
+
+#: template-submit-listing.php:511 template-edit-listing.php:518
+#: admin/ReduxFramework/theme-options/re7-config.php:2967
+msgid "Listing Images"
+msgstr ""
+
+#: admin/theme-functions.php:315
+msgid "Listing Large"
+msgstr ""
+
+#: admin/ReduxFramework/theme-options/re7-config.php:3248
+msgid "Listing Single"
+msgstr ""
+
+#: admin/ReduxFramework/theme-options/re7-config.php:3743
+msgid "Listing Stats"
+msgstr ""
+
+#: single-listings.php:57 single-listings.php:66 single-brokerage.php:216
+#: admin/ReduxFramework/theme-options/re7-config.php:2714
+msgid "Listings"
+msgstr ""
+
+#: search-listings.php:290 search-listings.php:394 search-listings.php:444
+msgid "listings found"
+msgstr ""
+
+#: template-submit-listing.php:370
+msgid "Listings Limit Reached"
+msgstr ""
+
+#: admin/theme-functions.php:6672
+msgid "Listings Remaining:"
+msgstr ""
+
+#: admin/ReduxFramework/theme-options/re7-config.php:2987
+msgid "Listings Search"
+msgstr ""
+
+#: search-listings.php:296 search-listings.php:398 search-listings.php:451
+msgid "Loading Results…"
+msgstr ""
+
+#: includes/single-listing-affordability-calculator.php:150
+msgid "Loan Type"
+msgstr ""
+
+#: includes/single-listing-map.php:22 includes/single-listing-map.php:24
+#: includes/single-listing-sub-navigation.php:151
+#: includes/single-listing-sub-navigation.php:180
+#: admin/theme-functions.php:6733
+#: admin/ReduxFramework/theme-options/re7-config.php:4729
+msgid "Location"
+msgstr ""
+
+#: admin/theme-functions.php:5869
+msgid "Log in"
+msgstr ""
+
+#: admin/theme-functions.php:2695 admin/theme-functions.php:5892
+msgid "Login"
+msgstr ""
+
+#: admin/theme-functions.php:5957
+msgid "login"
+msgstr ""
+
+#: admin/theme-functions.php:2695
+msgid "Login / Register"
+msgstr ""
+
+#: includes/user-sidebar.php:70 admin/theme-functions.php:2684
+msgid "Logout"
+msgstr ""
+
+#: admin/theme-functions.php:5915
+msgid "Lost Password?"
+msgstr ""
+
+#: admin/theme-functions.php:5905
+msgid "Lost your password?"
+msgstr ""
+
+#: includes/single-listing-ct-idx-pro-info.php:222
+#: includes/single-listing-ct-idx-pro-info.php:872
+msgid "Lot Acres"
+msgstr ""
+
+#: template-submit-listing.php:608 template-edit-listing.php:710
+#: includes/sub-listings.php:362 includes/header-advanced-search.php:460
+#: admin/theme-functions.php:7502
+msgid "Lot Size"
+msgstr ""
+
+#: template-advanced-search.php:155 template-advanced-search.php:156
+#: includes/advanced-search.php:198 includes/advanced-search.php:199
+#: includes/header-advanced-search.php:441
+#: includes/header-advanced-search.php:442
+#: includes/header-advanced-search.php:966
+#: includes/header-advanced-search.php:967
+msgid "Lot Size From"
+msgstr ""
+
+#: includes/header-advanced-search.php:461
+#: includes/header-advanced-search.php:993
+msgid "Lot size range:"
+msgstr ""
+
+#: template-advanced-search.php:160 template-advanced-search.php:161
+#: includes/advanced-search.php:207 includes/advanced-search.php:208
+#: includes/header-advanced-search.php:450
+#: includes/header-advanced-search.php:451
+#: includes/header-advanced-search.php:978
+#: includes/header-advanced-search.php:979
+msgid "Lot Size To"
+msgstr ""
+
+#: includes/single-listing-ct-idx-pro-info.php:207
+#: includes/single-listing-ct-idx-pro-info.php:857
+msgid "Lot Sq Ft"
+msgstr ""
+
+#: admin/ReduxFramework/theme-options/re7-config.php:3825
+msgid "MailChimp"
+msgstr ""
+
+#: admin/profile-fields.php:142
+msgid "Mailing Address"
+msgstr ""
+
+#: admin/theme-functions.php:3642
+#, php-format
+msgid "Manually Entered: %s"
+msgstr ""
+
+#: search-listings.php:505 single-brokerage.php:219
+#: includes/single-listing-header.php:78
+msgid "Map"
+msgstr ""
+
+#: admin/theme-functions.php:7622
+msgid "Max Guests"
+msgstr ""
+
+#: template-submit-listing.php:689 template-edit-listing.php:783
+msgid "Max-number of Guests"
+msgstr ""
+
+#. Name of the template
+#: template-user-dashboard.php:61 includes/user-sidebar.php:57
+#: admin/theme-functions.php:2670
+msgid "Membership"
+msgstr ""
+
+#: admin/theme-functions.php:354
+msgid "Menu doesn't exist, please create one by clicking here."
+msgstr ""
+
+#: template-contact.php:76
+msgid "Message"
+msgstr ""
+
+#: includes/single-listing-ct-idx-pro-info.php:667
+#: includes/single-listing-ct-idx-pro-info.php:1252
+msgid "Middle"
+msgstr ""
+
+#: includes/sub-listings.php:293 admin/theme-functions.php:7407
+#: admin/theme-functions.php:7633
+msgid "Min Stay"
+msgstr ""
+
+#: template-submit-listing.php:694 template-edit-listing.php:788
+msgid "Minimum Stay"
+msgstr ""
+
+#: admin/getting-started/getting-started.php:206
+msgid "Miniorange Social Login"
+msgstr ""
+
+#: admin/plugins/register.php:60
+msgid "miniOrange Social Login"
+msgstr ""
+
+#: admin/theme-functions.php:12117
+#, php-format
+msgid "Minute %1$s"
+msgstr ""
+
+#: includes/single-listing-ct-idx-pro-info.php:451
+#: includes/single-listing-ct-idx-pro-info.php:1069
+msgid "Misc"
+msgstr ""
+
+#: includes/single-listing-propinfo.php:18
+msgid "MLS #"
+msgstr ""
+
+#: includes/advanced-search.php:217 includes/advanced-search.php:218
+#: includes/header-advanced-search.php:517
+#: includes/header-advanced-search.php:518
+#: includes/header-advanced-search.php:1082
+#: includes/header-advanced-search.php:1083
+msgid "MLS ID"
+msgstr ""
+
+#: admin/theme-functions.php:329
+msgid "Mobile"
+msgstr ""
+
+#: admin/profile-fields.php:123
+msgid "Mobile #"
+msgstr ""
+
+#: admin/ReduxFramework/theme-options/re7-config.php:1678
+msgid "Mobile Navigation"
+msgstr ""
+
+#: admin/theme-functions.php:10067
+#, php-format
+msgid "Month: %s"
+msgstr ""
+
+#: admin/theme-functions.php:10067
+msgctxt "monthly archives date format"
+msgid "F Y"
+msgstr ""
+
+#: includes/header-advanced-search.php:567 admin/theme-functions.php:11094
+#: admin/theme-functions.php:11115
+msgid "More"
+msgstr ""
+
+#: includes/advanced-search.php:256
+msgid "More Search Options"
+msgstr ""
+
+#: includes/ajax-single-listing-template-chunk-2.php:23
+msgid "Mortgage Calculator"
+msgstr ""
+
+#: admin/theme-functions.php:8829
+msgid "Municipality"
+msgstr ""
+
+#: template-user-dashboard.php:139 includes/user-sidebar.php:54
+#: admin/theme-functions.php:2667
+msgid "My Listings"
+msgstr ""
+
+#: admin/theme-functions.php:8708
+msgid "m²"
+msgstr ""
+
+#: template-edit-profile.php:108 template-favorite-listings.php:93
+#: archive-brokerage.php:113 single-brokerage.php:84 single-brokerage.php:357
+#: template-brokerages.php:127 author.php:86 template-agents.php:300
+#: includes/single-listing-lead-media-with-contact.php:181
+#: includes/single-listing-multi-floorplan.php:34
+#: includes/single-listing-contact.php:203 includes/single-listing-home.php:277
+#: includes/single-listing-lead-media-with-contact-gallery-modal.php:285
+#: includes/agent-contact-modal.php:25 includes/agent-contact-modal.php:25
+#: includes/agent-contact-modal.php:25
+msgid "Name"
+msgstr ""
+
+#: template-contact.php:63
+msgid "Name*"
+msgstr ""
+
+#: includes/single-listing-sub-navigation.php:158
+msgid "Nearby"
+msgstr ""
+
+#: admin/merlin-config.php:56
+msgid "Need help?"
+msgstr ""
+
+#: admin/getting-started/getting-started.php:284
+msgid "Need Modifications or Customizations?"
+msgstr ""
+
+#: template-advanced-search.php:125
+#: includes/single-listing-ct-idx-pro-info.php:140
+#: includes/single-listing-ct-idx-pro-info.php:790
+#: includes/advanced-search.php:148 includes/header-advanced-search.php:307
+#: includes/header-advanced-search.php:798 admin/theme-functions.php:8831
+msgid "Neighborhood"
+msgstr ""
+
+#: includes/home-listings-count.php:227
+msgid "New Additions"
+msgstr ""
+
+#: template-edit-profile.php:205
+msgid "New Password"
+msgstr ""
+
+#: admin/theme-functions.php:10369
+msgid "Newer <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: comments.php:45
+msgid "Newer Comments &rarr;"
+msgstr ""
+
+#: admin/theme-functions.php:11770
+msgid ""
+"Newer listings <span class=\"meta-nav\"><i class=\"fas fa-chevron-right\">"
+"</i></span>"
+msgstr ""
+
+#: template-submit-listing.php:828 template-edit-listing.php:918
+msgid "Next"
+msgstr ""
+
+#: template-favorite-listings.php:225
+msgid "Next Entries"
+msgstr ""
+
+#: template-agents.php:443
+msgid "Next Page"
+msgstr ""
+
+#: template-edit-profile.php:124
+msgid "Nickname"
+msgstr ""
+
+#: template-submit-listing.php:450 template-submit-listing.php:460
+#: template-view-invoices.php:113
+msgid "No"
+msgstr ""
+
+#: template-agents.php:451
+msgid "No Agents Found."
+msgstr ""
+
+#: archive-brokerage.php:219 template-brokerages.php:231
+msgid "No Brokerages Found."
+msgstr ""
+
+#: admin/theme-functions.php:3177
+msgid "No Listings Found"
+msgstr ""
+
+#: admin/theme-functions.php:14043
+msgid "No matches found."
+msgstr ""
+
+#: archive.php:81
+msgid "No posts were found which match your search criteria"
+msgstr ""
+
+#: layouts/grid.php:31 layouts/list.php:27
+msgid "No properties were found which match your search criteria"
+msgstr ""
+
+#: comments.php:31
+msgid "No Responses"
+msgstr ""
+
+#: single-brokerage.php:474 includes/single-listing-reviews.php:21
+#: includes/single-listing-reviews.php:25
+msgid "No Reviews"
+msgstr ""
+
+#: admin/theme-functions.php:3626
+#, php-format
+msgid "Not having the Geocoding API enabled for the site, refer to %s"
+msgstr ""
+
+#: template-submit-listing.php:455
+msgid "Not Included"
+msgstr ""
+
+#: admin/ReduxFramework/theme-options/re7-config.php:1317
+#: admin/ReduxFramework/theme-options/re7-config.php:1531
+#: admin/ReduxFramework/theme-options/re7-config.php:1689
+#: admin/ReduxFramework/theme-options/re7-config.php:1772
+#: admin/ReduxFramework/theme-options/re7-config.php:1908
+#: admin/ReduxFramework/theme-options/re7-config.php:1948
+msgid "NOTE!"
+msgstr ""
+
+#: admin/theme-functions.php:6708
+msgid ""
+"NOTE: The Listing Title needs to be <strong>only the Street Address</strong> "
+"(e.g. 123 Somewhere St.) otherwise the mapping won't work properly, use the "
+"\"Listing Alternate Title\" field below for Listing Names, etc…the alternate "
+"title field will override the street address display on the front end of "
+"your site."
+msgstr ""
+
+#: includes/single-listing-ct-idx-pro-info.php:487
+#: includes/single-listing-ct-idx-pro-info.php:1102
+msgid "Number of Fireplaces"
+msgstr ""
+
+#: template-advanced-search.php:175 template-advanced-search.php:176
+#: includes/advanced-search.php:230 includes/advanced-search.php:231
+#: includes/header-advanced-search.php:530
+#: includes/header-advanced-search.php:531
+#: includes/header-advanced-search.php:1095
+#: includes/header-advanced-search.php:1096
+msgid "Number of Guests"
+msgstr ""
+
+#: layouts/saved-search-list.php:119 layouts/saved-search-list.php:374
+msgid "Off"
+msgstr ""
+
+#: layouts/saved-search-list.php:373
+msgid "off"
+msgstr ""
+
+#: admin/theme-functions.php:8020 admin/theme-functions.php:8038
+msgid "Offered by"
+msgstr ""
+
+#: admin/profile-fields.php:241
+msgid "Office #"
+msgstr ""
+
+#: admin/profile-fields.php:198
+msgid "Office Information"
+msgstr ""
+
+#: layouts/saved-search-list.php:117 layouts/saved-search-list.php:371
+msgid "On"
+msgstr ""
+
+#: layouts/saved-search-list.php:370
+msgid "on"
+msgstr ""
+
+#: admin/theme-functions.php:1248
+msgid "Open"
+msgstr ""
+
+#: template-submit-listing.php:643 template-edit-listing.php:745
+#: includes/single-listing-open-house.php:38
+#: includes/single-listing-open-house.php:40
+#: includes/single-listing-sub-navigation.php:62 admin/theme-functions.php:7932
+msgid "Open House"
+msgstr ""
+
+#. Name of the template
+#: includes/home-listings-count.php:71
+msgid "Open Houses"
+msgstr ""
+
+#: admin/theme-functions.php:1244
+msgid "Open Map"
+msgstr ""
+
+#: admin/theme-functions.php:1246
+msgid "Open Search"
+msgstr ""
+
+#: admin/registration.php:41
+msgid "Open Theme License Page"
+msgstr ""
+
+#: template-submit-listing.php:524 template-edit-listing.php:602
+msgid "or"
+msgstr ""
+
+#: includes/single-listing-sub-listings.php:36
+msgid "Other Listings in Borough"
+msgstr ""
+
+#: includes/single-listing-sub-listings.php:32
+msgid "Other Listings in Building"
+msgstr ""
+
+#: includes/single-listing-sub-listings.php:38
+msgid "Other Listings in Community"
+msgstr ""
+
+#: includes/single-listing-sub-listings.php:34
+msgid "Other Listings in Complex"
+msgstr ""
+
+#: includes/single-listing-sub-listings.php:28
+msgid "Other Listings in District"
+msgstr ""
+
+#: includes/single-listing-sub-listings.php:24
+msgid "Other Listings in Municipality"
+msgstr ""
+
+#: includes/single-listing-sub-listings.php:22
+msgid "Other Listings in Neighborhood"
+msgstr ""
+
+#: includes/single-listing-sub-listings.php:30
+msgid "Other Listings in School District"
+msgstr ""
+
+#: includes/single-listing-sub-listings.php:26
+msgid "Other Listings in Suburb"
+msgstr ""
+
+#: includes/single-listing-ct-idx-pro-info.php:108
+#: includes/single-listing-ct-idx-pro-info.php:110
+#: includes/single-listing-ct-idx-pro-info.php:762
+msgid "Overview"
+msgstr ""
+
+#: admin/theme-functions.php:6666
+msgid "Overview of users existing membership & package information."
+msgstr ""
+
+#: template-view-invoices.php:92
+msgid "Package"
+msgstr ""
+
+#: template-submit-listing.php:455
+msgid "Package Limit Reached"
+msgstr ""
+
+#: admin/theme-functions.php:6671
+msgid "Package Name:"
+msgstr ""
+
+#. Name of the template
+msgid "Packages Thank You"
+msgstr ""
+
+#: 404.php:15
+msgid "Page Not Found"
+msgstr ""
+
+#: template-sitemap.php:67
+msgid "Pages"
+msgstr ""
+
+#: template-submit-listing.php:847 single.php:131 page.php:63
+#: template-edit-listing.php:952
+msgid "Pages:"
+msgstr ""
+
+#: template-view-listings.php:201
+msgid "Paid"
+msgstr ""
+
+#: admin/theme-functions.php:8785
+msgid "Parish"
+msgstr ""
+
+#: includes/single-listing-yelp.php:162
+#: includes/single-listing-google-places.php:183
+msgid "Park"
+msgstr ""
+
+#: template-submit-listing.php:618 template-edit-listing.php:720
+#: includes/sub-listings.php:242 admin/theme-functions.php:7356
+msgid "Parking"
+msgstr ""
+
+#: includes/single-listing-ct-idx-pro-info.php:269
+#: includes/single-listing-ct-idx-pro-info.php:916
+msgid "Parking/Garage"
+msgstr ""
+
+#: includes/single-listing-ct-idx-pro-info.php:285
+#: includes/single-listing-ct-idx-pro-info.php:927
+msgid "Parking/Garage Spaces"
+msgstr ""
+
+#: admin/theme-functions.php:5886 admin/theme-functions.php:6008
+msgid "Password"
+msgstr ""
+
+#: admin/theme-functions.php:6013
+msgid "Password Again"
+msgstr ""
+
+#: admin/theme-functions.php:6364
+msgid "Password: "
+msgstr ""
+
+#: admin/theme-functions.php:6366
+msgid ""
+"Password: The one you entered in the registration form. (For security, we "
+"save encrypted passwords)"
+msgstr ""
+
+#: admin/theme-functions.php:6090
+msgid "Passwords do not match"
+msgstr ""
+
+#: template-user-dashboard.php:87 template-user-dashboard.php:98
+msgid "Past 30 Days"
+msgstr ""
+
+#: template-packages-thank-you.php:36
+msgid "Payment"
+msgstr ""
+
+#: admin/ReduxFramework/theme-options/re7-config.php:4837
+msgid "PayPal Settings"
+msgstr ""
+
+#: template-view-listings.php:159
+msgid "Pending"
+msgstr ""
+
+#: template-user-dashboard.php:185
+msgid "Pending Listings"
+msgstr ""
+
+#: admin/profile-fields.php:202
+msgid "Personal Logo"
+msgstr ""
+
+#: admin/theme-functions.php:9044
+msgid "Pet Friendly?"
+msgstr ""
+
+#: includes/single-listing-yelp.php:154
+#: includes/single-listing-google-places.php:174
+msgid "Pet Store"
+msgstr ""
+
+#: template-submit-listing.php:613 template-edit-listing.php:715
+#: includes/sub-listings.php:227 admin/theme-functions.php:7341
+msgid "Pets"
+msgstr ""
+
+#: template-contact.php:71 template-favorite-listings.php:97
+#: archive-brokerage.php:117 single-brokerage.php:88 single-brokerage.php:361
+#: template-brokerages.php:131 author.php:90 template-agents.php:304
+#: includes/single-listing-lead-media-with-contact.php:189
+#: includes/single-listing-contact.php:211 includes/single-listing-home.php:281
+#: includes/single-listing-lead-media-with-contact-gallery-modal.php:293
+#: includes/agent-contact-modal.php:29 includes/agent-contact-modal.php:29
+#: includes/agent-contact-modal.php:29
+msgid "Phone"
+msgstr ""
+
+#: admin/theme-functions.php:6728
+msgid "Photos & Files"
+msgstr ""
+
+#: admin/theme-functions.php:3629
+msgid ""
+"Please check the information or enter the latitude and longitude manually. "
+"If not entered this can cause display issues with mapping, most importantly "
+"the pan/zoom, draw and geolocation functions."
+msgstr ""
+
+#: admin/theme-functions.php:3647
+msgid ""
+"Please check the Latitude & Longitude field and click on the update button "
+"to fix."
+msgstr ""
+
+#: admin/theme-functions.php:5999
+msgid "Please choose"
+msgstr ""
+
+#: admin/theme-functions.php:6086 admin/theme-functions.php:6197
+#: admin/theme-functions.php:6246
+msgid "Please enter a password"
+msgstr ""
+
+#: admin/theme-functions.php:6074
+msgid "Please enter a username"
+msgstr ""
+
+#: admin/getting-started/getting-started.php:289
+#, php-format
+msgid ""
+"Please see <a href=\"%s\">Setup & Customizations Pricing</a>, we’re "
+"available for basic & full site setups, design, maintenance, customizations "
+"& development, all direct — never outsourced."
+msgstr ""
+
+#: admin/profile-fields.php:118
+msgid ""
+"Please upload a profile picture here, if none is chosen a default image will "
+"be used."
+msgstr ""
+
+#: admin/getting-started/getting-started.php:100
+msgid "Plugins"
+msgstr ""
+
+#: includes/single-listing-ct-idx-pro-info.php:498
+#: includes/single-listing-ct-idx-pro-info.php:1113
+msgid "Pool"
+msgstr ""
+
+#: admin/theme-functions.php:13916
+msgid "Pool, Parking, Central Air…"
+msgstr ""
+
+#: includes/header-advanced-search.php:777
+msgid "Popular Features"
+msgstr ""
+
+#: admin/elementor-templates/bootstrap.php:63
+msgid "Post not found."
+msgstr ""
+
+#: admin/profile-fields.php:280 admin/theme-functions.php:8810
+msgid "Postal Code"
+msgstr ""
+
+#: template-advanced-search.php:92 includes/advanced-search.php:77
+#: admin/theme-functions.php:8812
+msgid "Postcode"
+msgstr ""
+
+#: template-sitemap.php:81
+msgid "Posts per category"
+msgstr ""
+
+#: includes/single-listing-yelp.php:25 includes/single-listing-yelp.php:28
+msgid "powered by "
+msgstr ""
+
+#: template-submit-listing.php:837 template-edit-listing.php:919
+msgid "Previous"
+msgstr ""
+
+#: template-favorite-listings.php:224
+msgid "Previous Entries"
+msgstr ""
+
+#: template-agents.php:439
+msgid "Previous Page"
+msgstr ""
+
+#: template-submit-listing.php:469 template-edit-listing.php:476
+#: includes/single-listing-multi-floorplan.php:50
+msgid "Price"
+msgstr ""
+
+#: admin/theme-functions.php:6727
+#: admin/ReduxFramework/theme-options/re7-config.php:4432
+msgid "Price & Description"
+msgstr ""
+
+#: admin/theme-functions.php:3403
+msgid "Price - High to Low"
+msgstr ""
+
+#: admin/theme-functions.php:3402
+msgid "Price - Low to High"
+msgstr ""
+
+#: template-advanced-search.php:135 template-advanced-search.php:136
+#: includes/advanced-search.php:162 includes/advanced-search.php:163
+#: includes/header-advanced-search.php:321
+#: includes/header-advanced-search.php:322
+#: includes/header-advanced-search.php:812
+#: includes/header-advanced-search.php:813
+msgid "Price From"
+msgstr ""
+
+#: includes/sub-listings.php:344 admin/theme-functions.php:7458
+msgid "Price Per"
+msgstr ""
+
+#: template-submit-listing.php:479 template-edit-listing.php:486
+msgid "Price Postfix Text"
+msgstr ""
+
+#: template-submit-listing.php:474 template-edit-listing.php:481
+msgid "Price Prefix"
+msgstr ""
+
+#: includes/header-advanced-search.php:340
+#: includes/header-advanced-search.php:835
+msgid "Price range:"
+msgstr ""
+
+#: template-advanced-search.php:140 template-advanced-search.php:141
+#: includes/advanced-search.php:171 includes/advanced-search.php:172
+#: includes/header-advanced-search.php:330
+#: includes/header-advanced-search.php:331
+#: includes/header-advanced-search.php:824
+#: includes/header-advanced-search.php:825
+msgid "Price To"
+msgstr ""
+
+#: includes/single-listing-home.php:136
+#: includes/single-listing-rental-info.php:54
+msgid "Prices"
+msgstr ""
+
+#: admin/theme-functions.php:328
+msgid "Primary Full Width"
+msgstr ""
+
+#: includes/single-listing-ct-idx-pro-info.php:333
+#: includes/single-listing-ct-idx-pro-info.php:971
+msgid "Primary Heating"
+msgstr ""
+
+#: admin/theme-functions.php:326
+msgid "Primary Left Menu"
+msgstr ""
+
+#: admin/theme-functions.php:327
+msgid "Primary Right Menu"
+msgstr ""
+
+#: includes/single-listing-affordability-calculator.php:177
+msgid "Principal & Interest"
+msgstr ""
+
+#: template-submit-listing.php:799 template-edit-listing.php:894
+#: admin/theme-functions.php:6734
+#: admin/ReduxFramework/theme-options/re7-config.php:4818
+msgid "Private Notes"
+msgstr ""
+
+#: admin/profile-fields.php:101
+msgid "Profile Image"
+msgstr ""
+
+#: includes/single-listing-features.php:25
+#: includes/single-listing-features.php:27
+msgid "Property Features"
+msgstr ""
+
+#: template-submit-listing.php:623 template-advanced-search.php:165
+#: template-advanced-search.php:166 template-edit-listing.php:725
+#: includes/advanced-search.php:220 includes/advanced-search.php:221
+#: includes/header-advanced-search.php:520
+#: includes/header-advanced-search.php:521
+#: includes/header-advanced-search.php:1085
+#: includes/header-advanced-search.php:1086
+msgid "Property ID"
+msgstr ""
+
+#: includes/single-listing-propinfo.php:20
+msgid "Property ID #"
+msgstr ""
+
+#: includes/single-listing-affordability-calculator.php:181
+msgid "Property Taxes"
+msgstr ""
+
+#: admin/theme-functions.php:8789
+msgid "Province"
+msgstr ""
+
+#: template-view-listings.php:157
+msgid "Published"
+msgstr ""
+
+#: includes/sub-listings.php:261 admin/theme-functions.php:7375
+msgid "Rating"
+msgstr ""
+
+#: admin/elementor-templates/bootstrap.php:33
+msgid "RE7 Blocks"
+msgstr ""
+
+#: admin/elementor-templates/bootstrap.php:34
+msgid "RE7 Pages"
+msgstr ""
+
+#: layouts/blog-grid.php:100 layouts/blog-large.php:127
+msgid "Read More"
+msgstr ""
+
+#: includes/single-listing-content.php:62
+#: includes/single-listing-content.php:78
+msgid "Read more"
+msgstr ""
+
+#: admin/theme-functions.php:53 admin/elementor-templates/bootstrap.php:35
+msgid "Real Estate 7 Library"
+msgstr ""
+
+#: admin/ReduxFramework/theme-options/re7-config.php:58
+#: admin/ReduxFramework/theme-options/re7-config.php:59
+msgid "Real Estate 7 Options"
+msgstr ""
+
+#: admin/updater/theme-updater.php:39
+msgid "Real Estate 7 Yearly."
+msgstr ""
+
+#: includes/home-listings-count.php:97
+msgid "Recently Sold"
+msgstr ""
+
+#: admin/getting-started/getting-started.php:155
+#: admin/getting-started/getting-started.php:167
+#: admin/getting-started/getting-started.php:179
+#: admin/getting-started/getting-started.php:191
+#: admin/getting-started/getting-started.php:206
+#: admin/getting-started/getting-started.php:218
+msgid "Recommended"
+msgstr ""
+
+#: template-view-invoices.php:95
+msgid "Recurring"
+msgstr ""
+
+#: includes/home-listings-count.php:123
+msgid "Reduced"
+msgstr ""
+
+#: admin/plugins/register.php:40 admin/getting-started/getting-started.php:131
+msgid "Redux Framework"
+msgstr ""
+
+#: admin/theme-functions.php:8787
+msgid "Region"
+msgstr ""
+
+#: admin/theme-functions.php:6024
+msgid "Register"
+msgstr ""
+
+#: admin/theme-functions.php:10315
+msgid "Related Posts"
+msgstr ""
+
+#: admin/theme-functions.php:7150
+msgid "Remove"
+msgstr ""
+
+#: includes/single-listing-energy-efficiency.php:39
+msgid "Renewable Energy Performance"
+msgstr ""
+
+#: includes/single-listing-sub-navigation.php:89 admin/theme-functions.php:6731
+#: admin/ReduxFramework/theme-options/re7-config.php:4640
+msgid "Rental Info"
+msgstr ""
+
+#: includes/single-listing-rental-info.php:27
+#: includes/single-listing-rental-info.php:29
+msgid "Rental Information"
+msgstr ""
+
+#: template-favorite-listings.php:89 archive-brokerage.php:109
+#: single-brokerage.php:80 single-brokerage.php:353 template-brokerages.php:123
+#: author.php:82 template-agents.php:296
+#: includes/single-listing-lead-media-with-contact.php:174
+#: includes/single-listing-contact.php:197 includes/single-listing-home.php:274
+#: includes/single-listing-lead-media-with-contact-gallery-modal.php:278
+#: includes/agent-contact-modal.php:22
+msgid "Request a showing"
+msgstr ""
+
+#: includes/single-listing-lead-media-with-contact.php:206
+#: includes/single-listing-lead-media-with-contact-gallery-modal.php:310
+#: admin/theme-functions.php:1322
+msgid "Request Information"
+msgstr ""
+
+#: template-favorite-listings.php:122
+msgid "Request More Info on All Favorites"
+msgstr ""
+
+#: includes/single-listing-contact.php:182 includes/single-listing-home.php:269
+msgid "Request More Information"
+msgstr ""
+
+#: admin/getting-started/getting-started.php:131
+#: admin/getting-started/getting-started.php:143
+msgid "Required"
+msgstr ""
+
+#: admin/getting-started/getting-started.php:123
+msgid "Required & Recommended Plugins"
+msgstr ""
+
+#: includes/single-listing-yelp.php:50
+#: includes/single-listing-google-places.php:66
+msgid "Restaurants"
+msgstr ""
+
+#: single-brokerage.php:221 includes/single-listing-sub-navigation.php:165
+msgid "Reviews"
+msgstr ""
+
+#: admin/theme-functions.php:9700
+msgid "reviews"
+msgstr ""
+
+#: comments.php:59
+msgid "Reviews are closed."
+msgstr ""
+
+#: includes/single-listing-ct-idx-pro-info.php:244
+#: includes/single-listing-ct-idx-pro-info.php:894
+msgid "Roofing"
+msgstr ""
+
+#: template-view-listings.php:124 search-listings.php:31
+#: includes/sub-listings.php:184
+#: includes/single-listing-ct-idx-pro-info.php:553
+#: includes/single-listing-ct-idx-pro-info.php:555
+#: includes/single-listing-ct-idx-pro-info.php:1160
+#: includes/single-listing-lead-media-with-contact-gallery-modal.php:144
+#: includes/header-advanced-search.php:677 admin/theme-functions.php:7298
+#: admin/theme-functions.php:8726 admin/theme-functions.php:9004
+#: layouts/saved-search-list.php:193 layouts/list.php:116
+msgid "Rooms"
+msgstr ""
+
+#: includes/single-listing-open-house.php:54
+#: includes/single-listing-open-house.php:96
+msgid "RSVP"
+msgstr ""
+
+#: layouts/saved-search-list.php:158
+msgid "Run Query"
+msgstr ""
+
+#: layouts/saved-search-list.php:361
+msgid "Run Search"
+msgstr ""
+
+#: admin/theme-functions.php:1091 admin/theme-functions.php:6939
+#: admin/theme-functions.php:6941 admin/theme-functions.php:6944
+#: admin/theme-functions.php:6966
+msgid "Save"
+msgstr ""
+
+#: template-submit-listing.php:820
+msgid "Save As Draft"
+msgstr ""
+
+#: search-listings.php:525 search-listings.php:530
+msgid "Save Search"
+msgstr ""
+
+#: admin/theme-functions.php:1092 admin/theme-functions.php:6946
+msgid "Saved"
+msgstr ""
+
+#: includes/user-sidebar.php:45 admin/theme-functions.php:2658
+msgid "Saved Searches"
+msgstr ""
+
+#: admin/theme-functions.php:8837
+msgid "School District"
+msgstr ""
+
+#: includes/single-listing-ct-idx-pro-info.php:632
+#: includes/single-listing-ct-idx-pro-info.php:634
+#: includes/single-listing-ct-idx-pro-info.php:1224
+msgid "Schools"
+msgstr ""
+
+#: template-advanced-search.php:187 includes/advanced-search.php:253
+#: includes/header-advanced-search.php:566
+#: includes/home-hero-advanced-search.php:39
+#: admin/elementor-templates/templates.php:74
+msgid "Search"
+msgstr ""
+
+#: template-agents.php:125
+msgid "Search Agents"
+msgstr ""
+
+#: admin/theme-functions.php:12154
+#, php-format
+msgid "Search results for &quot;%1$s&quot;"
+msgstr ""
+
+#: admin/theme-functions.php:10055
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: admin/theme-functions.php:1249
+msgid "Search Saved"
+msgstr ""
+
+#: admin/elementor-templates/templates.php:73
+msgid "Search Templates:"
+msgstr ""
+
+#: includes/header-advanced-search.php:106
+#: includes/header-advanced-search.php:544
+#: includes/home-hero-advanced-search.php:24
+msgid "Searching..."
+msgstr ""
+
+#: search-listings.php:415 search-listings.php:436 search-listings.php:459
+msgid "Searching:"
+msgstr ""
+
+#: admin/ReduxFramework/theme-options/re7-config.php:1761
+msgid "Secondary Colors"
+msgstr ""
+
+#: admin/theme-functions.php:11631 admin/theme-functions.php:11649
+#: admin/theme-functions.php:11656
+msgid "Secondary Image"
+msgstr ""
+
+#: admin/ReduxFramework/theme-options/re7-config.php:5657
+msgid "Section via hook"
+msgstr ""
+
+#: admin/theme-functions.php:8845
+msgid "Sector"
+msgstr ""
+
+#: includes/single-listing-ct-idx-pro-info.php:520
+#: includes/single-listing-ct-idx-pro-info.php:1135
+msgid "Security"
+msgstr ""
+
+#: template-submit-listing.php:730 template-edit-listing.php:824
+#: admin/theme-functions.php:7687
+msgid "Security Deposit"
+msgstr ""
+
+#: admin/profile-fields.php:222
+msgid "Select a Brokerage"
+msgstr ""
+
+#: template-packages-thank-you.php:32
+msgid "Select a Package"
+msgstr ""
+
+#: template-agents.php:84
+msgid "Select a State"
+msgstr ""
+
+#: admin/ReduxFramework/theme-options/re7-config.php:984
+#: admin/ReduxFramework/theme-options/re7-config.php:1123
+#: admin/ReduxFramework/theme-options/re7-config.php:1154
+#: admin/ReduxFramework/theme-options/re7-config.php:1185
+msgid "Select an icon."
+msgstr ""
+
+#: template-submit-listing.php:527 template-edit-listing.php:605
+msgid "Select Images"
+msgstr ""
+
+#: admin/ReduxFramework/theme-options/re7-config.php:4641
+msgid ""
+"Select which fields you'd like to be required, these are only shown if "
+"enabled via Listings > Listing Single > Enable Vacation Rentals/Booking "
+"Fields."
+msgstr ""
+
+#: admin/ReduxFramework/theme-options/re7-config.php:4433
+#: admin/ReduxFramework/theme-options/re7-config.php:4522
+#: admin/ReduxFramework/theme-options/re7-config.php:4730
+#: admin/ReduxFramework/theme-options/re7-config.php:4819
+msgid "Select which fields you'd like to be required."
+msgstr ""
+
+#: admin/theme-functions.php:2523 admin/theme-functions.php:6001
+msgid "Seller"
+msgstr ""
+
+#: admin/ReduxFramework/theme-options/re7-config.php:3828
+msgid ""
+"Send newly registered users directly to your MailChimp list, <a href=\"https:"
+"//us5.admin.mailchimp.com/account/api/\" target=\"_blank\">Get your API "
+"Key</a>."
+msgstr ""
+
+#: admin/ReduxFramework/theme-options/re7-config.php:3965
+msgid ""
+"Set this up if you'd like to display \"What's Nearby?\" information on your "
+"listings such as restaurants, grocery stores, schools, coffee shops, "
+"etc&hellip;."
+msgstr ""
+
+#: includes/single-listing-ct-idx-pro-info.php:381
+#: includes/single-listing-ct-idx-pro-info.php:1015
+msgid "Sewer/Septic"
+msgstr ""
+
+#: template-edit-profile.php:201
+msgid ""
+"Share a little biographical information to fill out your profile. This may "
+"be shown publicly."
+msgstr ""
+
+#: admin/theme-functions.php:10166
+msgid "Share This"
+msgstr ""
+
+#: includes/single-listing-home.php:370
+msgid "Share This Listing"
+msgstr ""
+
+#: includes/single-listing-yelp.php:138
+#: includes/single-listing-google-places.php:156
+msgid "Shopping Malls"
+msgstr ""
+
+#: admin/theme-functions.php:7580
+msgid "Single Family"
+msgstr ""
+
+#: admin/ReduxFramework/theme-options/re7-config.php:5260
+msgid "Single Post"
+msgstr ""
+
+#: admin/updater/theme-updater.php:50 admin/updater/theme-updater-admin.php:75
+msgid "Site is inactive."
+msgstr ""
+
+#. Name of the template
+msgid "Sitemap"
+msgstr ""
+
+#: includes/single-listing-multi-floorplan.php:47
+msgid "Size"
+msgstr ""
+
+#: template-advanced-search.php:145 template-advanced-search.php:146
+#: includes/advanced-search.php:181 includes/header-advanced-search.php:390
+#: includes/header-advanced-search.php:887
+msgid "Size From"
+msgstr ""
+
+#: includes/header-advanced-search.php:408
+#: includes/header-advanced-search.php:914
+msgid "Size range:"
+msgstr ""
+
+#: template-advanced-search.php:150 template-advanced-search.php:151
+#: includes/advanced-search.php:190 includes/header-advanced-search.php:399
+#: includes/header-advanced-search.php:899
+msgid "Size To"
+msgstr ""
+
+#: admin/ReduxFramework/theme-options/re7-config.php:1000
+msgid "Social Links"
+msgstr ""
+
+#: admin/theme-functions.php:135
+msgid "Social Login Needs to be Setup"
+msgstr ""
+
+#: admin/profile-fields.php:44
+msgid "Social profile information"
+msgstr ""
+
+#: includes/single-listing-ct-idx-pro-info.php:129
+#: includes/single-listing-ct-idx-pro-info.php:779
+msgid "Sold Date"
+msgstr ""
+
+#: admin/theme-functions.php:3400
+msgid "Sort By"
+msgstr ""
+
+#: includes/home-listings-count.php:253
+msgid "Special Offers"
+msgstr ""
+
+#: admin/theme-functions.php:8706
+msgid "Sq Ft"
+msgstr ""
+
+#: admin/theme-functions.php:3019 admin/theme-functions.php:3090
+#: admin/theme-functions.php:3160
+msgid "Sq Ft: "
+msgstr ""
+
+#: template-view-invoices.php:93
+msgid "Start"
+msgstr ""
+
+#: admin/getting-started/getting-started.php:99
+msgid "Start Here"
+msgstr ""
+
+#: template-submit-listing.php:651 template-edit-listing.php:753
+msgid "Start Time"
+msgstr ""
+
+#: template-advanced-search.php:81 includes/advanced-search.php:62
+#: admin/profile-fields.php:261 admin/theme-functions.php:8795
+msgid "State"
+msgstr ""
+
+#: admin/profile-fields.php:263
+msgid "State or Province"
+msgstr ""
+
+#: template-submit-listing.php:426 template-advanced-search.php:115
+#: template-view-invoices.php:96 template-edit-listing.php:443
+#: includes/single-listing-ct-idx-pro-info.php:118
+#: includes/single-listing-ct-idx-pro-info.php:768
+#: includes/advanced-search.php:125 includes/header-advanced-search.php:274
+#: includes/header-advanced-search.php:748
+#: includes/header-advanced-search.php:758
+msgid "Status"
+msgstr ""
+
+#: admin/theme-functions.php:1225
+msgid "Statuses"
+msgstr ""
+
+#: admin/elementor-templates/templates.php:82
+msgid "Stay tuned! More awesome templates coming real soon."
+msgstr ""
+
+#: includes/single-listing-yelp.php:130
+#: includes/single-listing-google-places.php:84
+msgid "Stores"
+msgstr ""
+
+#: template-submit-listing.php:389 template-edit-listing.php:402
+msgid "Street Address"
+msgstr ""
+
+#: includes/header-advanced-search.php:103
+#: includes/header-advanced-search.php:541
+#: includes/header-advanced-search.php:542
+msgid "Street, City, State, or Zip"
+msgstr ""
+
+#: includes/advanced-search.php:240 includes/home-hero-advanced-search.php:22
+msgid "Street, City, State, Zip or keyword"
+msgstr ""
+
+#: template-edit-profile.php:211
+msgid "Strength indicator"
+msgstr ""
+
+#: admin/ReduxFramework/theme-options/re7-config.php:4910
+msgid "Stripe Settings"
+msgstr ""
+
+#: includes/single-listing-ct-idx-pro-info.php:258
+#: includes/single-listing-ct-idx-pro-info.php:905
+msgid "Structures"
+msgstr ""
+
+#: includes/single-listing-ct-idx-pro-info.php:162
+#: includes/single-listing-ct-idx-pro-info.php:812
+msgid "Style"
+msgstr ""
+
+#: admin/ReduxFramework/theme-options/re7-config.php:3604
+msgid "Sub Listings"
+msgstr ""
+
+#: includes/single-listing-ct-idx-pro-info.php:151
+#: includes/single-listing-ct-idx-pro-info.php:801
+msgid "Subdivision"
+msgstr ""
+
+#: template-contact.php:74
+msgid "Subject*"
+msgstr ""
+
+#: template-contact.php:86 template-submit-listing.php:836
+#: template-favorite-listings.php:104 archive-brokerage.php:125
+#: single-brokerage.php:96 single-brokerage.php:369 template-brokerages.php:137
+#: author.php:102 template-agents.php:314
+#: includes/single-listing-contact.php:228 includes/single-listing-home.php:289
+#: includes/agent-contact-modal.php:38
+msgid "Submit"
+msgstr ""
+
+#. Name of the template
+#: includes/user-sidebar.php:51 admin/theme-functions.php:2664
+#: admin/theme-functions.php:2698
+msgid "Submit Listing"
+msgstr ""
+
+#: admin/ReduxFramework/theme-options/re7-config.php:4422
+msgid "Submit Listing Form"
+msgstr ""
+
+#: template-advanced-search.php:79 includes/advanced-search.php:60
+#: admin/theme-functions.php:8791 admin/theme-functions.php:8833
+msgid "Suburb"
+msgstr ""
+
+#: admin/getting-started/getting-started.php:235
+#, php-format
+msgid "Support for %s?"
+msgstr ""
+
+#: admin/profile-fields.php:163
+msgid "Tagline"
+msgstr ""
+
+#: template-favorite-listings.php:88 archive-brokerage.php:108
+#: single-brokerage.php:79 single-brokerage.php:352 template-brokerages.php:122
+#: author.php:81 template-agents.php:295
+msgid "Tell me more about a property"
+msgstr ""
+
+#: includes/single-listing-lead-media-with-contact.php:173
+#: includes/single-listing-contact.php:196
+#: includes/single-listing-lead-media-with-contact-gallery-modal.php:277
+msgid "Tell me more about this listing"
+msgstr ""
+
+#: includes/single-listing-home.php:273 includes/agent-contact-modal.php:21
+msgid "Tell me more about this property"
+msgstr ""
+
+#: admin/theme-functions.php:6094
+msgid "Terms & Conditions must be checked"
+msgstr ""
+
+#: admin/theme-functions.php:6019
+msgid "Terms &amp; Conditions"
+msgstr ""
+
+#. Name of the template
+msgid "Testimonials"
+msgstr ""
+
+#: admin/getting-started/getting-started.php:93
+msgid ""
+"Thanks for purchasing Real Estate 7! We truly appreciate the support and the "
+"opportunity to share our work with you. Please visit the tabs below to get "
+"started setting up your theme!"
+msgstr ""
+
+#: template-edit-profile.php:65
+msgid "The Email you entered is not valid. Please try again."
+msgstr ""
+
+#: admin/elementor-templates/bootstrap.php:30
+msgid "The error message is empty"
+msgstr ""
+
+#: admin/getting-started/getting-started.php:247
+msgid ""
+"The following articles below cover many frequently asked questions that you "
+"may have."
+msgstr ""
+
+#: template-edit-profile.php:57
+msgid "The passwords you entered do not match. Your password was not updated."
+msgstr ""
+
+#: admin/merlin-config.php:54
+msgid "The theme is already registered, so you can go to the next step!"
+msgstr ""
+
+#: admin/ReduxFramework/theme-options/re7-config.php:715
+msgid "Theme Information 1"
+msgstr ""
+
+#: admin/ReduxFramework/theme-options/re7-config.php:720
+msgid "Theme Information 2"
+msgstr ""
+
+#: admin/updater/theme-updater.php:32 admin/updater/theme-updater-admin.php:57
+msgid "Theme License"
+msgstr ""
+
+#: admin/registration.php:37
+msgid "Theme requires activation"
+msgstr ""
+
+#: includes/ajax-single-listing.php:46
+msgid "There was an error fetching the post. Invalid Post ID."
+msgstr ""
+
+#: admin/theme-functions.php:6162
+msgid "There was an error while trying to create your account"
+msgstr ""
+
+#: admin/ReduxFramework/theme-options/re7-config.php:2342
+msgid ""
+"These options apply globally to the homepage, expanded area of header search "
+"and search widget."
+msgstr ""
+
+#: layouts/grid.php:23 layouts/list.php:23
+msgid "This agent currently has no active listings."
+msgstr ""
+
+#: admin/updater/theme-updater-admin.php:401
+#, php-format
+msgid "This appears to be an invalid license key for %s."
+msgstr ""
+
+#: single-brokerage.php:452
+msgid "This brokerage currently has no active agents."
+msgstr ""
+
+#: layouts/grid.php:27 layouts/list.php:25
+msgid "This brokerage currently has no active listings."
+msgstr ""
+
+#: template-edit-profile.php:67
+msgid "This email is already used by another user. Try a different one."
+msgstr ""
+
+#: template-edit-listing.php:946
+msgid "This isn't one of your assigned listings, editing is denied."
+msgstr ""
+
+#: admin/getting-started/getting-started.php:175
+msgid "This plugin adds compare functionality for listings."
+msgstr ""
+
+#: admin/getting-started/getting-started.php:163
+msgid "This plugin allows users be alerted via email when a listing is added."
+msgstr ""
+
+#: admin/getting-started/getting-started.php:187
+msgid ""
+"This plugin allows users to favorite & save listings from the front end of "
+"the site."
+msgstr ""
+
+#: admin/getting-started/getting-started.php:214
+msgid ""
+"This plugin allows users to login/register for your site via social networks "
+"like Facebook, Google, Twitter, etc&hellip;"
+msgstr ""
+
+#: admin/getting-started/getting-started.php:226
+msgid ""
+"This plugin allows you to assign multiple users or agents to listings, "
+"perfect for co-listings."
+msgstr ""
+
+#: admin/getting-started/getting-started.php:139
+msgid "This plugin is used for the admin options framework."
+msgstr ""
+
+#: admin/getting-started/getting-started.php:151
+msgid ""
+"This plugin registers the listings, brokerages & testimonials custom post "
+"types, along with related custom fields & taxonomies, as well as all the "
+"custom Elementor modules."
+msgstr ""
+
+#: comments.php:13
+msgid "This post is password protected. Enter the password to view comments."
+msgstr ""
+
+#: includes/single-listing-open-house.php:51
+msgid "Time"
+msgstr ""
+
+#: admin/profile-fields.php:157
+msgid "Title"
+msgstr ""
+
+#: includes/advanced-search.php:189 includes/header-advanced-search.php:398
+#: includes/header-advanced-search.php:898
+msgid "To"
+msgstr ""
+
+#: includes/header-advanced-search.php:358
+#: includes/header-advanced-search.php:418
+#: includes/header-advanced-search.php:463
+#: includes/header-advanced-search.php:854
+#: includes/header-advanced-search.php:934
+#: includes/header-advanced-search.php:1009
+msgid "to"
+msgstr ""
+
+#: admin/ReduxFramework/theme-options/re7-config.php:2298
+msgid ""
+"To get your recaptcha public and secret keys you must first <a href=\"https:"
+"//www.google.com/recaptcha/admin/create\" target=\"_blank\">register your "
+"site</a> with Google reCAPTCHA."
+msgstr ""
+
+#: admin/ReduxFramework/theme-options/re7-config.php:942
+msgid "Top Bar"
+msgstr ""
+
+#: includes/single-listing-ct-idx-pro-info.php:195
+#: includes/single-listing-ct-idx-pro-info.php:845
+msgid "Topography"
+msgstr ""
+
+#: template-view-invoices.php:97
+msgid "Total"
+msgstr ""
+
+#: includes/single-listing-sub-navigation.php:143
+msgid "Tour"
+msgstr ""
+
+#: admin/theme-functions.php:8768
+msgid "Town"
+msgstr ""
+
+#: admin/theme-functions.php:1229
+msgid "Towns"
+msgstr ""
+
+#: comments.php:53
+msgid "Trackback URL for this post"
+msgstr ""
+
+#: comments.php:53
+msgid "trackbacks"
+msgstr ""
+
+#: includes/single-listing-yelp.php:114
+#: includes/single-listing-google-places.php:138
+msgid "Transit Stations"
+msgstr ""
+
+#: archive.php:81 layouts/grid.php:31 layouts/list.php:27
+msgid "Try broadening your search to find more results."
+msgstr ""
+
+#: admin/profile-fields.php:48
+msgid "Twitter Username"
+msgstr ""
+
+#: template-submit-listing.php:401 template-advanced-search.php:62
+#: template-edit-listing.php:414 includes/sub-listings.php:417
+#: includes/advanced-search.php:35 includes/header-advanced-search.php:129
+#: includes/header-advanced-search.php:588
+#: includes/header-advanced-search.php:598 admin/theme-functions.php:7565
+msgid "Type"
+msgstr ""
+
+#: archive-brokerage.php:52 template-brokerages.php:52
+msgid "Type a brokerage name or address here to filter the list."
+msgstr ""
+
+#: author.php:299 author.php:544
+msgid "Type a listing address or keyword to filter the list."
+msgstr ""
+
+#: template-view-listings.php:67
+msgid "Type a listing name or address here to filter the list."
+msgstr ""
+
+#: single-brokerage.php:296
+msgid "Type an agents name or title here to filter the list."
+msgstr ""
+
+#: template-agents.php:135 template-agents.php:160
+msgid ""
+"Type an agents name, title, business, phone or lic # here to filter the list."
+msgstr ""
+
+#: template-submit-listing.php:743 template-edit-listing.php:844
+msgid "Type in an address"
+msgstr ""
+
+#: template-edit-profile.php:209
+msgid "Type your new password again."
+msgstr ""
+
+#: layouts/list.php:157
+msgid "Type:"
+msgstr ""
+
+#: admin/ReduxFramework/theme-options/re7-config.php:1325
+msgid "Typography"
+msgstr ""
+
+#: admin/theme-functions.php:9779
+msgid "Unfortunately, there's no results nearby for this listing."
+msgstr ""
+
+#: admin/theme-functions.php:9773
+msgid "Unfortunately, your API key is over its quota."
+msgstr ""
+
+#: admin/theme-functions.php:9785
+msgid ""
+"Unfortunately, your request was denied, generally because of lack of an "
+"invalid key parameter."
+msgstr ""
+
+#: admin/theme-functions.php:9791
+msgid ""
+"Unfortunately, your request was invalid, generally due to wrong address "
+"information or lat/long coordinates."
+msgstr ""
+
+#: admin/updater/theme-updater.php:40 admin/updater/theme-updater-admin.php:65
+msgid "unlimited"
+msgstr ""
+
+#: template-edit-listing.php:936
+msgid "Update"
+msgstr ""
+
+#: template-edit-profile.php:223
+msgid "Update Profile"
+msgstr ""
+
+#: admin/theme-functions.php:7880
+msgid "Updated on"
+msgstr ""
+
+#: admin/updater/theme-updater.php:52 admin/updater/theme-updater-admin.php:77
+msgid ""
+"Updating this theme will lose any customizations you have made. 'Cancel' to "
+"stop, 'OK' to update."
+msgstr ""
+
+#: admin/updater/theme-updater-admin.php:64
+msgid "Upgrade to"
+msgstr ""
+
+#: template-submit-listing.php:372
+msgid "Upgrade Today!"
+msgstr ""
+
+#: admin/profile-fields.php:212
+msgid ""
+"Upload your personal logo here, or if you choose to associate a Brokerage "
+"below that logo will be used instead."
+msgstr ""
+
+#: admin/ReduxFramework/theme-options/re7-config.php:3877
+msgid ""
+"Use webhooks to send single listing contact form data to Zapier, <a "
+"href=\"https://contempothemes.com/docs/zapier/\" target=\"_blank\">"
+"documentation</a>."
+msgstr ""
+
+#. Name of the template
+msgid "User Dashboard"
+msgstr ""
+
+#: admin/theme-functions.php:6633 admin/theme-functions.php:6660
+msgid "User hasn't chosen a package yet…"
+msgstr ""
+
+#: admin/ReduxFramework/theme-options/re7-config.php:2007
+msgid "User Profile Fields"
+msgstr ""
+
+#: admin/theme-functions.php:5839
+msgid "User registration is not enabled"
+msgstr ""
+
+#: template-edit-profile.php:112 admin/theme-functions.php:5883
+#: admin/theme-functions.php:5971
+msgid "Username"
+msgstr ""
+
+#: admin/theme-functions.php:6066
+msgid "Username already taken"
+msgstr ""
+
+#: admin/theme-functions.php:5918
+msgid "Username or Email"
+msgstr ""
+
+#: admin/theme-functions.php:6358
+#, php-format
+msgid "Username: %s"
+msgstr ""
+
+#: template-edit-profile.php:113
+msgid "Usernames cannot be changed."
+msgstr ""
+
+#: includes/single-listing-ct-idx-pro-info.php:307
+#: includes/single-listing-ct-idx-pro-info.php:949
+msgid "Utilities"
+msgstr ""
+
+#: includes/single-listing-affordability-calculator.php:51
+msgid "VA 15-year-fixed"
+msgstr ""
+
+#: includes/single-listing-affordability-calculator.php:50
+msgid "VA 30-year-fixed"
+msgstr ""
+
+#: admin/theme-functions.php:1321
+msgid "Verifying Request..."
+msgstr ""
+
+#: includes/single-listing-yelp.php:146
+#: includes/single-listing-google-places.php:165
+msgid "Veterinary Care"
+msgstr ""
+
+#: includes/single-listing-sub-navigation.php:130
+#: includes/single-listing-video.php:24 includes/single-listing-video.php:26
+msgid "Video"
+msgstr ""
+
+#: template-submit-listing.php:628 template-edit-listing.php:730
+msgid "Video URL"
+msgstr ""
+
+#: template-favorite-listings.php:198 archive-brokerage.php:209
+#: template-view-listings.php:177 template-brokerages.php:221
+#: includes/single-listing-multi-floorplan.php:167
+#: includes/single-listing-multi-floorplan.php:173
+#: includes/single-listing-ct-idx-pro-info.php:509
+#: includes/single-listing-ct-idx-pro-info.php:1124
+#: includes/featured-listings.php:118 layouts/grid.php:132
+msgid "View"
+msgstr ""
+
+#: includes/featured-listings.php:31 includes/featured-listings.php:33
+msgid "View All"
+msgstr ""
+
+#. Name of the template
+#: single-brokerage.php:441
+msgid "View Listings"
+msgstr ""
+
+#: template-agents.php:417
+msgid "View Profile"
+msgstr ""
+
+#: search-listings.php:528
+msgid "View Saved"
+msgstr ""
+
+#: admin/theme-functions.php:8766
+msgid "Village"
+msgstr ""
+
+#: admin/theme-functions.php:1232
+msgid "Villages"
+msgstr ""
+
+#: includes/single-listing-virtual-tour.php:23
+#: includes/single-listing-virtual-tour.php:25 admin/theme-functions.php:8190
+msgid "Virtual Tour"
+msgstr ""
+
+#: template-submit-listing.php:635
+msgid "Virtual Tour URL"
+msgstr ""
+
+#: template-edit-listing.php:737
+msgid "Vitrual Tour URL"
+msgstr ""
+
+#: admin/theme-functions.php:12138
+msgid "W"
+msgstr ""
+
+#: admin/ReduxFramework/theme-options/re7-config.php:3787
+msgid ""
+"Walk Score is the only international measure of walkability and the leading "
+"provider of neighborhood maps to the real estate industry. More than 30,000 "
+"websites use the Walk Score Neighborhood Map and we serve over 20 million "
+"scores each day. <a href=\"https://www.walkscore.com/professional/api-sign-"
+"up.php\" target=\"_blank\">Get your API Key</a>!."
+msgstr ""
+
+#: includes/sub-listings.php:385 admin/theme-functions.php:7533
+msgid "Walk Score&reg;"
+msgstr ""
+
+#: admin/ReduxFramework/theme-options/re7-config.php:3784
+msgid "WalkScore"
+msgstr ""
+
+#: admin/theme-functions.php:3637
+msgid "Warning:"
+msgstr ""
+
+#: includes/single-listing-ct-idx-pro-info.php:370
+#: includes/single-listing-ct-idx-pro-info.php:1004
+msgid "Water"
+msgstr ""
+
+#: template-edit-profile.php:174 admin/theme-functions.php:5991
+msgid "Website"
+msgstr ""
+
+#: admin/ReduxFramework/theme-options/re7-config.php:4985
+msgid "WeCashUp Settings"
+msgstr ""
+
+#: admin/theme-functions.php:12138
+#, php-format
+msgid "Week %1$s"
+msgstr ""
+
+#: admin/theme-functions.php:6356
+#, php-format
+msgid "Welcome to %s! Here's how to log in:"
+msgstr ""
+
+#: admin/elementor-templates/bootstrap.php:31
+msgid ""
+"We’re having trouble connecting to the library, please refresh your browser "
+"or "
+msgstr ""
+
+#: includes/single-listing-yelp.php:26 includes/single-listing-yelp.php:29
+#: includes/single-listing-google-places.php:23
+#: admin/ReduxFramework/theme-options/re7-config.php:3962
+msgid "What's Nearby?"
+msgstr ""
+
+#: admin/updater/theme-updater-admin.php:249
+msgid "Where can I find my license key?"
+msgstr ""
+
+#: admin/ReduxFramework/theme-options/re7-config.php:4948
+msgid "Wire Transfer"
+msgstr ""
+
+#: single.php:79 layouts/blog-grid.php:82 layouts/blog-large.php:105
+msgid "with"
+msgstr ""
+
+#: 404.php:16
+msgid "Woah there! Looks like you've gotten lost."
+msgstr ""
+
+#: admin/plugins/deprecation.php:24
+#, php-format
+msgid ""
+"WP Favorite Posts was replaced by Contempo Favorite Listings. Please install "
+"and activate new plugin <a href='%s'>here</a>"
+msgstr ""
+
+#. Name of the theme
+msgid "WP Pro Real Estate 7"
+msgstr ""
+
+#: admin/getting-started/getting-started.php:191
+msgid "WPML"
+msgstr ""
+
+#: template-submit-listing.php:800 template-edit-listing.php:895
+msgid ""
+"Write a private note about this listing, this textarea will not be displayed "
+"anywhere on the front end of the site."
+msgstr ""
+
+#: admin/theme-functions.php:12131 admin/theme-functions.php:12137
+#: admin/theme-functions.php:12137 admin/theme-functions.php:12142
+#: admin/theme-functions.php:12142 admin/theme-functions.php:12147
+msgid "Y"
+msgstr ""
+
+#: includes/single-listing-ct-idx-pro-info.php:173
+#: includes/single-listing-ct-idx-pro-info.php:823
+#: admin/theme-functions.php:7474
+msgid "Year Built"
+msgstr ""
+
+#: includes/header-advanced-search.php:478
+msgid "Year From"
+msgstr ""
+
+#: includes/header-advanced-search.php:499
+#: includes/header-advanced-search.php:1064
+msgid "Year Max"
+msgstr ""
+
+#: includes/header-advanced-search.php:480
+#: includes/header-advanced-search.php:1039
+#: includes/header-advanced-search.php:1041
+msgid "Year Min"
+msgstr ""
+
+#: includes/header-advanced-search.php:497
+#: includes/header-advanced-search.php:1062
+msgid "Year To"
+msgstr ""
+
+#: admin/theme-functions.php:10070
+#, php-format
+msgid "Year: %s"
+msgstr ""
+
+#: admin/theme-functions.php:10070
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr ""
+
+#: template-submit-listing.php:451 template-submit-listing.php:461
+#: template-view-invoices.php:113
+msgid "Yes"
+msgstr ""
+
+#: template-submit-listing.php:787 template-edit-listing.php:888
+msgid ""
+"You can also manually drag the marker to the exact location of your listing "
+"if the automatic geolocation is off."
+msgstr ""
+
+#: template-view-listings.php:217
+msgid "You don't have any listings yet..."
+msgstr ""
+
+#: admin/updater/theme-updater.php:44 admin/updater/theme-updater-admin.php:69
+#, php-format
+msgid "You have %1$s / %2$s sites activated."
+msgstr ""
+
+#: template-submit-listing.php:363
+msgid "You haven't chosen a package yet…"
+msgstr ""
+
+#: template-view-invoices.php:83
+msgid "You haven't placed any orders yet…"
+msgstr ""
+
+#: admin/google-places/GooglePlaces.php:167
+#: admin/google-places/GooglePlaces.php:207
+msgid ""
+"You much specify at least one of the following: \"keyword\", \"name\", "
+"\"types\"."
+msgstr ""
+
+#: template-listing-analytics.php:35 template-edit-profile.php:36
+#: template-submit-listing.php:336 template-user-dashboard.php:37
+#: template-listing-email-alerts.php:47 template-view-listings.php:37
+#: template-view-invoices.php:61 template-edit-listing.php:389
+#: template-membership.php:61
+msgid "You must be logged in to view this page."
+msgstr ""
+
+#: includes/single-listing-contact.php:84
+msgid "You must be registered to view agent details"
+msgstr ""
+
+#: includes/single-listing-content.php:29
+msgid "You must be registered to view listing details"
+msgstr ""
+
+#: admin/ReduxFramework/theme-options/re7-config.php:1532
+#: admin/ReduxFramework/theme-options/re7-config.php:1690
+#: admin/ReduxFramework/theme-options/re7-config.php:1773
+#: admin/ReduxFramework/theme-options/re7-config.php:1909
+#: admin/ReduxFramework/theme-options/re7-config.php:1949
+msgid ""
+"You must set Create a Skin > Use Custom Styles > Yes, if this isn't set NONE "
+"of the Styles will be Applied."
+msgstr ""
+
+#: admin/google-places/GooglePlaces.php:197
+msgid "You must specify a location before calling radarsearch()."
+msgstr ""
+
+#: admin/google-places/GooglePlaces.php:184
+#: admin/google-places/GooglePlaces.php:201
+msgid "You must specify a radius."
+msgstr ""
+
+#: admin/google-places/GooglePlaces.php:151
+msgid ""
+"You must specify a valid listing location, use street address in the listing "
+"title along with city, state & zip/postcode — if not use the optional "
+"latitude & longitude field."
+msgstr ""
+
+#: admin/google-places/GooglePlaces.php:221
+msgid ""
+"You must specify either a \"placeid\" or a \"reference\" (but not both) "
+"before calling details()."
+msgstr ""
+
+#: includes/single-listing-google-places.php:197
+msgid ""
+"You need to create an API key go into Admin > Real Estate 7 Options > Google "
+"Maps > API Key, then setup the options via Real Estate 7 Options > \"What's "
+"Nearby?\" panel."
+msgstr ""
+
+#: admin/theme-functions.php:3838 admin/theme-functions.php:3914
+#: admin/theme-functions.php:4034 admin/theme-functions.php:4183
+#: admin/theme-functions.php:4274 admin/theme-functions.php:4418
+msgid "You need to setup the Google Maps API."
+msgstr ""
+
+#: includes/single-listing-yelp.php:176
+msgid "You need to setup the Yelp Fusion API."
+msgstr ""
+
+#: template-submit-listing.php:371
+msgid "You've reached the listings limit for your membership package."
+msgstr ""
+
+#: includes/single-listing-affordability-calculator.php:69
+msgid "Your est. payment is: "
+msgstr ""
+
+#: admin/updater/theme-updater-admin.php:396
+msgid "Your license is not active for this URL."
+msgstr ""
+
+#: admin/updater/theme-updater-admin.php:377
+#, php-format
+msgid "Your license key expired on %s. "
+msgstr ""
+
+#: admin/updater/theme-updater-admin.php:385
+msgid "Your license key has been disabled."
+msgstr ""
+
+#: admin/updater/theme-updater-admin.php:406
+msgid "Your license key has reached its activation limit."
+msgstr ""
+
+#: admin/registration.php:38
+msgid "Your license key is required to receive updates and support."
+msgstr ""
+
+#: admin/merlin-config.php:55
+msgid "Your theme is activated! Remote updates and theme support are enabled."
+msgstr ""
+
+#: admin/profile-fields.php:72
+msgid "YouTube URL"
+msgstr ""
+
+#: admin/ReduxFramework/theme-options/re7-config.php:3874
+msgid "Zapier"
+msgstr ""
+
+#: template-advanced-search.php:94 template-agents.php:104
+#: includes/advanced-search.php:79 admin/theme-functions.php:8814
+msgid "Zipcode"
+msgstr ""
