@@ -1,110 +1,54 @@
-/*[ FONT ]*/
+/*------------------------------------------------------------------
+Project:  ComingSoon
+Version:  
+Last change:  
+Assigned to:  Bach Le
+Primary use:  
+-------------------------------------------------------------------*/
+
+
+
+/*//////////////////////////////////////////////////////////////////
+[ FONT ]*/
 
 @font-face {
-  font-family: Montserrat-Regular;
-  src: url('../fonts/Montserrat/Montserrat-Regular.ttf'); 
+  font-family: Poppins-Regular;
+  src: url('../fonts/Poppins/Poppins-Regular.ttf'); 
 }
 
 @font-face {
-  font-family: Montserrat-Light;
-  src: url('../fonts/Montserrat/Montserrat-Light.ttf'); 
+  font-family: Poppins-Bold;
+  src: url('../fonts/Poppins/Poppins-Bold.ttf'); 
 }
 
 @font-face {
-  font-family: Montserrat-Black;
-  src: url('../fonts/Montserrat/Montserrat-Black.ttf'); 
+  font-family: Lato-Regular;
+  src: url('../fonts/Lato/Lato-Regular.ttf'); 
 }
 
 @font-face {
-  font-family: Montserrat-Bold;
-  src: url('../fonts/Montserrat/Montserrat-Bold.ttf'); 
+  font-family: Lato-Bold;
+  src: url('../fonts/Lato/Lato-Bold.ttf'); 
 }
 
-.text-color-primary{
-  color: #000000!important;
-}
+
+
 /*//////////////////////////////////////////////////////////////////
 [ RS PLUGIN ]*/
 /*---------------------------------------------*/
 .container {max-width: 1200px;}
-a{
-  color: #ffffff;
-}
-a:hover {
-  text-decoration: none !important;
-  color: #ffffff;
-}
-footer a{
-  color: #b6b6b6;
-}
-footer a:hover {
-  text-decoration: none !important;
-  color: #FF4D00;
-}
-.how-btn::before {
-  content: "";
-  display: block;
-  position: absolute;
-  z-index: -1;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
-  background: #7918f2;
-  background: -webkit-linear-gradient(45deg, #ac32e4, #7918f2, #4801ff);
-  background: -o-linear-gradient(45deg, #ac32e4, #7918f2, #4801ff);
-  background: -moz-linear-gradient(45deg, #ac32e4, #7918f2, #4801ff);
-  background: linear-gradient(to left, #000428, #004e92);
-  -webkit-transition: all 0.4s;
-  -o-transition: all 0.4s;
-  -moz-transition: all 0.4s;
-  transition: all 0.4s;
-  opacity: 0;
-}
-.bg-g2 {
-  background: #0F2056;
-  background: -webkit-linear-gradient(-45deg, #c2bd35 20%, #FFE000);
-  background: -o-linear-gradient(-45deg, #c2bd35 20%, #FFE000);
-  background: -moz-linear-gradient(-45deg, #c2bd35 20%, #FFE000);
-  background: linear-gradient(-45deg, #c2bd35 20%, #FFE000);
-}
-
-/*[ rs Modal ]*/
-body {padding-right: 0px !important;}
-.modal {
-  padding: 0px !important;
-  z-index: 1160;
-  overflow-x: hidden;
-  overflow-y: auto !important;
-}
-.modal-open {overflow-y: scroll;}
 
 
-.modal-backdrop.show {
-    opacity: 0;
-}
 
-.modal-dialog {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: flex;
-  max-width: 100%;
-  min-height: 100%;
-  justify-content: center;
-  align-items: center;
-  margin: 0;
-  padding: 50px 15px;
-}
-
-/*[ Form ]*/
+/*//////////////////////////////////////////////////////////////////
+[ Form ]*/
 
 .contact100-form {
   width: 100%;
 }
 
-/*[ Input ]*/
+/*------------------------------------------------------------------
+[ Input ]*/
 
 .wrap-input100 {
   width: 100%;
@@ -112,7 +56,7 @@ body {padding-right: 0px !important;}
   background-color: #fff;
   height: 50px;
   border: 2px solid #e6e6e6;
-  border-radius: 25px;
+  border-radius: 5px;
 }
 
 /*---------------------------------------------*/
@@ -124,8 +68,9 @@ body {padding-right: 0px !important;}
 
 input.input100 {
   height: 100%;
-  padding: 0 30px 0 30px;
+  padding: 0 22px 0 22px;
 }
+
 
 /*------------------------------------------------------------------
 [ Focus Input ]*/
@@ -138,8 +83,8 @@ input.input100 {
   top: -2px;
   left: -2px;
   pointer-events: none;
-  border: 2px solid #3a5dff;
-  border-radius: 25px;
+  border: 2px solid #57b846;
+  border-radius: 5px;
 
   visibility: hidden;
   opacity: 0;
@@ -180,7 +125,7 @@ input.input100 {
   max-width: 70%;
   background-color: #fff;
   border: 1px solid #c80000;
-  border-radius: 15px;
+  border-radius: 2px;
   padding: 4px 25px 4px 10px;
   top: 50%;
   -webkit-transform: translateY(-50%);
@@ -191,9 +136,9 @@ input.input100 {
   right: 12px;
   pointer-events: none;
 
-  font-family: Montserrat-Bold;
+  font-family: Poppins-Regular;
   color: #c80000;
-  font-size: 13px;
+  font-size: 14px;
   line-height: 1.4;
   text-align: left;
 
@@ -207,7 +152,7 @@ input.input100 {
 }
 
 .alert-validate::after {
-  content: "\f06a";
+  content: "\f12a";
   font-family: FontAwesome;
   display: block;
   position: absolute;
@@ -234,6 +179,7 @@ input.input100 {
   }
 }
 
+
 /*==================================================================
     TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT
 ==================================================================*/
@@ -242,95 +188,84 @@ input.input100 {
 [ Color ]*/
 .cl0 {color: #fff;}
 
+
+
+
 /*//////////////////////////////////////////////////////////////////
 [ S-Text 0 - 15 ]*/
-.s1-txt1 {
-  font-family: Montserrat-Regular;
+
+.s1-txt1 {}
+
+/*---------------------------------------------*/
+.s2-txt1 {
+  font-family: Lato-Bold;
+  font-size: 15px;
+  line-height: 1.5;
+  color: #555555;
+}
+
+.s2-txt2 {
+  font-family: Lato-Bold;
+  font-size: 15px;
+  line-height: 1.5;
+  color: #fff;
+}
+
+.s2-txt3 {
+  font-family: Lato-Regular;
+  font-size: 14px;
+  line-height: 1.5;
+  color: #999999;
+}
+
+.s2-txt4 {
+  font-family: Lato-Regular;
   font-size: 12px;
-  color: #7d8da6;
   line-height: 1;
+  color: #fff;
   text-transform: uppercase;
 }
-.s1-txt2 a{
-  color: rgb(252, 130, 16);
 
-}
-.s1-txt2 {
-  font-family: Montserrat-Bold;
-  font-size: 15px;
-  color: #fff;
-  line-height: 1.2;
-}
-.s1-txt2:hover a{
-  color: rgb(53, 53, 53);
-}
-
-.s1-txt3 {
-  font-family: Montserrat-Regular;
-  font-size: 12px;
-  color: #cccccc;
-  line-height: 1.4;
-}
-
-.s1-txt4 {
-  font-family: Montserrat-Bold;
-  font-size: 15px;
-  color: #555;
-  line-height: 1.2;
-}
-
-.s1-txt5 {
-  font-family: Montserrat-Regular;
-  font-size: 12px;
-  color: #999;
-  line-height: 1.6666667;
-}
 
 /*//////////////////////////////////////////////////////////////////
 [ M-Text 16 - 25 ]*/
+
 .m1-txt1 {
-  font-family: Montserrat-Black;
+  font-family: Poppins-Regular;
   font-size: 24px;
-  color: #333;
-  line-height: 1.2;
-  text-transform: uppercase;
+  line-height: 1.5;
+  color: #555555;
 }
 
 .m1-txt2 {
-  font-family: Montserrat-Regular;
-  font-size: 18px;
-  color: #555;
-  line-height: 1.4;
-  text-transform: uppercase;
+  font-family: Poppins-Bold;
+  font-size: 24px;
+  line-height: 1.5;
+  color: #555555;
 }
+
 
 /*//////////////////////////////////////////////////////////////////
 [ L-Text >= 26 ]*/
-.l1-txt1 {
-  font-family: Montserrat-Black;
-  font-size: 50px;
-  color: #fff;
-  line-height: 1.2;
-  text-transform: uppercase;
-}
 
-.l1-txt2 {
-  font-family: Montserrat-Light;
-  font-size: 30px;
-  color: #fff;
-  line-height: 1.2;
-}
+.l1-txt1 {}
 
-.l1-txt3 {
-  font-family: Montserrat-Bold;
-  font-size: 36px;
-  color: #555555;
+/*---------------------------------------------*/
+.l2-txt1 {
+  font-family: Lato-Bold;
+  font-size: 40px;
   line-height: 1;
+  color: #fff;
 }
+
+
+
 
 /*==================================================================
-  SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE
+   SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE
 ==================================================================*/
+
+
 /*//////////////////////////////////////////////////////////////////
 [ Size ]*/
 .size1 {
@@ -339,123 +274,179 @@ input.input100 {
 }
 
 .size2 {
-  width: 90px;
-  height: 90px;
+  height: 100%;
+  width: 71%;
 }
 
 .size3 {
-  min-width: 280px;
-  max-width: 100%;
-  min-height: 50px;
+  max-width: 650px;
+  min-height: 100vh;
 }
 
 .size4 {
-  width: 686px;
-  max-width: 100%;
+  width: 100%;
+  height: 50px;
 }
 
 .size5 {
-  width: 100%;
-  height: 50px;
+  width: 36px;
+  height: 36px;
+}
+
+.size6 {
+  width: 155px;
+  height: 155px;
 }
 
 /*//////////////////////////////////////////////////////////////////
 [ Width ]*/
 .wsize1 {
-  max-width: 390px;
+  max-width: 650px;
 }
 
 .wsize2 {
-  max-width: 285px;
+  max-width: 380px;
 }
+
+
+/*//////////////////////////////////////////////////////////////////
+[ Height ]*/
+.hsize1 {
+  min-height: 100vh;
+}
+
+
+
 
 /*//////////////////////////////////////////////////////////////////
 [ Background ]*/
 .bg0 {background-color: #fff;}
+.bg1 {background-color: #57b846;}
+.bg3 {background-color: #3b5998;}
+.bg4 {background-color: #1da1f2;}
+.bg5 {background-color: #cd201f;}
 
-/*---------------------------------------------*/
-.bg-g1 {
-  background: #7918f2;
-  background: -webkit-linear-gradient(-45deg, #ac32e4, #7918f2, #4801ff);
-  background: -o-linear-gradient(-45deg, #ac32e4, #7918f2, #4801ff);
-  background: -moz-linear-gradient(-45deg, #ac32e4, #7918f2, #4801ff);
-  background: linear-gradient(-45deg, #ac32e4, #7918f2, #4801ff);
+.bg-img1 {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
-/*---------------------------------------------*/
+
+
+
 
 /*//////////////////////////////////////////////////////////////////
 [ Border ]*/
-.bor1 {
-  border-bottom: 3px solid #3a5dff;
-}
+/*---------------------------------------------*/
+.bo1 {border: 1px solid #ebebeb;}
 
-.bor2 {
+/*---------------------------------------------*/
+.bor1 {
   border-radius: 5px;
 }
 
+.bor2 {
+  border: 1px solid rgba(255,255,255,0.3);
+  border-radius: 50%;
+}
+
 /*==================================================================
-  WHERE WHERE WHERE WHERE WHERE WHERE WHERE WHERE WHERE WHERE WHERE  
+   WHERE WHERE WHERE WHERE WHERE WHERE WHERE WHERE WHERE WHERE WHERE  
 ==================================================================*/
 .where1-parent {
   position: relative;
+  z-index: 1;
 }
 
 .where1 {
   position: absolute;
-  top: -40px;
-  right: 5px;
+  z-index: -1;
+  top: 0;
+  right: 0;
 }
 
+/*---------------------------------------------*/
+.where2 {
+  padding: 50px 50px 150px 320px;
+}
+
+
 /*==================================================================
-  HOW HOW HOW HOW HOW HOW HOW HOW HOW HOW HOW HOW HOW HOW HOW HOW HOW 
+ HOW HOW HOW HOW HOW HOW HOW HOW HOW HOW HOW HOW HOW HOW HOW HOW HOW 
 ==================================================================*/
+.how1 {
+  border-radius: 50%;
+  font-size: 22px;
+  color: #fff;
+}
+.how1:hover {
+  background-color: #555555;
+  color: #fff;
+}
+
+/*---------------------------------------------*/
+.parallax100 {
+  background-attachment: fixed;
+  background-position: center 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+@media (max-width: 992px) {
+  .parallax100 {
+    background-attachment: inherit;
+  }
+}
+
+/*---------------------------------------------*/
 .placeholder0::-webkit-input-placeholder { color: #999999;}
 .placeholder0:-moz-placeholder { color: #999999;}
 .placeholder0::-moz-placeholder { color: #999999;}
 .placeholder0:-ms-input-placeholder { color: #999999;}
 
 /*---------------------------------------------*/
-.how-countdown {
-  background-color: #fff;
-  border-radius: 18px;
-  margin: 0px 18px 25px 18px;
-}
-
-/*---------------------------------------------*/
-.how-btn {
-  padding: 10px 20px;
-  background-color: transparent;
-  border-radius: 25px;
-  border: 2px solid #fff;
-  position: relative;
-  z-index: 1;
+.overlay1 {
   overflow: hidden;
 }
 
-.how-btn:hover:before {
-  opacity: 1;
+.overlay1::before {
+  content: "";
+  display: block;
+  position: absolute;
+  z-index: -3;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+
+.overlay1::after {
+  content: "";
+  display: block;
+  position: absolute;
+  z-index: -2;
+  top: 0;
+  right: 100%;
+  width: 10000px;
+  height: 100%;
+  background-color: #fff;
+  transform-origin: bottom right;
+  -webkit-transform: skewX(156deg);
+  -moz-transform: skewX(156deg);
+  -ms-transform: skewX(156deg);
+  -o-transform: skewX(156deg);
+  transform: skewX(156deg);
 }
 
 /*---------------------------------------------*/
-.how-btn1 {
-  background-color: #3a5dff;
-  border-radius: 25px;
-  padding: 0 20px;
+.wrap-pic1 {
+  width: 50%;
+}
+.wrap-pic1 img {
+  max-width: 100%;
 }
 
-.how-btn1:hover {
-  background-color: #333;
-  color: #fff;
-}
 
-/*---------------------------------------------*/
-.how-btn2 {
-  color: rgba(255,255,255,0.5);
-}
 
-.how-btn2:hover {
-  color: rgba(255,255,255,1);
-}
 
 /*//////////////////////////////////////////////////////////////////
 [ Pseudo ]*/
@@ -472,12 +463,27 @@ input.input100 {
 [ Hover ]*/
 .hov-cl0:hover {color: #fff;}
 .hov-bg0:hover {background-color: #fff;}
-
 /*---------------------------------------------*/
+.hov1:hover {
+  background-color: #555555;
+}
+
+
+
+
+
 
 /*==================================================================
   RESPONSIVE RESPONSIVE RESPONSIVE RESPONSIVE RESPONSIVE RESPONSIVE
 ==================================================================*/
+
+/*//////////////////////////////////////////////////////////////////
+[ XXL ]*/
+@media (max-width: 1600px) {
+  .respon1 {
+    max-width: 38%;
+  }
+}
 
 
 /*//////////////////////////////////////////////////////////////////
@@ -502,7 +508,12 @@ input.input100 {
   .w-full-xl {width: 100%;}
 
   /*---------------------------------------------*/
+  .respon1 {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
 }
+
 
 /*//////////////////////////////////////////////////////////////////
 [ LG ]*/
@@ -526,6 +537,36 @@ input.input100 {
   .w-full-lg {width: 100%;}
 
   /*---------------------------------------------*/
+  .respon1 {
+    max-width: 650px;
+    min-height: unset;
+    padding-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+
+  /*---------------------------------------------*/
+  .respon2 {
+    position: relative;
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .respon2::after {
+    top: 100%;
+    right: 0;
+    width: 100%;
+    height: 10000px;
+    transform-origin: top right;
+    -webkit-transform: skew(180deg, 8deg);
+    -moz-transform: skew(180deg, 8deg);
+    -ms-transform: skew(180deg, 8deg);
+    -o-transform: skew(180deg, 8deg);
+    transform: skew(180deg, 8deg);
+  }
+
 }
 
 
@@ -550,6 +591,7 @@ input.input100 {
 
   .w-full-md {width: 100%;}
   /*---------------------------------------------*/
+
 }
 
 
@@ -573,11 +615,9 @@ input.input100 {
   .p-r-15-sm {padding-right: 15px;}
 
   .w-full-sm {width: 100%;}
-
   /*---------------------------------------------*/
-  .respon1 {
-    padding-top: 35px;
-  }
+
+  
 }
 
 
